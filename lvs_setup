@@ -1,0 +1,441 @@
+*lvsRulesFile: /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/LVS/SMIC_CalLVS_018MSE_1833_V1.11_0.lvs
+*lvsRulesFileLastLoad: 1777785892
+*lvsRunDir: /home/user1/Desktop/ic
+*lvsLayoutPaths: /home/user1/Desktop/ic/inv.calibre.db
+*lvsExtraLayoutPaths: 
+*lvsLayoutSystem: GDSII
+*lvsLayoutPrimary: inv
+*lvsLayoutLibrary: ic
+*lvsLayoutView: layout
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: netlist
+*lvsVlogSourcePath: 
+*lvsExtraSourcePaths: 
+*lvsSourceSystem: SPICE
+*lvsSourcePrimary: inv
+*lvsSourceLibrary: ic
+*lvsSourceView: schematic
+*lvsSourceGetFromViewer: 1
+*lvsSourceSystem2: SPICE
+*lvsSourceLibrary2: 
+*lvsSourceView2: 
+*lvsSourceGetFromViewer2: 0
+*lvsRunWhat: LVN
+*lvsSpiceFile: /home/user1/Desktop/ic/inv.sp
+*lvsAutoMatch: 0
+*lvsPlacementMatch: 0
+*lvsUseHCells: 0
+*lvsHCellsFile: hcells
+*lvsDeviceFilterOptionsEnabled: 1
+*lvsLayoutDeviceFilterOptions: AB RC RE RG
+*lvsSourceDeviceFilterOptions: AB RC RE RG
+*lvsDeviceFilterOptionsDevicesList: 
+*lvsIgnorePorts: 0
+*lvsPowerNames: VDD SAVDD? ?VDD? ?VCC? ?vcc? ?vdd?
+*lvsGroundNames: VSS SAVSS? ?GND? ?VSS? ?vss? ?gnd?
+*lvsRecognizeGates: NONE
+*lvsRecognizeGatesMixSubtypes: 0
+*lvsConfigureSplitGates: 0
+*lvsReduceSplitGates: 1
+*lvsReduceSemiSplitGates: 0
+*lvsReduceSameOrderSplitGates: 0
+*lvsReduceSplitGatesWithinTolerance: 0
+*lvsReduceSplitGatesMixTypes: 0
+*lvsReduceSeriesParallelSplitGates: 0
+*lvsReduceParallelMOS: 1
+*lvsShortEquivalentNodes: 0
+*lvsRunERC: 1
+*lvsERCDatabase: erc.db
+*lvsERCSummaryFile: erc.rep
+*lvsERCAppendSummary: 0
+*lvsERCCellName: 0
+*lvsERCMaxResultsAll: 0
+*lvsERCMaxResultsCount: 100
+*lvsERCMaxVertexAll: 0
+*lvsERCMaxVertexCount: 4096
+*lvsIncludeFiles: 
+*lvsIncludeCmdsType: none
+*lvsSVRFCmds: 
+*lvsTVFCmds: 
+*lvsEnvVars: 
+*lvsEnvNamePatterns: MGC_* *CALIBRE* *LVS*
+*lvsTemplate_SP: %s.src.net
+*lvsTemplate_LS: %S
+*lvsTemplate_VS: %W
+*lvsTemplate_HF: 
+*lvsTemplate_IS: -1
+*lvsLayoutPrecision: 1000
+*lvsReportFile: lvs.rep
+*lvsViewReport: 1
+*lvsViewExtractionReport: 0
+*lvsViewLVSSummaryFile: 0
+*lvsCreateSVDB: 1
+*lvsSVDBDir: svdb
+*lvsSVDBNoflat: 0
+*lvsSVDBquery: 1
+*lvsSVDBxcal: 0
+*lvsSVDBcci: 0
+*lvsSVDBtxref: 0
+*lvsSVDBnopinloc: 0
+*lvsStartRVE: 1
+*lvsWriteMaskDB: 0
+*lvsMaskDBFile: maskdb
+*lvsWriteINXF: 0
+*lvsWriteBPF: 0
+*lvsWriteNL: 0
+*lvsReportMaximumAll: 0
+*lvsReportMaximumCount: 50
+*lvsReportOptions: A B C D S
+*lvsShowSeedPromotions: 0
+*lvsShowSeedPromotionsMax: 50
+*lvsTemplate_LR: %l.lvs.report
+*lvsTemplate_ES: %l.sp
+*lvsTemplate_ED: %l.erc.results
+*lvsTemplate_EU: %l.erc.summary
+*lvsTemplate_SV: svdb
+*lvsTemplate_MD: %l.maskdb
+*lvsPreTriggers: 
+*lvsPostTriggers: 
+*lvsAbortOnSoftchk: 0
+*lvsAbortOnSupplyError: 0
+*lvsIsolateShorts: 1
+*lvsIsolateShortsByLayer: 0
+*lvsIsolateShortsByCell: 0
+*lvsIsolateShortsNoContacts: 0
+*lvsIsolateShortsAccumulate: 0
+*lvsIsolateShortsUnmerged: 0
+*lvsIsolateShortsFlat: 0
+*lvsIsolateShortsInTopCell: 1
+*lvsIsolateShortsOp: AND
+*lvsIsolateShortsAllNames: 1
+*lvsIsolateShortsNames: 
+*lvsVConnectBoxColon: 0
+*lvsVConnectBoxNamesState: NONE
+*lvsVConnectBoxNames: 
+*lvsShowChecksAlpha: 0
+*lvsShowGroupsAlpha: 0
+*lvsShowGroupsHier: 0
+*lvsShowGroupsTop: 0
+*lvsActiveRecipe: 
+*lvsUserRecipes: 
+*lvsRunsetInfo: 
+*lvsRunsetType: 
+*lvsLayersFile: 
+*lvsDeviceSignatureFile: 
+*lvsDeviceSignatureFileAppend: 0
+*lvsDeviceStatementSelect: 
+*lvsDeviceStatementList: 
+*lvsDeviceLabelList: 
+*lvsGeneratedSignatures: 
+*lvsSignatureGUIGeom: 
+*cmnHostName: localhost
+*cmnHostPort: 9189
+*cmnLayoutServerType: 
+*cmnLayoutTmpFile: query_results
+*cmnSUseLayoutConn: 1
+*cmnSchematicServerType: 
+*cmnSHostName: localhost
+*cmnSHostPort: 9199
+*cmnShowToolTips: 1
+*cmnWarnLayoutOverwrite: 0
+*cmnWarnSourceOverwrite: 0
+*cmnWarnRunsetNotWritable: 1
+*cmnPromptSaveRunset: 1
+*cmnShowCustomDialog: 1
+*cmnWarnNoCustomization: 0
+*cmnDisableOptions: 0
+*cmnDisableWaivers: 0
+*cmnDisableSelectChecks: 0
+*cmnDisableEditRecipes: 0
+*cmnDisableERCChanges: 0
+*cmnDisableEnvEdit: 0
+*cmnDisableCustomEdit: 0
+*cmnDisableTranscriptOutput: 0
+*cmnDisableFastXORMaxDiffCount: 1
+*cmnDisableFastXOROptions: 1
+*cmnShowOptions: 0
+*cmnCheckForModifiedRules: 0
+*cmnShowModifiedRulesPrompt: 1
+*cmnEnableEditingForTextViewer: 0
+*cmnVerifyCheckSelected: 1
+*cmnProcessLocalLinks: 1
+*cmnReadIOFromRules: 1
+*cmnSaveRunsetChanges: 1
+*cmnSaveRunsetOnRun: 0
+*cmnSaveRunsetToCurDirOnRun: 0
+*cmnUsePrecision: 0
+*cmnPrecision: 1000
+*cmnOverrideLayoutPrecision: 0
+*cmnUseResolution: 0
+*cmnResolution: 1
+*cmnControlFile: 
+*cmnSpecifyControlFile: 0
+*cmnBatchModeCompatibleControlFile: 1
+*cmnPreTrigger: 
+*cmnPostTrigger: 
+*cmnRunPostTriggerInBG: 0
+*cmnRunPostTriggerOnAbort: 0
+*cmnRunPostTriggerInRemote: 0
+*cmnVConnectColon: 1
+*cmnVConnectReport: 0
+*cmnVConnectReportUnSatisfied: 0
+*cmnVConnectReportMaximumAll: 1
+*cmnVConnectReportMaximumCount: 0
+*cmnVConnectNamesState: NONE
+*cmnVConnectNames: 
+*cmnTranscriptFile: 
+*cmnErrorFile: 
+*cmnTranscriptFileAppend: 0
+*cmnTranscriptEchoToFile: 0
+*cmnTranscriptIncludedFiles: 0
+*cmnDontWaitForLicense: 1
+*cmnSpecifyLicenseWaitTime: 0
+*cmnLicenseWaitTime: 0
+*cmnSpecifyLicenseLoopTime: 0
+*cmnLicenseLoopTime: 180
+*cmnSpecifyLicenseLoopIntervalTime: 0
+*cmnLicenseLoopIntervalTime: 60
+*cmnSpecifyLicenseLoopRetryOnError: 0
+*cmnUseCBforRVE: 1
+*cmnReleaseLicense: 0
+*cmnLicenseReleaseTime: 3
+*cmnRunHier: 1
+*cmnRunRVEOnLocalHost: 1
+*cmnCloseRVEonExit: 1
+*cmnPromptCloseRVE: 0
+*cmnRunHostType: localhost
+*cmnLsfHostName: localhost
+*cmnNumTurbo: All
+*cmnNumTurboLitho: All
+*cmnTurboAll: 0
+*cmnRunMT: 0
+*cmnRunHyper: 0
+*cmnRunHyperCompare: 0
+*cmnRunHyperSlave: 0
+*cmnUseRDS: 0
+*cmnBackupRDS: 0
+*cmnUseMTFlexHostFile: 0
+*cmnMTFlexHostFile: 
+*cmnCloseRVEonRun: 1
+*cmnSaveTVFRulesToSVRF: 0
+*cmnCompileOnly: 0
+*cmnRunOnOpen: 0
+*cmnIgnoreExportInBatch: 1
+*cmnVerifySourceNetlist: 1
+*cmnStartRVEAfterBatch: 0
+*cmnSelectedChecks: 
+*cmnUnselectedChecks: 
+*cmnSelectedCheckGroups: 
+*cmnUnselectedCheckGroups: 
+*cmnApplyTemplates: 1
+*cmnTemplate_LP: %l.calibre.db
+*cmnTemplate_IL: 1
+*cmnTemplate_RL: 
+*cmnTemplate_RN: 
+*cmnTemplate_TF: 
+*cmnTemplate_CF: 
+*cmnTemplate_LI: %L
+*cmnTemplate_VI: %V
+*cmnTemplate_DF: %l.def
+*cmnV2LVS_VLOGLibFiles: 
+*cmnV2LVS_SPICELibFiles: 
+*cmnV2LVS_SPICEIncFiles: 
+*cmnV2LVS_UseRangeMode: 0
+*cmnV2LVS_KeepBackSlash: 0
+*cmnV2LVS_UseCBLicense: 0
+*cmnV2LVS_WarningsAreErrors: 0
+*cmnV2LVS_WarningLevel: 2
+*cmnV2LVS_DontConnectPower: 0
+*cmnV2LVS_LastTranslation: 0
+*cmnV2LVS_TranslateAlways: 0
+*cmnV2LVS_GenerateTemplate: 0
+*cmnV2LVS_s0Net: 
+*cmnV2LVS_s1Net: 
+*cmnV2LVS_Pprefix: 
+*cmnV2LVS_Uprefix: 
+*cmnV2LVS_Achars: 
+*cmnV2LVS_Cchars: 
+*cmnV2LVS_AddPins: 0
+*cmnV2LVS_AddPinNames: 
+*cmnV2LVS_PositionalPins: 0
+*cmnV2LVS_ConnectUPins: 0
+*cmnV2LVS_UserOptions: 
+*cmnUseCustomFile: 0
+*cmnCustomFileName: 
+*cmnCustomFileOverrideValues: 
+*cmnRemoteUserIsCurrentUser: 1
+*cmnRemoteUserName: 
+*cmnRemoteShellDefault: 1
+*cmnRemoteShellName: 
+*cmnRemoteMGCHOMEUseCurrent: 1
+*cmnRemoteMGCHOME: 
+*cmnRemoteMGCLIBPATHUseCurrent: 1
+*cmnRemoteLICENSEFILEName: LM_LICENSE_FILE
+*cmnRemoteLICENSEFILEValue: 
+*cmnRemoteLICENSEFILEUseCurrent: 1
+*cmnRemoteHostName: 
+*cmnRemoteClusterQueueCmd: 
+*cmnRemoteClusterSynch: 0
+*cmnSlaveHosts: 
+*cmnSlaveHostsViewDetails: 0
+*cmnLSFStTbl: 
+*cmnLSFMtTbl: 
+*cmnLSFMasterTbl: 
+*cmnLSFSlaveTbl: 
+*cmnLSFMasterTblViewDetails: 0
+*cmnLSFInteractiveSub: 1
+*cmnGridStTbl: 
+*cmnGridMtTbl: 
+*cmnGridMasterTbl: 
+*cmnGridSlaveTbl: 
+*cmnGridMasterTblViewDetails: 0
+*cmnGridInteractiveSub: 1
+*cmnRemoteMGCHOME_ira: 
+*cmnRemoteMGCHOME_ixl: 
+*cmnRemoteMGCHOME_aoi: 
+*cmnRemoteMGCLIBPATH_ira: 
+*cmnRemoteMGCLIBPATH_ixl: 
+*cmnRemoteMGCLIBPATH_aoi: 
+*cmnFDILayoutLibraryPath: 
+*cmnFDILayoutLibraryPath2: 
+*cmnFDILayoutLibrary: ic
+*cmnFDILayoutView: layout
+*cmnFDILayoutLibrary2: 
+*cmnFDILayoutView2: 
+*cmnFDILEFLayoutPaths: 
+*cmnFDILEFLayoutPaths2: 
+*cmnFDIDEFLayoutPath: inv.def
+*cmnFDIDEFLayoutPath2: 
+*cmnFDIDEFDirectories: 
+*cmnFDIDEFDirectories2: 
+*cmnFDILEFTechFile: 
+*cmnFDILEFTechFile2: 
+*cmnFDILEFDirectories: 
+*cmnFDILEFDirectories2: 
+*cmnFDIUseReadNetsAsText: 0
+*cmnFDIReadNetsAsText: ALL
+*cmnFDIUseReadNetsAsProperty: 0
+*cmnFDIReadNetsAsPropVal: 
+*cmnFDIUseReadPinsAsText: 0
+*cmnFDIUseReadPinsAsProperty: 0
+*cmnFDIReadPinsAsPropVal: 
+*cmnFDIUseReadNetType: 0
+*cmnFDIReadNetTypeAsProp: 
+*cmnFDIUseReadInstName: 0
+*cmnFDIReadInstNameAsProp: 
+*cmnFDIReadText: 1
+*cmnFDIReadBlockages: 0
+*cmnFDIReadFills: 0
+*cmnFDIReadInstPinShapes: 0
+*cmnFDIReadPinShape: 1
+*cmnFDIUseViewListMW: 0
+*cmnFDIUseViewListOA: 0
+*cmnFDIViewListMW: CEL FRAM
+*cmnFDIViewListOA: 
+*cmnFDIUseLogFile: 0
+*cmnFDIWriteLogFile: 
+*cmnFDIUseMapInfo: 0
+*cmnFDIWriteMapInfoFile: 
+*cmnFDIUseLayerNames: 0
+*cmnFDIWriteLayerNamesFile: 
+*cmnFDIAbortOnPCellRead: 1
+*cmnFDIUseLayerMap: 0
+*cmnFDILayerMapFile: 
+*cmnFDIUseCellMap: 0
+*cmnFDICellMapFile: 
+*cmnFDIUseObjectMap: 0
+*cmnFDIObjectMapFile: 
+*cmnFDIUseNetProp: 0
+*cmnFDINetPropFile: 
+*cmnFDIUseInputException: 0
+*cmnFDIInputExceptionFile: 
+*cmnFDIUseCellGDS: 0
+*cmnFDICellGDSFiles: 
+*cmnFDICellGDSDirectories: 
+*cmnFDIUseWaiverGDS: 0
+*cmnFDIWaiverGDSFiles: 
+*cmnFDIWaiverGDSDirectories: 
+*cmnFDISetOaHome: 0
+*cmnFDISetOaLdl: 0
+*cmnFDISetOaPath: 0
+*cmnFDISetOaExpPcellDir: 0
+*cmnFDISetOaExpAllParams: 0
+*cmnFDISetEnableOaExpPcell: 0
+*cmnWXRInternalFilePrefix: rules.fxor
+*cmnWXRResultFormatASCII: 1
+*cmnWXRResultFormatGDS: 1
+*cmnWXRResultFormatOASIS: 0
+*cmnWXREnhanced: 0
+*cmnWXRLayerMapOrBaseLayersUsage: 
+*cmnWXRLayerMapFile: 
+*cmnWXRBaseLayers: 
+*cmnWXRUseIncludeRulesFile: 0
+*cmnWXRIncludeRulesFile: 
+*cmnWXRIncludeLayersFile: 
+*cmnWXRExcludeLayersFile: 
+*cmnWXRLayersFileUsage: 
+*cmnWXRCommonOnly: 0
+*cmnXRMaxDiffCount: 
+*cmnXRTemplateFile: $MGC_HOME/shared/pkgs/fdi/templates/fastxor.template
+*cmnXRReportFile: 
+*cmnXRRDBFile: 
+*cmnXRCompareText: 0
+*cmnXRCompareAllPlacedCells: 0
+*cmnXREnablePassThroughLayers: 0
+*cmnWaiverDescriptionFile: waiver_desc
+*cmnWaiverCriteriaFile: 
+*cmnWaiverCellsFile: 
+*cmnWaiverLayerNumber: 1234
+*cmnWaiverDatatypeNumber: 5678
+*cmnWaiverMerge: 0
+*cmnWaiverDatabase: 
+*cmnWaiverCalibreWaiverNumber: 2000
+*cmnWaiverInternalLayerAuto: 0
+*cmnWaiverIgnoreOps: 
+*cmnWaiverNotIgnoreOps: 
+*cmnWaiverRunLayoutChecksum: 1
+*cmnWaiverRunRuleChecksum: 0
+*cmnWaiverRunCalibreVersionChecksum: 0
+*cmnWaiverRetainResultType: 0
+*cmnWaiverRunIPMatchChecksum: 1
+*cmnWaiverPrecisionConversion: 1
+*cmnWaiverAddWaiverHierarchy: 0
+*cmnWaiverSummaryFile: 
+*cmnWaiverCriteriaTextLayer: 1234
+*cmnWaiverCriteriaTextType: 2
+*cmnWaiverChecksumTextLayer: 1234
+*cmnWaiverChecksumTextType: 1
+*cmnWaiverCommentTextLayer: 1234
+*cmnWaiverCommentTextType: 5
+*cmnWaiverUsernameTextLayer: 1234
+*cmnWaiverUsernameTextType: 3
+*cmnWaiverDateTextLayer: 1234
+*cmnWaiverDateTextType: 4
+*cmnWaiverCalibreVersionTextLayer: 1234
+*cmnWaiverCalibreVersionTextType: 7
+*cmnWaiverRuleChecksumTextLayer: 1234
+*cmnWaiverRuleChecksumTextType: 9
+*cmnWaiverIpmatchTextType: 6
+*cmnWaiverDescriptionMode: NONE
+*cmnWaiverTempDirectory: 
+*cmnWaiverRunDFMGlobal: 1
+*cmnRunOrCreateWaivers: 0
+*cmnWaiverSetupFile: 
+*cmnWaiverTextMagnification: .005
+*cmnWaiverMagnifyTextSpacing: 0
+*cmnSpecifyWaiverSetupFile: 0
+*cmnWaiverRDBOption: ALL
+*cmnWaiverUnusedRDBOption: ALL
+*cmnWaiverUsedRDBOption: ALL
+*cmnWaiverDensityRDBOption: YES
+*cmnConfigureTPs: 0
+*cmnTraceProperties: {1 { MN(NPG) "L" "L" 5 5}} {1 { MN(NPG) "W" "W" 5 5}} {1 { MN(NPD) "L" "L" 5 5}} {1 { MN(NPD) "W" "W" 5 5}} {1 { MP(PL) "L" "L" 5 5}} {1 { MP(PL) "W" "W" 5 5}} {1 { MN(n18) "L" "L" 5 5}} {1 { MN(n18) "W" "W" 5 5}} {1 { MN(n33) "L" "L" 5 5}} {1 { MN(n33) "W" "W" 5 5}} {1 { MP(p18) "L" "L" 5 5}} {1 { MP(p18) "W" "W" 5 5}} {1 { MP(p33) "L" "L" 5 5}} {1 { MP(p33) "W" "W" 5 5}} {1 { MN(nnt18) "L" "L" 5 5}} {1 { MN(nnt18) "W" "W" 5 5}} {1 { MN(nnt33) "L" "L" 5 5}} {1 { MN(nnt33) "W" "W" 5 5}} {1 { MN(nmvt18) "L" "L" 5 5}} {1 { MN(nmvt18) "W" "W" 5 5}} {1 { MN(nmvt33) "L" "L" 5 5}} {1 { MN(nmvt33) "W" "W" 5 5}} {1 { MP(pmvt18) "L" "L" 5 5}} {1 { MP(pmvt18) "W" "W" 5 5}} {1 { n18_ckt "L" "L" 5 5}} {1 { n18_ckt "W" "W" 5 5}} {1 { n18_dnw_ckt "L" "L" 5 5}} {1 { n18_dnw_ckt "W" "W" 5 5}} {1 { n18_dnw_4t_ckt "L" "L" 5 5}} {1 { n18_dnw_4t_ckt "W" "W" 5 5}} {1 { p18_ckt "L" "L" 5 5}} {1 { p18_ckt "W" "W" 5 5}} {1 { p18_dnw_ckt "L" "L" 5 5}} {1 { p18_dnw_ckt "W" "W" 5 5}} {1 { p18_dnw_4t_ckt "L" "L" 5 5}} {1 { p18_dnw_4t_ckt "W" "W" 5 5}} {1 { n33_ckt "L" "L" 5 5}} {1 { n33_ckt "W" "W" 5 5}} {1 { n33_dnw_ckt "L" "L" 5 5}} {1 { n33_dnw_ckt "W" "W" 5 5}} {1 { n33_dnw_4t_ckt "L" "L" 5 5}} {1 { n33_dnw_4t_ckt "W" "W" 5 5}} {1 { p33_ckt "L" "L" 5 5}} {1 { p33_ckt "W" "W" 5 5}} {1 { p33_dnw_ckt "L" "L" 5 5}} {1 { p33_dnw_ckt "W" "W" 5 5}} {1 { p33_dnw_4t_ckt "L" "L" 5 5}} {1 { p33_dnw_4t_ckt "W" "W" 5 5}} {1 { nnt18_ckt "L" "L" 5 5}} {1 { nnt18_ckt "W" "W" 5 5}} {1 { nnt33_ckt "L" "L" 5 5}} {1 { nnt33_ckt "W" "W" 5 5}} {1 { nmvt18_ckt "L" "L" 5 5}} {1 { nmvt18_ckt "W" "W" 5 5}} {1 { nmvt33_ckt "L" "L" 5 5}} {1 { nmvt33_ckt "W" "W" 5 5}} {1 { pmvt18_ckt "L" "L" 5 5}} {1 { pmvt18_ckt "W" "W" 5 5}} {1 { M(C1) "L" "L" 5 5}} {1 { M(C1) "W" "W" 5 5}} {1 { M(C2) "L" "L" 5 5}} {1 { M(C2) "W" "W" 5 5}} {1 { pvar18_ckt "WR" "WR" 5 5}} {1 { pvar18_ckt "LR" "LR" 5 5}} {1 { pvar18_ckt "NF" "NF" 0 0}} {1 { pvar33_ckt "WR" "WR" 5 5}} {1 { pvar33_ckt "LR" "LR" 5 5}} {1 { pvar33_ckt "NF" "NF" 0 0}} {1 { D(pdio18) "A" "A" 5 5}} {1 { D(pdio33) "A" "A" 5 5}} {1 { D(ndio18) "A" "A" 5 5}} {1 { D(ndio33) "A" "A" 5 5}} {1 { D(nndio18) "A" "A" 5 5}} {1 { D(nndio33) "A" "A" 5 5}} {1 { D(nwdio) "A" "A" 5 5}} {1 { D(diobpw) "A" "A" 5 5}} {1 { D(dnwdio) "A" "A" 5 5}} {1 { D(ndiomvt18) "A" "A" 5 5}} {1 { D(ndiomvt33) "A" "A" 5 5}} {1 { D(pdiomvt18) "A" "A" 5 5}} {1 { Q(pnp18a4) "A" "A" 5 5}} {1 { Q(pnp18a25) "A" "A" 5 5}} {1 { Q(pnp18a100) "A" "A" 5 5}} {1 { Q(pnp33a4) "A" "A" 5 5}} {1 { Q(pnp33a25) "A" "A" 5 5}} {1 { Q(pnp33a100) "A" "A" 5 5}} {1 { Q(npn18a4) "A" "A" 5 5}} {1 { Q(npn18a25) "A" "A" 5 5}} {1 { Q(npn18a100) "A" "A" 5 5}} {1 { Q(npn33a4) "A" "A" 5 5}} {1 { Q(npn33a25) "A" "A" 5 5}} {1 { Q(npn33a100) "A" "A" 5 5}} {1 { pnp18a4_mis_ckt "AREA" "AREA" 5 5}} {1 { pnp18a25_mis_ckt "AREA" "AREA" 5 5}} {1 { pnp18a100_mis_ckt "AREA" "AREA" 5 5}} {1 { pnp33a4_mis_ckt "AREA" "AREA" 5 5}} {1 { pnp33a25_mis_ckt "AREA" "AREA" 5 5}} {1 { pnp33a100_mis_ckt "AREA" "AREA" 5 5}} {1 { npn18a4_mis_ckt "AREA" "AREA" 5 5}} {1 { npn18a25_mis_ckt "AREA" "AREA" 5 5}} {1 { npn18a100_mis_ckt "AREA" "AREA" 5 5}} {1 { npn33a4_mis_ckt "AREA" "AREA" 5 5}} {1 { npn33a25_mis_ckt "AREA" "AREA" 5 5}} {1 { npn33a100_mis_ckt "AREA" "AREA" 5 5}} {1 { rnwaa_ckt "W" "W" 5 5}} {1 { rnwaa_ckt "L" "L" 5 5}} {1 { rnwsti_ckt "W" "W" 5 5}} {1 { rnwsti_ckt "L" "L" 5 5}} {1 { rpdif_ckt "W" "W" 5 5}} {1 { rpdif_ckt "L" "L" 5 5}} {1 { rndif_ckt "W" "W" 5 5}} {1 { rndif_ckt "L" "L" 5 5}} {1 { rppo_ckt "W" "W" 5 5}} {1 { rppo_ckt "L" "L" 5 5}} {1 { rppo_3t_ckt "W" "W" 5 5}} {1 { rppo_3t_ckt "L" "L" 5 5}} {1 { rnpo_ckt "W" "W" 5 5}} {1 { rnpo_ckt "L" "L" 5 5}} {1 { rnpo_3t_ckt "W" "W" 5 5}} {1 { rnpo_3t_ckt "L" "L" 5 5}} {1 { rpdifsab_ckt "W" "W" 5 5}} {1 { rpdifsab_ckt "L" "L" 5 5}} {1 { rndifsab_ckt "W" "W" 5 5}} {1 { rndifsab_ckt "L" "L" 5 5}} {1 { rpposab_ckt "W" "W" 5 5}} {1 { rpposab_ckt "L" "L" 5 5}} {1 { rpposab_3t_ckt "W" "W" 5 5}} {1 { rpposab_3t_ckt "L" "L" 5 5}} {1 { rnposab_ckt "W" "W" 5 5}} {1 { rnposab_ckt "L" "L" 5 5}} {1 { rnposab_3t_ckt "W" "W" 5 5}} {1 { rnposab_3t_ckt "L" "L" 5 5}} {1 { R(rnwaa) "R" "R" 5 5}} {1 { R(rnwsti) "R" "R" 5 5}} {1 { R(rndif) "R" "R" 5 5}} {1 { R(rndifsab) "R" "R" 5 5}} {1 { R(rpdif) "R" "R" 5 5}} {1 { R(rpdifsab) "R" "R" 5 5}} {1 { R(rnpo) "R" "R" 5 5}} {1 { R(rnpo_3t) "R" "R" 5 5}} {1 { R(rnposab) "R" "R" 5 5}} {1 { R(rnposab_3t) "R" "R" 5 5}} {1 { R(rppo) "R" "R" 5 5}} {1 { R(rppo_3t) "R" "R" 5 5}} {1 { R(rpposab) "R" "R" 5 5}} {1 { R(rpposab_3t) "R" "R" 5 5}} {1 { rhrpo_ckt "W" "W" 5 5}} {1 { rhrpo_ckt "L" "L" 5 5}} {1 { rhrpo_3t_ckt "W" "W" 5 5}} {1 { rhrpo_3t_ckt "L" "L" 5 5}} {1 { R(rhrpo) "R" "R" 5 5}} {1 { R(rhrpo_3t) "R" "R" 5 5}} {1 { R(rm1) "R" "R" 5 5}} {1 { R(rm2) "R" "R" 5 5}} {1 { R(rm3) "R" "R" 5 5}} {1 { R(rm4) "R" "R" 5 5}} {1 { R(rm5) "R" "R" 5 5}} {1 { R(rm6) "R" "R" 5 5}} {1 { C(CPM) "C" "C" 5 5}} {1 { C(mim) "C" "C" 5 5}} {1 { mim_ckt "WR" "WR" 5 5}} {1 { mim_ckt "LR" "LR" 5 5}}
+*cmnConfigureLVSBox: 0
+*cmnLVSBoxes: 
+*cmnLVSBlackBoxPorts: 
+*cmnLVSBlackBoxPortDepth: PRIMARY
+*cmnLVSBlackBoxPortDepthNumber: 0
+*cmnSpiceInstPrefix: X
+*cmnDisableSignatureCreation: 0
+*cmnIncludeRulesFilesAfterMain: 0
+*cmnLayoutTextFile: 

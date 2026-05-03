@@ -1,0 +1,7 @@
+inv 1000
+ERC PATHCHK POWER && ! GROUND NOFLOAT
+0 0 0 May  3 13:32:21 2026                                                      
+ERC PATHCHK GROUND && ! POWER NOFLOAT
+0 0 0 May  3 13:32:21 2026                                                      
+ERC PATHCHK ! LABELED NOFLOAT
+0 0 0 May  3 13:32:21 2026                                                      

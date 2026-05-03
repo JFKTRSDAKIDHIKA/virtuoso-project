@@ -1,0 +1,2382 @@
+inv 1000
+DGR_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Only shapes of geometry that are orthogonal or 45-degree angle are allowed, excluding Inductor region and 3.3V SRAM.
+DNW_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+DNW must be surrounded by NW
+DNW_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It is not allowed to use DNW layer as resistor
+DNW_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension of NW beyond DNW is >= 1.50um
+DNW_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Overlap of NW and DNW region is >= 2.00um
+DNW_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from DNW to a NW is >= 3.50um
+DNW_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+DNW width is >= 3.00um
+DNW_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two DNW regions is >= 5.00um
+DNW_11
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It is not allowed to use NW connect to DNW as resistor
+NW_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NW width is >= 0.86um
+NW_2a
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two NW regions with the same net is >= 0.60um
+Merge if space is less than 0.6m
+NW_2b
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two NW with different net is >= 1.40um
+NW_3
+1 1 5 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dimension of an NW region not connected to the most positive power supply is >= 2.10um, which net name including VDD or VCC
+DRC waive check below condition:
+1.	Waive check RESNW covered NW resistor region.
+2.	Waive check the pickup purpose NW patterns width <2.1um and not interact with GATE.
+p 1 4
+550 -3430
+2630 -3430
+2630 -1600
+550 -1600
+NW_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dummy AA cannot straddle on a boundary of NW
+NW_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It is not allowed if N+AA/P+AA straddle on a boundary of the NW except NW resistor region
+NN_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NN inside or cross over a N-Well is not allowed
+NN_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NN inside or cross over a Deep N-Well is not allowed
+NN_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NN width is >= 0.84um
+NN_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between 2 NN regions is >= 0.84um
+NN_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Gate dimension of 1.8V native device is >= 1.00um
+NN_5a
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Gate dimension of 3.3V native device is >= 1.80um
+NN_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NN enclosure beyond SN(N+) AA region is = 0.26um
+NN_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from NN region to a nominal AA region is >= 0.52um
+NN_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from NN region to N-Well edge is >= 1.62um
+NN_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Bent Gate Poly is not allowed to put in NN region
+NN_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+P+GATE region is not allowed to put in NN region
+NN_11
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Only one AA region is allowed to put in NN region, exclude CAPBP and INDMY region.
+MVN_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MVN inside or cross over Nwell or Psub is not allowed
+MVN_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MVN inside or cross over Deep NWell is not allowed
+MVN_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+A bent Gate is not allowed put in MVN region
+MVN_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MVN width is >= 0.72um
+MVN_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dimension of a Gate area of a 1.8V Medium NMOS device is >= 0.30um
+MVN_5a
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dimension of a Gate area of a 3.3V Medium NMOS device is >= 0.60um
+MVN_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a MVN region to a SN(N+) AA region is >= 0.70um
+MVN_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a MVN region to a N-well edge is >= 0.42um
+MVN_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension from a MVN region beyond SN(N+) AA region is >= 0.25um
+MVN_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two MVN areas is >= 0.42um. Merge if < 0.42um
+MVN_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+A SP(P+) region is not allowed in a MVN region
+MVP_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MVP inside or cross over Pwell or Psub is not allowed
+MVP_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MVP inside or cross over Deep NWell is not allowed
+MVP_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+A bent Gate is not allowed put in MVP region
+MVP_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MVP width is >= 0.72um
+MVP_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dimension of a Gate area of a 1.8V Medium PMOS device is >= 0.25um
+MVP_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a MVP region to a SP(P+) AA region is >= 0.70um
+MVP_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension from a Nwell region beyond MVP region is >= 0.42um
+MVP_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension from a MVP region beyond SP(P+) AA region is >= 0.25um
+MVP_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two MVP regions is >= 0.42um. Merge if the space is < 0.42um
+MVP_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+A SN(N+) region is not allowed in a MVP region
+AA_1_2
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+AA width for interconnect (N+/P+) is >= 0.22um, exclude 1.8V SRAM region.
+AA width to define the width of NMOS/PMOS, exclude 1.8V SRAM region.	>=	0.22 um
+AA_3
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between N+ AA and N+ AA or P+ AA and P+ AA is >= 0.28um
+(both regions are either inside or outside NW), exclude SRAM region.
+AA_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NW enclosure of an N-well pick-up AA except NW resistor under AA region >= 0.12um.
+AA_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between N-Well edge and an N+ AA region which is outside an NW is >= 0.43um, exclude SRAM region.
+AA_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+N-Well enclosure of a P+ AA region which inside an NW is >= 0.43um, exclude SRAM region.
+AA_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between N-Well edge and a P+ AA region (for PW pick-up) outside an NW is >= 0.12um
+AA_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between GATE edge and edge of a butted diffusion AA region is >= 0.32um, exclude 1.8V SRAM region.
+AA_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between N+ AA and P+ AA for butted diffusion is >= 0.00um
+AA_10a
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Area of a butted diffusion AA is >= 0.176um
+AA_10b
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+At lease one segment(AA.10) of the consecutive SN/SP edge of butted diffusion AA should be >= 0.42um
+AA_11
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+AA Area is >= 0.20um
+AA_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+For the situation where N-well and P-well pick-ups are put head-to-head across the well boundary,the space
+between N-pick-up and P-pick-up should be larger than 0.36um in order to meet the implant layout rules.
+AA_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dummy AA must not touch AA, GT, RESAA, RESNW, or RESP1
+DG_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of DG beyond the active AA region,exclude 3.3V SRAM is >= 0.32um
+DG_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two DG regions is >= 0.45um, merge if the space is < 0.45um
+DG_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between DG edge and AA with devices is >= 0.32um
+DG_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between DG region and 1.8V transistor channel(overlap of Poly and AA) along
+source/drain direction is >= 0.40um 
+DG_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosed 3.3V transistor channel (overlap of Poly and AA) by DG along source/drain direction is >= 0.40um
+DG_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+GATE (AA AND GT) CUT DG is not allowed.
+GT_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+GT width, exclude 1.8V SRAM region. >= 0.18um.
+GT_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+GT width for channel length of 1.8V PMOS/NMOS is >= 0.18um
+GT_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two GT regions on AA which is with no contact, exclude 1.8V SRAM region is >= 0.25um.
+GT_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two GT regions on field oxide area,exclude 1.8V SRAM region is >= 0.25um, .
+GT_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Poly extension of AA, exclude 1.8V SRAM region is >= 0.22um, .
+GT_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension from AA region to GT is >= 0.32um, exclude SRAM region.
+GT_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between field interconnect poly and AA is >= 0.10um, exclude SRAM region.
+GT_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Channel length for 3.3V PMOS is >= 0.30um
+GT_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Channel length for 3.3V NMOS,exclude 3.3V SRAM is >= 0.35um
+GT_10a_10b
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Length of salicide poly on STI between two contacts when poly width <= 0.24um is <= 50um 
+Length of salicide poly on STI between one contact and any point of poly when poly width <= 0.24um is <= 50um
+GT_11a
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+90° bends on active area are not allowed, exclude SRAM region.
+GT_11b
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+GT must enter AA perpendicularly, exclude SRAM region.  
+GT_12
+1 1 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+GT density is >= 14%
+p 1 4
+-115 -6610
+3170 -6610
+3170 -870
+-115 -870
+GT_13
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two GTs on AA which is with CT is >= 0.375um, exclude 1.8V SRAM region.
+GT_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Channel length of 1.8V device poly gate on AA with 45 bent is >= 0.21um 
+NLL_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NLL width is >= 0.44um
+NLL_2
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two NLL regions is >= 0.44um
+Merge if the space is less than 0.44m
+NLL_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between an NLL region and a P+ AA region is >= 0.26um
+NLL_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between an NLL region and a P+ pick-up AA region is >= 0.10um
+NLL_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Overlap from an NLL edge to an AA is >= 0.23um
+NLL_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an NLL region over SN active region is >= 0.18um
+NLL_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between an NLL region and an NLH AA region is >= 0.21um
+NLL_8_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an NLL region to an N-channel poly gate is >= 0.32um
+Enclosure of an NLL region over N-channel along the direction of poly gate is >= 0.35um
+NLL_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NLL area is >= 0.40um
+NLL_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Separation from an NLL to a butted edge of a butted diffustion P+ AA is >= 0.00um (inside P-Well)
+NLL_11_NLH_11
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between NLL and NLH is 0.00um if two AAs are overlapped is >= 0um
+NLL_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NLL implant is not allowed in non-salicide AA/Poly resistor region
+PLL_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+PLL width is >= 0.44um
+PLL_2
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two PLL regions is >= 0.44um
+Merge if the space is less than 0.44m
+PLL_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a PLL region to an N+ AA region is >= 0.26um.(inside P-well)
+PLL_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a PLL region to an N+ pick-up AA region is >= 0.10um
+PLL_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Overlap from a PLL edge to an AA is >= 0.23um
+PLL_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a PLL region beyond a SP active region is >= 0.18um
+PLL_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space of a PLL region to a PLH AA region is >= 0.21um
+PLL_8_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an PLL region to an P-channel poly gate is >= 0.32um
+Enclosure of an PLL region over P-channel along the direction of poly gate is >= 0.35um
+PLL_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+PLL area is >= 0.40um
+PLL_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Separation from a PLL to a butted edge of a butted diffustion N+ AA is >= 0.00um (inside N-Well)
+PLL_11_PLH_11
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between PLL and PLH if two AAs are overlapped is >= 0.00um
+PLL_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+PLL implant is not allowed in Non-salicide AA/poly resistor region
+NLH_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Width of an NLH is >= 0.44um
+NLH_2
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two NLH regions is >= 0.44um
+Merge if the space is less than 0.44m
+NLH_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between an NLH region and a P+ AA region is >= 0.26um.(inside N-well)
+NLH_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between an NLH region and a Pwell pick-up P+ AA is >= 0.10um
+NLH_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Overlap from an NLH edge to an AA is >= 0.23um
+NLH_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an NLH region beyond an NP active region is >= 0.18um
+NLH_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between an NLH region and an NLL AA region is >= 0.21um
+NLH_8_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an NLH region to an N-channel is >= 0.32um
+Enclosure of an NLH region over N-channel along the direction of poly gate is >= 0.35um
+NLH_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NLH area is >= 0.40um
+NLH_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Separation from an NLH to a butted edge of a butted diffustion P+ AA is >= 0.00um (inside P-Well)
+NLH_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NLH implant is not allowed in non-salicide AA/Poly resistor region
+PLH_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+PLH width is >= 0.44um
+PLH_2
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two PLH regions is >= 0.44um
+Merge if the space is less than 0.44m
+PLH_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between a PLH region and an N+ AA is >= 0.26um.(inside P-well)
+PLH_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between a PLH region and an N+ pick-up AA region is 0.10um
+PLH_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Overlap from a PLH edge to an AA is >= 0.23um
+PLH_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a PLH region beyond a SP active region is >= 0.18um
+PLH_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between a PLH region and a PLL AA region is >= 0.21um
+PLH_8_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an PLH region to an P-channel poly gate is >= 0.32um
+Enclosure of an PLH region over P-channel along the direction of poly gate is >= 0.35um
+PLH_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+PLH area is >= 0.40um
+PLH_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Separation from a PLH to butted edge of a butted N+ AA (inside N-Well) is >= 0.00um
+PLH_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+PLH implant is not allowed in non-salicide AA/Poly resistor region
+SN_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SN width, exclude 3.3V SRAM is >= 0.44um
+SN_2
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two SN regions is >= 0.44um
+Merge if the space is less than 0.44m,exclude 3.3V SRAM
+SN_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between SN and a P+ AA region. (inside N-well), exclude SRAM region.>= 0.26um
+SN_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between SN and a non-butted edge of P+ pick-up AA region (exclude SRAM region) 
+if the distance between P+AA and N-well >=0.43µm.	>=	0.10	um
+SN_5
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between a SN region and a non-butted edge of P-well pick-up P+AA region (exclude SRAM region) 
+if the distance between P+AA and N-well <0.43µm	>=	0.18	um
+SN_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SN edge to a P-channel Poly gate is >= 0.32um
+SN_7_17
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SN edge to an N-channel Poly gate along source/drain direction,exclude 3.3V SRAM is >= 0.32um
+Enclosure of a SN edge to a N-channel Poly gate along the direction of poly gate, exclude SRAM region. is >= 0.35um
+SN_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Overlap from a SN edge to an AA is >= 0.23um
+SN_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SN region beyond a SN active AA region is >= 0.18um (DRC doesn't check pick-up AA)
+SN_10_11
+0 0 9 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SN.10. Enclosure of a SN region beyond an N+ pick-up AA region, exclude SRAM region. is >= 0.02um if 
+the distance between N+ AA and P-well >= 0.43um
+SN.11. Enclosure of a SN region beyond an N+ pick-up AA region, exclude SRAM region. is >= 0.18um if
+the distance between N+ AA and P-Well < 0.43m
+a. To obey this rule and SN.3 simultaneously, the minimum space
+between N+ pick-up AA and SP active AA should be increased to 0.44um
+b. To obey this rule and SN.5 simultaneously, the minimum space
+between N+ pick-up AA and SP active AA should be increased to 0.36um
+SN_12_SP_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Separation from a SN region to butted edge of a butted diffusion SP AA is >= 0.00um (inside P-well)
+Separation from a SP region to butted edge of a butted diffusion SN AA is >= 0.00um (inside N-well)
+SN_13_SP_13
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension of a SN region along the edge of a butted diffusion N+ AA/P+ AA is >= 0.00um 
+Extension of a SP region along the edge of a butted diffusion P+ AA/N+ AA is >= 0.00um
+SN_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SN area is >= 0.38um
+SN_15
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension of a SN region beyond a poly as a resistor is >= 0.18um.
+SAB poly without SN or SP implant is not allowed,exclude (HRP AND SAB) region.
+SN_16
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SN edge to a P-channel Poly gate along the direction of poly gate, exclude SRAM region. is >= 0.35um
+SN_18_SP_18
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SN is not allowed to overlap with SP
+SP_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SP width,exclude 3.3V SRAM is >= 0.44um
+SP_2
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two SP regions is >= 0.44um
+Merge if the space is less than 0.44m,exclude 3.3V SRAM
+SP_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between a SP region and a N+ AA is >= 0.26um (inside P-well),exclude SRAM region.
+SP_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between SP and a non-butted edge of N+ pick-up AA region, exclude SRAM region. is >= 0.10um
+if the distance between N+ AA and P-well >= 0.43m
+SP_5
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between a SP region and a non-butted edge of N-well pick-up N+ AA region, exclude SRAM region.
+is >= 0.18um if the distance between N+ AA and P-well < 0.43um
+SP_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SP edge to N-channel Poly gate is >= 0.32um
+SP_7_17
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SP edge to P-channel Poly gate along source/drain direction,exclude 3.3V SRAM is >= 0.32um
+Space from a SP edge to a P-channel Poly gate along the direction of poly gate, exclude SRAM region. is >= 0.35um
+SP_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Overlap from a SP edge to an AA is >= 0.23um
+SP_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SP region beyond a SP active AA region is >= 0.18um 
+SP_10_11
+0 0 9 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SP.10. Enclosure of a SP region beyond a P-Well pick-up P+AA region, exclude SRAM region. is >= 0.02um
+if the distance between P+AA and N-Well >=0.43m
+SP.11. Enclosure of a SP region beyond a P-Well pick-up P+AA region, exclude SRAM region.  is >= 0.18um
+if the distance between P+AA and N-Well < 0.43m
+c. To obey this rule and SP.3 simultaneously,
+P+ pick-up AA to SN active AA minimum spacing must be increased to 0.44um
+d. To obey this rule and SP.5 simultaneously,
+P+ pick-up AA to SN pick-up AA minimum spacing must be increased to 0.36um
+SP_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SP area is >= 0.38um
+SP_15
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension of a SP region beyond a poly as a resistor is >= 0.18um. 
+SAB poly without SN or SP implant is not allowed,exclude (HRP AND SAB) region.
+SP_16
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SP edge to a N-channel Poly gate along the direction of poly gate, exclude SRAM region. is >= 0.35um
+SAB_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SAB width is >= 0.43um
+SAB_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two SABs is >= 0.43um
+SAB_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space to unrelated AA is >= 0.22um
+SAB_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space to contact is >= 0.22um
+SAB_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space to poly on AA is >= 0.45um
+SAB_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension over related AA is >= 0.22um
+SAB_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension of diffusion over related SAB is >= 0.22um
+SAB_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension of SAB over related resistor poly on field oxide is >= 0.22um
+SAB_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space of SAB to unrelated poly on field oxide is >= 0.30um
+SAB_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SAB area is >= 2.00um
+SAB_10a
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+SAB enclosed area (um2)	>=	1.00 µm2.
+CT_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+CT width (CT must be square), exclude EFUSE region.	=	0.22um
+CT_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two contacts is >= 0.25um, exclude SRAM region.
+CT_3
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two CTs in a contact array with row and column numbers are both greater than 3 is >= 0.28um
+Two contact regions whose space is <= 0.30um are considered to be in the same array
+CT_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between poly CT to AA is >= 0.20um, exclude SRAM region.
+CT_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between poly to diffusion CT is >= 0.16um, exclude SRAM region.
+CT_6_7
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an AA region beyond an AA CT region is >= 0.10um, exclude SRAM region.
+Enclosure of a poly region beyond a poly CT region is >= 0.10um, exclude SRAM region.
+CT_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SP region beyond an AA CT region is >= 0.12um
+CT_9
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an SN region beyond an AA CT region is >= 0.12um
+CT_10
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+CT on gate region is forbidden
+CT_11
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+AA contact located on SN/SP boundary is not allowed
+CT_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Non-salicided contacts are not allowed, rexclude SRAM region.
+Salicide-CT definition: CTs fully enclosed by ((AA OR GT) NOT SAB)
+CT_13
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+CT must be fully covered by M1 AND (AA OR GT), exclude SRAM reigon. 
+CT_14
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It's not allowed CT overlap with NW, AA, Poly or M1 resistor. 
+For NW, AA, Poly resistor, please refer each resistor section definition.
+M1 resistor definition: (M1 AND M1R).
+V1_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+V1 width (V1 must be square), = 0.26 um
+V1_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Vns is >= 0.26um
+V1_3_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn must fully enclosed by Mn is >= 0.01um.
+For Vn at the 90 degree corner enclosed by Mn, Mn enclose at least 0.06um along one direction outside Vn
+V1_6
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It's not allowed Vn overlap with Mn or Mn+1 resistor.
+Mn resistor definition: (Mn AND MnR).
+Mn+1 resistor definition: (Mn+1 AND Mn+1R).
+V2_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+V1 width (V1 must be square), = 0.26 um
+V2_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Vns is >= 0.26um
+V2_3_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn must fully enclosed by Mn is >= 0.01um.
+For Vn at the 90 degree corner enclosed by Mn, Mn enclose at least 0.06um along one direction outside Vn
+V2_6
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It's not allowed Vn overlap with Mn or Mn+1 resistor.
+Mn resistor definition: (Mn AND MnR).
+Mn+1 resistor definition: (Mn+1 AND Mn+1R).
+V3_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+V1 width (V1 must be square), = 0.26 um
+V3_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Vns is >= 0.26um
+V3_3_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn must fully enclosed by Mn is >= 0.01um.
+For Vn at the 90 degree corner enclosed by Mn, Mn enclose at least 0.06um along one direction outside Vn
+V3_6
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It's not allowed Vn overlap with Mn or Mn+1 resistor.
+Mn resistor definition: (Mn AND MnR).
+Mn+1 resistor definition: (Mn+1 AND Mn+1R).
+V4_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+V1 width (V1 must be square), = 0.26 um
+V4_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Vns is >= 0.26um
+V4_3_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn must fully enclosed by Mn is >= 0.01um.
+For Vn at the 90 degree corner enclosed by Mn, Mn enclose at least 0.06um along one direction outside Vn
+V4_6
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It's not allowed Vn overlap with Mn or Mn+1 resistor.
+Mn resistor definition: (Mn AND MnR).
+Mn+1 resistor definition: (Mn+1 AND Mn+1R).
+V5_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Top via width (top via must be square) = 0.36 um
+V5_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Top via space >= 0.35um
+V5_3_4
+0 0 5 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Top via must fully enclosed by Top metal-1 is >= 0.01um.
+Enclosure of Mn-1 over TV along metal line direction is >= 0.06um
+For Top via located at the 90 degree corner, one side of metal extension must be
+treated as end-of-line and the other side follows TV.3.
+V5_6
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It's not allowed Top via overlap with Mn or Top metal resistor.
+Mn & Top metal resistor definition: (Mn AND MnR).
+M1_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1 width is >= 0.23um, exclude SRAM region.
+M1_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two M1 regions is >= 0.23um,exclude SRAM region.
+M1_3_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of M1 region over CT region is >= 0.005um, exclude SRAM region.
+Enclosure of M1 line end region beyond CT region is >= 0.06um. For CT at 90 degree corner, one side must be considered as line end region, exclude SRAM region.
+M1_5
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between M1 lines with one or both metal line width and length are greater than 10um is >= 0.60um.
+The minimum space must be maintained between a metal line and a small piece of metal (< 10um) that is
+connected to the wide metal within 1.00um range from the wide metal
+M1_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1 area is >= 0.20um
+M1_7
+1 1 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1 density is >= 30%. 
+Density is calculated as total metal layout area/chip area
+Dummy pattern is required for those with M1 density less than 30%
+p 1 4
+-115 -6610
+3170 -6610
+3170 -870
+-115 -870
+M2_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 width is >= 0.28um
+M2_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn-1 regions is >= 0.28um
+M2_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn-1 must fully enclosed by Mn is >= 0.01um
+Extension of Mn line end region beyond Vn-2 region is >= 0.06um
+For Vn-2 located at 90 degree corner, one side of metal extension must be treated as end-of-line, the other side follow Mn-1.3
+M2_5
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between Mn-1 lines with one or both metal line width and length are greater than 10um is 0.60um
+The minimum space must be maintained between a metal line and a small piece of metal(<10) that is connected
+to the wide metal within 1.0um range from the wide metal.
+M2_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 area is >= 0.20um
+M2_7
+1 1 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 density is >= 30%.
+Density is calculated as total metal layout area/chip area
+Dummy pattern is required for those with Mn-1 density less than 30%
+p 1 4
+-115 -6610
+3170 -6610
+3170 -870
+-115 -870
+M3_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 width is >= 0.28um
+M3_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn-1 regions is >= 0.28um
+M3_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn-1 must fully enclosed by Mn is >= 0.01um
+Extension of Mn line end region beyond Vn-2 region is >= 0.06um
+For Vn-2 located at 90 degree corner, one side of metal extension must be treated as end-of-line, the other side follow Mn-1.3
+M3_5
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between Mn-1 lines with one or both metal line width and length are greater than 10um is 0.60um
+The minimum space must be maintained between a metal line and a small piece of metal(<10) that is connected
+to the wide metal within 1.0um range from the wide metal.
+M3_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 area is >= 0.20um
+M3_7
+1 1 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 density is >= 30%.
+Density is calculated as total metal layout area/chip area
+Dummy pattern is required for those with Mn-1 density less than 30%
+p 1 4
+-115 -6610
+3170 -6610
+3170 -870
+-115 -870
+M4_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 width is >= 0.28um
+M4_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn-1 regions is >= 0.28um
+M4_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn-1 must fully enclosed by Mn is >= 0.01um
+Extension of Mn line end region beyond Vn-2 region is >= 0.06um
+For Vn-2 located at 90 degree corner, one side of metal extension must be treated as end-of-line, the other side follow Mn-1.3
+M4_5
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between Mn-1 lines with one or both metal line width and length are greater than 10um is 0.60um
+The minimum space must be maintained between a metal line and a small piece of metal(<10) that is connected
+to the wide metal within 1.0um range from the wide metal.
+M4_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 area is >= 0.20um
+M4_7
+1 1 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 density is >= 30%.
+Density is calculated as total metal layout area/chip area
+Dummy pattern is required for those with Mn-1 density less than 30%
+p 1 4
+-115 -6610
+3170 -6610
+3170 -870
+-115 -870
+M5_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 width is >= 0.28um
+M5_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn-1 regions is >= 0.28um
+M5_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn-1 must fully enclosed by Mn is >= 0.01um
+Extension of Mn line end region beyond Vn-2 region is >= 0.06um
+For Vn-2 located at 90 degree corner, one side of metal extension must be treated as end-of-line, the other side follow Mn-1.3
+M5_5
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between Mn-1 lines with one or both metal line width and length are greater than 10um is 0.60um
+The minimum space must be maintained between a metal line and a small piece of metal(<10) that is connected
+to the wide metal within 1.0um range from the wide metal.
+M5_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 area is >= 0.20um
+M5_7
+1 1 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn-1 density is >= 30%.
+Density is calculated as total metal layout area/chip area
+Dummy pattern is required for those with Mn-1 density less than 30%
+p 1 4
+-115 -6610
+3170 -6610
+3170 -870
+-115 -870
+MT_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MT width is >= 0.44um
+MT_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two MTs is >= 0.46um
+MT_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Top via must fully enclosed by MT is >= 0.09um.
+MT_4
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between MT lines with one or both MT line width and length are greater than 10um is >= 0.60um
+this also includes all metals attached to these areas or extending out for a distance of 1.00um or less
+MT_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MT area is >= 0.56um*um
+MT_6
+1 1 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MT density is >= 30%
+Density is calculated as total metal layout area/chip area
+Dummy pattern is required for those with MT density less than 30%
+p 1 4
+-115 -6610
+3170 -6610
+3170 -870
+-115 -870
+M2_10_V12
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with 2-level continuous stacked via arrays (include TV) >= 1.0um.
+1. DRC waive when metal edge encloses the stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array..
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 2-level continuous stacked via array means the stacked via array are 2 continuous via layers and the corresponding 1 interlayer metal has no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M3_10_V23
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with 2-level continuous stacked via arrays (include TV) >= 1.0um.
+1. DRC waive when metal edge encloses the stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array..
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 2-level continuous stacked via array means the stacked via array are 2 continuous via layers and the corresponding 1 interlayer metal has no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M4_10_V34
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with 2-level continuous stacked via arrays (include TV) >= 1.0um.
+1. DRC waive when metal edge encloses the stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array..
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 2-level continuous stacked via array means the stacked via array are 2 continuous via layers and the corresponding 1 interlayer metal has no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M5_10_V45
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with 2-level continuous stacked via arrays (include TV) >= 1.0um.
+1. DRC waive when metal edge encloses the stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array..
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 2-level continuous stacked via array means the stacked via array are 2 continuous via layers and the corresponding 1 interlayer metal has no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M2_11_V123
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with >= 3-level continuous stacked via arrays (include TV), >= 3.0um
+1. DRC waive when metal edge encloses stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array.
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 3-level continuous stacked via array means the stacked via array are 3 continuous via layers and corresponding 2 continuous stacked interlayer metals all have no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M3_11_V123
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with >= 3-level continuous stacked via arrays (include TV), >= 3.0um
+1. DRC waive when metal edge encloses stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array.
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 3-level continuous stacked via array means the stacked via array are 3 continuous via layers and corresponding 2 continuous stacked interlayer metals all have no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M3_11_V234
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with >= 3-level continuous stacked via arrays (include TV), >= 3.0um
+1. DRC waive when metal edge encloses stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array.
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 3-level continuous stacked via array means the stacked via array are 3 continuous via layers and corresponding 2 continuous stacked interlayer metals all have no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M4_11_V234
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with >= 3-level continuous stacked via arrays (include TV), >= 3.0um
+1. DRC waive when metal edge encloses stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array.
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 3-level continuous stacked via array means the stacked via array are 3 continuous via layers and corresponding 2 continuous stacked interlayer metals all have no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M4_11_V345
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with >= 3-level continuous stacked via arrays (include TV), >= 3.0um
+1. DRC waive when metal edge encloses stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array.
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 3-level continuous stacked via array means the stacked via array are 3 continuous via layers and corresponding 2 continuous stacked interlayer metals all have no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M5_11_V345
+0 0 10 May  3 13:18:26 2026                    
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Mn regions when one or both Mn with >= 3-level continuous stacked via arrays (include TV), >= 3.0um
+1. DRC waive when metal edge encloses stacked via array > 10um.
+2. DRC only flag space violation region when Parallel run length >= 15um.
+The continuous stacked via array definition:
+1) Two vias whose space is <= 5um are considered to be in the same array, two via arrays with spacing <= 10um will be treated as one via array.
+2) All via array overlapped width is >= 5um, and parallel run length >= 15um.
+3) Each layer via density >= 1.66/um2,Top via density >=1.29/um2.
+4) The vias in stacked via array interact with the same interlayer metal.
+5) The 3-level continuous stacked via array means the stacked via array are 3 continuous via layers and corresponding 2 continuous stacked interlayer metals all have no metal cross (DRC waive width <= 2um metal line and check all interlayer metals projected space > 0um).
+M2_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between a small metal island and a big metal block is 1.00um.(small metal island: width*length < 1um*um
+big metal block: width > 25um, length > 100um)
+M3_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between a small metal island and a big metal block is 1.00um.(small metal island: width*length < 1um*um
+big metal block: width > 25um, length > 100um)
+M4_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between a small metal island and a big metal block is 1.00um.(small metal island: width*length < 1um*um
+big metal block: width > 25um, length > 100um)
+M5_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between a small metal island and a big metal block is 1.00um.(small metal island: width*length < 1um*um
+big metal block: width > 25um, length > 100um)
+MT_12
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum space between a small metal island and a big metal block is 1.00um.(small metal island: width*length < 1um*um
+big metal block: width > 25um, length > 100um)
+PA_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Bond pad width is >= 40.00um
+PA_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two bond pad windows is >= 7.00um
+PA_3
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Top metal fully enclosure of a bond pad is >= 1.50um
+Non-solid top metal under PA pad is not allowed.
+(M6 as TM if 6M process, M5 as TM if 5M process)
+MIM_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Width of active MIM region as top plate is >= 4.00um
+MIM_1a
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Length of active MIM region as top plate is >= 30.00um
+If capacitor larger than 30um*30um, please use combination of smaller capacitor
+MIM_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two active MIM region as top plate is >= 1.20um
+MIM_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Fully enclosure of MIM region beyond a Via (TV) which connect to this MIM is >= 0.24um
+MIM_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Fully enclosure of bottom plate(Mn)region on a MIM region is >= 0.40um
+MIM_6_R
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It is not recommended to put sensitivity devices under MIM. The sensitivity devices include RF, Analog, etc
+MIM_8
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Width of a bottom metal(Mn) region in capacitor is <= 35.00um
+If bottom metal larger than 35*35, please use combination of smaller capacitor
+MIM_11
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension of capacitor bottom metal beyond Via connect to Mn is >= 0.12um
+MIM_12
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between top Via and MIM region is >= 0.40um
+MIM_13
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Vias on MIM is >= 2.00um
+MIM_14
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two Vias on bottom metal(Mn) is >= 4.00um
+MIM_15
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dummy MIM width is >= 0.40um
+MIM_16
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space of dummy MIM to MIM region is >= 0.80um
+MIM_17
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space of MIM capacitor bottom Mn to dummy Mn is >= 0.80um
+BD_1
+1 1 5 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+The BORDER layer must enclose all chip layout patterns, which all chip layout patterns 
+include seal ring if seal ring has been added by designers.
+This rule checking includes the layers of DNW,AA,NW, MVN, MVP,DG,GT,SN,SP,SAB,CT,M1,V1,Mn,
+Vn,TMn,TVn,PA,Fuse,AADUM,GTDUM,MnDUM,TMnDUM
+p 1 4
+-115 -6610
+3170 -6610
+3170 -870
+-115 -870
+BD_2b
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of DNW by the chip edge (BORDER layer) if it need SMIC to add seal ring is >= 5.00um
+BD_2a
+38 38 3 May  3 13:18:26 2026                   
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of AA, GT, CT, Mn(n=1-5), Vn(n=1-5), TM by BORDER layer if it need SMIC to add
+seal ring. (AA, GT, CT, Mn, Vn, TM are OPC treatment layers) is >= 1.1um.
+p 1 10
+980 -6060
+2200 -6060
+2200 -5640
+2196 -5640
+2196 -6056
+984 -6056
+984 -5644
+2196 -5644
+2196 -5640
+980 -5640
+p 2 10
+980 -2140
+2200 -2140
+2200 -1720
+2196 -1720
+2196 -2136
+984 -2136
+984 -1724
+2196 -1724
+2196 -1720
+980 -1720
+p 3 12
+980 -5200
+1400 -5200
+1400 -5100
+1396 -5100
+1396 -5196
+984 -5196
+984 -4784
+1396 -4784
+1396 -4880
+1400 -4880
+1400 -4780
+980 -4780
+p 4 12
+980 -3000
+1400 -3000
+1400 -2900
+1396 -2900
+1396 -2996
+984 -2996
+984 -2584
+1396 -2584
+1396 -2680
+1400 -2680
+1400 -2580
+980 -2580
+p 5 4
+1400 -5100
+1780 -5100
+1780 -5096
+1400 -5096
+p 6 4
+1400 -4884
+1780 -4884
+1780 -4880
+1400 -4880
+p 7 4
+1400 -2900
+1780 -2900
+1780 -2896
+1400 -2896
+p 8 4
+1400 -2684
+1780 -2684
+1780 -2680
+1400 -2680
+p 9 12
+1780 -5200
+2200 -5200
+2200 -4780
+1780 -4780
+1780 -4880
+1784 -4880
+1784 -4784
+2196 -4784
+2196 -5196
+1784 -5196
+1784 -5100
+1780 -5100
+p 10 12
+1780 -3000
+2200 -3000
+2200 -2580
+1780 -2580
+1780 -2680
+1784 -2680
+1784 -2584
+2196 -2584
+2196 -2996
+1784 -2996
+1784 -2900
+1780 -2900
+p 11 8
+1500 -5320
+1680 -5320
+1680 -4680
+1676 -4680
+1676 -5316
+1504 -5316
+1504 -4680
+1500 -4680
+p 12 8
+1500 -3100
+1504 -3100
+1504 -2464
+1676 -2464
+1676 -3100
+1680 -3100
+1680 -2460
+1500 -2460
+p 13 12
+1380 -4680
+1500 -4680
+1500 -4676
+1384 -4676
+1384 -4264
+1796 -4264
+1796 -4676
+1680 -4676
+1680 -4680
+1800 -4680
+1800 -4260
+1380 -4260
+p 14 12
+1380 -3520
+1800 -3520
+1800 -3100
+1680 -3100
+1680 -3104
+1796 -3104
+1796 -3516
+1384 -3516
+1384 -3104
+1500 -3104
+1500 -3100
+1380 -3100
+p 15 10
+1080 -5100
+1300 -5100
+1300 -4880
+1296 -4880
+1296 -5096
+1084 -5096
+1084 -4884
+1296 -4884
+1296 -4880
+1080 -4880
+p 16 10
+1080 -2900
+1300 -2900
+1300 -2680
+1296 -2680
+1296 -2896
+1084 -2896
+1084 -2684
+1296 -2684
+1296 -2680
+1080 -2680
+p 17 10
+1145 -5960
+1365 -5960
+1365 -5740
+1361 -5740
+1361 -5956
+1149 -5956
+1149 -5744
+1361 -5744
+1361 -5740
+1145 -5740
+p 18 10
+1145 -2040
+1365 -2040
+1365 -1820
+1361 -1820
+1361 -2036
+1149 -2036
+1149 -1824
+1361 -1824
+1361 -1820
+1145 -1820
+p 19 10
+1480 -4580
+1700 -4580
+1700 -4360
+1696 -4360
+1696 -4576
+1484 -4576
+1484 -4364
+1696 -4364
+1696 -4360
+1480 -4360
+p 20 10
+1480 -3420
+1700 -3420
+1700 -3200
+1696 -3200
+1696 -3416
+1484 -3416
+1484 -3204
+1696 -3204
+1696 -3200
+1480 -3200
+p 21 10
+1815 -5960
+2035 -5960
+2035 -5740
+2031 -5740
+2031 -5956
+1819 -5956
+1819 -5744
+2031 -5744
+2031 -5740
+1815 -5740
+p 22 10
+1815 -2040
+2035 -2040
+2035 -1820
+2031 -1820
+2031 -2036
+1819 -2036
+1819 -1824
+2031 -1824
+2031 -1820
+1815 -1820
+p 23 10
+1880 -5100
+2100 -5100
+2100 -4880
+2096 -4880
+2096 -5096
+1884 -5096
+1884 -4884
+2096 -4884
+2096 -4880
+1880 -4880
+p 24 10
+1880 -2900
+2100 -2900
+2100 -2680
+2096 -2680
+2096 -2896
+1884 -2896
+1884 -2684
+2096 -2684
+2096 -2680
+1880 -2680
+p 25 8
+-115 -4000
+1420 -4000
+1420 -3996
+-111 -3996
+-111 -3774
+1420 -3774
+1420 -3770
+-115 -3770
+p 26 8
+1020 -5965
+2275 -5965
+2275 -5961
+1024 -5961
+1024 -5739
+1075 -5739
+1075 -5735
+1020 -5735
+p 27 8
+1020 -2045
+1075 -2045
+1075 -2041
+1024 -2041
+1024 -1819
+1100 -1819
+1100 -1815
+1020 -1815
+p 28 8
+1075 -5735
+1079 -5735
+1079 -4824
+1301 -4824
+1301 -5735
+1305 -5735
+1305 -4820
+1075 -4820
+p 29 8
+1075 -2960
+1305 -2960
+1305 -2045
+1301 -2045
+1301 -2956
+1079 -2956
+1079 -2045
+1075 -2045
+p 30 8
+1100 -1815
+1104 -1815
+1104 -874
+1326 -874
+1326 -1815
+1330 -1815
+1330 -870
+1100 -870
+p 31 8
+1305 -2045
+2160 -2045
+2160 -1815
+1330 -1815
+1330 -1819
+2156 -1819
+2156 -2041
+1305 -2041
+p 32 12
+1420 -4585
+1760 -4585
+1760 -3195
+1420 -3195
+1420 -3770
+1424 -3770
+1424 -3199
+1756 -3199
+1756 -4581
+1424 -4581
+1424 -4000
+1420 -4000
+p 33 10
+1875 -2970
+2830 -2970
+2830 -2966
+1879 -2966
+1879 -2624
+2101 -2624
+2101 -2630
+2105 -2630
+2105 -2620
+1875 -2620
+p 34 12
+1875 -5160
+3170 -5160
+3170 -2630
+2105 -2630
+2105 -2634
+3166 -2634
+3166 -5156
+1879 -5156
+1879 -4824
+2830 -4824
+2830 -4820
+1875 -4820
+p 35 8
+2275 -6610
+2505 -6610
+2505 -6600
+2501 -6600
+2501 -6606
+2279 -6606
+2279 -5965
+2275 -5965
+p 36 6
+1305 -5739
+2501 -5739
+2501 -6370
+2505 -6370
+2505 -5735
+1305 -5735
+p 37 8
+2505 -6600
+2830 -6600
+2830 -6370
+2505 -6370
+2505 -6374
+2826 -6374
+2826 -6596
+2505 -6596
+p 38 4
+2830 -4820
+2834 -4820
+2834 -2970
+2830 -2970
+BD_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of seal ring outer ring outline edge by BORDER layer if seal ring has been added by designers is >= 1.1um
+NR_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of AA beyond an NW is >= 1.00um
+NR_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of salicide NW beyond a CT is >= 0.30um
+NR_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between SAB and related NW is >= 0.30um
+NR_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SAB to a related AA is >= 0.22um
+NR_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+For well resistor with AA , Overlap of a SN to SAB (SAB hole must be fully enclosed by SN) is >= 0.40um
+NR_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between SAB and related CT in SAB hole is >= 0.30um
+NR_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between resistor NW and (resistor NW or NW) is >= 1.40um
+NR_8
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+LDD, SN or SP is not allowed in the NW resistor area
+DRC only check the NW resistor under AA.
+NR_9_R
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NW resistor width is >= 1.00um
+This is a recommended rule. Turn on by default.
+HRP_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension from HRP region beyond a poly resistor region is >= 0.26um
+HRP_3_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from HRP region to Polygate of NMOS/PMOS is >= 0.32um
+HRP_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+P+ implant for pickup overlap with SAB = 0.30um
+HRP_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension from SAB region beyond a poly resistor region is >= 0.22um
+HRP_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Width of Poly region for high resistance poly resistor is >= 1.00um
+HRP_10
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+It is not allowed to receive SN, and all LDD implant in the HRP region
+(Note: SP only using for HRP 2 terminals pick up is defined in HRP.5)
+HRP_11
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+HRP width is >= 0.44um
+HRP_12
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+HRP space is >= 0.44um
+SRCK_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Contact width is = 0.26um, it is allowed sqrt(2) variation at 45 degree angle area.	
+SRCK_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+V1~V4, TV size is = 0.36um, it is allowed sqrt(2) variation at 45 degree angle area.
+SRCK_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1~M5,TM width are = 6.00um, it is allowed sqrt(2) variation at 45 degree angle area.
+SRCK_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Seal ring must be a close ring.
+DRC check Metal/Top metal layers and all the listed layers must be drawn.
+For non-SMIC standard seal ring design, SMIC can't guarantee the seal ring quality. It's strongly recommended to qualify in SMIC before it used in product tape-out.
+Convention_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+NW not interacting with N+ pickup is not allowed
+Convention_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+PMOS in PW is not allowed,exclude SRAM region.
+Convention_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+AA must be fully enclosed by (SN OR SP), except AA interact with RESNW region
+Convention_4a
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Maximum space from any point within Source/Drain region to the nearest pick up
+AA region inside the same well for I/O and internal circuits is 35.00um
+Convention_4b
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Maximum space from any point within Source/Drain region to the nearest pick up
+AA region inside the same well for I/O and internal circuits is 35.00um
+AADUMCK_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+AA dummy patterns cannot touch AA/GT.
+AADUMCK_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dummy AA pattern is not allowed inside RESAA/RESNW/RESP1 covered areas. 
+AADUMCK_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between dummy AA and DUMBA /NW edge	>=	2	um
+GTDUMCK_3
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dummy poly pattern is not allowed to exist above AA (not include dummy AA). 
+Space between poly dummy and AA main pattern can not violate GT.7. 
+GTDUMCK_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Poly dummy patterns cannot touch GT main patterns.
+GTDUMCK_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Dummy poly pattern is not allowed inside RESAA/RESNW/RESP1 covered areas.
+GTDUMCK_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between dummy poly and DUMBP. 	>=	2
+M1DUMCK_1_2_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between metal dummy lines with one or both metal dummy line width and length are greater than 10µm
+the minimum space must be maintained between a metal dummy line and a small piece of metal dummy (<10µm)
+that is connected to the wide metal dummy within 1.0µm range from the wide metal dummy >= 0.60um.
+M1DUMCK_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn dummy metal can not be interacted with Mn metal design patterns. (n=1~5)
+M1DUMCK_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between dummy metal and DUMBM >= 2 um.
+M2DUMCK_1_2_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between metal dummy lines with one or both metal dummy line width and length are greater than 10µm
+the minimum space must be maintained between a metal dummy line and a small piece of metal dummy (<10µm)
+that is connected to the wide metal dummy within 1.0µm range from the wide metal dummy >= 0.60um.
+M2DUMCK_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn dummy metal can not be interacted with Mn metal design patterns. (n=1~5)
+M2DUMCK_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between dummy metal and DUMBM >= 2 um.
+M3DUMCK_1_2_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between metal dummy lines with one or both metal dummy line width and length are greater than 10µm
+the minimum space must be maintained between a metal dummy line and a small piece of metal dummy (<10µm)
+that is connected to the wide metal dummy within 1.0µm range from the wide metal dummy >= 0.60um.
+M3DUMCK_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn dummy metal can not be interacted with Mn metal design patterns. (n=1~5)
+M3DUMCK_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between dummy metal and DUMBM >= 2 um.
+M4DUMCK_1_2_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between metal dummy lines with one or both metal dummy line width and length are greater than 10µm
+the minimum space must be maintained between a metal dummy line and a small piece of metal dummy (<10µm)
+that is connected to the wide metal dummy within 1.0µm range from the wide metal dummy >= 0.60um.
+M4DUMCK_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn dummy metal can not be interacted with Mn metal design patterns. (n=1~5)
+M4DUMCK_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between dummy metal and DUMBM >= 2 um.
+M5DUMCK_1_2_3_4
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between metal dummy lines with one or both metal dummy line width and length are greater than 10µm
+the minimum space must be maintained between a metal dummy line and a small piece of metal dummy (<10µm)
+that is connected to the wide metal dummy within 1.0µm range from the wide metal dummy >= 0.60um.
+M5DUMCK_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Mn dummy metal can not be interacted with Mn metal design patterns. (n=1~5)
+M5DUMCK_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between dummy metal and DUMBM >= 2 um.
+MTDUMCK_1_2
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between MT dummy lines with one or both MT dummy line width and length are greater than 10um is >= 0.60um
+this also includes all metals dummy attached to these areas or extending out for a distance of 1.00um or less
+MTDUMCK_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Top Metal dummy metal can not interact with Top Metal metal design patterns.
+MTDUMCK_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between Top Metal dummy patterns and DUMBM >= 2 um
+SRAA_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+AA width	>=	0.17	um
+SRAA_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between N+ AA and N+ AA or P+ AA and P+ AA (both regions are either inside or outside NW)	>=	0.16	um
+SRAA_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between N-Well edge and an N+ AA region which is outside an NW >=	0.31	um
+SRAA_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+N-Well enclosure of a P+ AA region which inside an NW	>=	0.32	um
+SRAA_8
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between GATE edge and edge of a butted diffusion AA region	>=	0.28	um
+SRGT_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+GT width 	>=	0.09	um
+SRGT_1a
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+GT width between parallel edges	>=	0.095	um
+SRGT_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two GT regions on AA which is with no contact(CT)	>=	0.22	um
+SRGT_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space on field oxide area between different GTs (between parallel edges)	>=	0.19	um
+SRGT_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Poly extension of AA	>=	0.07	um
+SRGT_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension from AA region to GT	>=	0.13	um
+SRGT_13
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two GTs on AA which is with CT	>=	0.22	um
+SRSN_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between a SN region and a P+ AA (inside N-well)	>=	0.24	um
+SRSN_16
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SN edge to a P-channel Poly gate along the direction of poly gate, 0 is allowed only in dummy cell (((AA AND GT)AND SP ) AND PW)	=	0	um	>=	0.32	um
+SRSN_17
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SN edge to a N-channel Poly gate along the direction of poly gate	>=	0.28	um
+SRSP_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between a SP region and a N+ AA (inside P-well)	>=	0.22	um
+SRSP_16
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SP edge to a N-channel Poly gate along the direction of poly gate	>=	0.28	um
+SRSP_17
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SP edge to a P-channel Poly gate along the direction of poly gate, 0 is allowed only in dummy cell (((AA AND GT)AND SP ) AND PW)	>= 0.32 um.
+SRCT_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two contacts	>=	0.205	um
+SRCT_4
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between poly CT to AA	>	0	um
+SRCT_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between poly to diffusion CT	>=	0.101	um
+SRCT_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an AA beyond an AA CT  	>=	0	um
+SRCT_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a GT beyond a poly CT, check the CTs after corner cut 0.02um	 >=	0 um
+SRCT_12
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+CT must fully enclosed by (AA OR GT), check the CTs after corner cut 0.02um	
+SRCT_13
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+CT must be fully covered by (M1 AND (AA OR GT)), check the CTs after corner cut 0.035
+SRM1_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1 width	>=	0.09	um
+SRM1_1a
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1 width between parallel edges	>=	0.18	um
+SRM1_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1 space	>=	0.1	um
+SRM1_2a
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between different M1s	>=	0.21	um
+SRM1_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1 enclosure of CT, check the CTs after corner cut 0.035	 >=	0	um
+SR33AA_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between N+ AA and N+ AA or P+ AA and P+ AA (both regions are either inside or outside NW) >= 0.19um
+SR33AA_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between N-Well edge and an N+ AA region which is outside an NW >= 0.38um
+SR33AA_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+N-Well enclosure of a P+ AA region which inside an NW >= 0.38um
+SR33DG_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of DG beyond the active AA region >= 0.27um
+SR33GT_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Extension from AA region to GT >= 0.299um
+SR33SN_16
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SN edge to a P-channel Poly gate along the direction of poly gate, 0 is allowed only in ((AA AND GT)AND SP )AND PW) =	0	um	>=	0.32	um
+SR33SN_17
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a SN edge to a N-channel Poly gate along the direction of poly gate >= 0.32um
+SR33SP_16
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SP edge to a N-channel Poly gate along the direction of poly gate >= 0.32um
+SR33SP_17
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space from a SP edge to a P-channel Poly gate along the direction of poly gate, 0 is allowed only in ((AA AND GT)AND SP )AND PW) =0um  >=0.32um
+SR33CT_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between poly to diffusion CT >= 0.15um
+SR33CT_6
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of an AA region beyond an AA CT region >= 0.03um
+SR33CT_7
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Enclosure of a poly region beyond a poly CT region >= 0.05um
+SR33M1_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+M1 width >=  0.204um
+SLOT_1_a_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot width is >= 2.00um
+SLOT_2_a_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Open slot must be fully enclosed by metal line >= 5.0um
+SLOT_3a_a_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between open slots is >= 2.0um
+SLOT_1_b_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot width is >= 2.00um
+SLOT_2_b_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Open slot must be fully enclosed by metal line >= 5.0um
+SLOT_3a_b_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between open slots is >= 2.0um
+SLOT_1_c_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot width is >= 2.00um
+SLOT_2_c_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Open slot must be fully enclosed by metal line >= 5.0um
+SLOT_3a_c_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between open slots is >= 2.0um
+SLOT_1_d_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot width is >= 2.00um
+SLOT_2_d_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Open slot must be fully enclosed by metal line >= 5.0um
+SLOT_3a_d_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between open slots is >= 2.0um
+SLOT_1_e_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot width is >= 2.00um
+SLOT_2_e_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Open slot must be fully enclosed by metal line >= 5.0um
+SLOT_3a_e_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between open slots is >= 2.0um
+SLOT_1_f_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot width is >= 2.00um
+SLOT_2_f_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Open slot must be fully enclosed by metal line >= 5.0um
+SLOT_3a_f_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between open slots is >= 2.0um
+SLOT_3c_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between M1 slot edge and immediately below contact is >= 0.005.
+SLOT_3d_a_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between M1 slot edge and immediately above vias is >= 0.01um.
+SLOT_3d_b_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between M2 slot edge and immediately below and above vias is >= 0.01um.
+SLOT_3d_c_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between M2 slot edge and immediately below and above vias is >= 0.01um.
+SLOT_3d_d_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between M2 slot edge and immediately below and above vias is >= 0.01um.
+SLOT_3d_e_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between M2 slot edge and immediately below and above vias is >= 0.01um.
+SLOT_3d_f_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between top metal slot edge and immediately below is >= 0.01um.
+SLOT_7_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Metal slot must be rectangle
+SLOT_8_G_M1
+0 0 7 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot density of wide metal >=1.5% when
+1. The wide metal is > 35*35 um. DRC checks the metal main pattern(61:0, 62:0¿), not following (Mn-MnSLOT).
+2. The wide metal interacts with metal slot (61:2, 62:2...)
+3. Metal slot (61:2, 62:2¿) size > 10*10 um are not included this rule density calculation.
+4. DRC doesn't check metals interact with PA.
+5. DRC individually exports result by each metal layer.
+SLOT_8_G_M2
+0 0 7 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot density of wide metal >=1.5% when
+1. The wide metal is > 35*35 um. DRC checks the metal main pattern(61:0, 62:0¿), not following (Mn-MnSLOT).
+2. The wide metal interacts with metal slot (61:2, 62:2...)
+3. Metal slot (61:2, 62:2¿) size > 10*10 um are not included this rule density calculation.
+4. DRC doesn't check metals interact with PA.
+5. DRC individually exports result by each metal layer.
+SLOT_8_G_M3
+0 0 7 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot density of wide metal >=1.5% when
+1. The wide metal is > 35*35 um. DRC checks the metal main pattern(61:0, 62:0¿), not following (Mn-MnSLOT).
+2. The wide metal interacts with metal slot (61:2, 62:2...)
+3. Metal slot (61:2, 62:2¿) size > 10*10 um are not included this rule density calculation.
+4. DRC doesn't check metals interact with PA.
+5. DRC individually exports result by each metal layer.
+SLOT_8_G_M4
+0 0 7 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot density of wide metal >=1.5% when
+1. The wide metal is > 35*35 um. DRC checks the metal main pattern(61:0, 62:0¿), not following (Mn-MnSLOT).
+2. The wide metal interacts with metal slot (61:2, 62:2...)
+3. Metal slot (61:2, 62:2¿) size > 10*10 um are not included this rule density calculation.
+4. DRC doesn't check metals interact with PA.
+5. DRC individually exports result by each metal layer.
+SLOT_8_G_M5
+0 0 7 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot density of wide metal >=1.5% when
+1. The wide metal is > 35*35 um. DRC checks the metal main pattern(61:0, 62:0¿), not following (Mn-MnSLOT).
+2. The wide metal interacts with metal slot (61:2, 62:2...)
+3. Metal slot (61:2, 62:2¿) size > 10*10 um are not included this rule density calculation.
+4. DRC doesn't check metals interact with PA.
+5. DRC individually exports result by each metal layer.
+SLOT_8_G_M6
+0 0 7 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Slot density of wide metal >=1.5% when
+1. The wide metal is > 35*35 um. DRC checks the metal main pattern(61:0, 62:0¿), not following (Mn-MnSLOT).
+2. The wide metal interacts with metal slot (61:2, 62:2...)
+3. Metal slot (61:2, 62:2¿) size > 10*10 um are not included this rule density calculation.
+4. DRC doesn't check metals interact with PA.
+5. DRC individually exports result by each metal layer.
+DUP_1_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+For PA that interacts with DUPMK1, this piece of PA must be fully covered by DUPMK1
+DUP_2_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Two metal layers (TM and TM-1) are needed in DUP pad area, these two metal layers design must be solid.
+DUP_3a_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+MIMDMY, MOMDMY, INDMY, Resistor of TM or TM-1 must be outside of DUP pad area.
+DUP_4_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Vn-1(n denotes top via layer) pattern must be outside of DUP pad area
+DUP_5_G
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+DUP pad area must have Via array between TM and TM-1.
+2*2 Via areas whose space is within 0.35m are considered to be in the same array.
+Via space within array in DUP pad opening area should follow TV.2.
+LOGO_1_G
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between LOGO and AA, GT or Metal is >= 10.0um.
+DRC doesn't check dummy AA, dummy GT, dummy metal.
+LOGO_2_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+LOGO overlap with PA, Metal fuse or Polymide window is not allowed
+ESD_8a_G
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Width of SAB on the drain side (A) and SAB edge to the AA edge (B) for 1.8V/3.3V NMOS and PMOS used as an ESD device. 
+Note: A does not include the overlap of SAB area and GT (7.3.7.2 Fig.2 &5)
+ESD_8b_G
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Width of SAB on the drain side (A) and SAB edge to the AA edge (B) for 1.8V/3.3V NMOS and PMOS used as an ESD device. 
+Note: A does not include the overlap of SAB area and GT (7.3.7.2 Fig.2 &5)
+ESD_8c_G
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Width of SAB on the drain side (A) and SAB edge to the AA edge (B) for 1.8V/3.3V NMOS and PMOS used as an ESD device. 
+Note: A does not include the overlap of SAB area and GT (7.3.7.2 Fig.2 &5)
+ESD1_A_1
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+ESD1 width is >= 0.60um
+ESD1_A_2
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Space between two ESD1s is >= 0.60um. Merge if the space is less than this value
+ESD1_A_3
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+ESD1 area is >= 1.00um*um
+ESD1_A_5
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+N+AA cut ESD1 is not allowed.
+LU_1_G
+0 0 6 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Guard ring should be used to surround AA injector or a group of AA injectors which are connected to an I/O pad.
+N+ injector must be surrounded by a P+ guard-ring.
+P+ injector must be surrounded by a N+ guard-ring.
+NW/PW pickups rings can be used as guard rings.
+DRC check the nearest guard-ring which surrounds AA injector or a group of AA injector.
+LU_2_G
+0 0 2 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Minimum guard-ring width >= 0.42 um
+LU_3_3a_G
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+LU.3a-LU.3c define minimum space (S1) between NMOS and PMOS with either one of NMOS or PMOS AA connected to I/O pad (7.3.8 Fig.1)
+LU.3a For 1.8V N/PMOS connected to an I/O pad, Spacing between NMOS and PMOS >= 5 um
+LU_3_3b_G
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+LU.3a-LU.3c define minimum space (S1) between NMOS and PMOS with either one of NMOS or PMOS AA connected to I/O pad (7.3.8 Fig.1)
+LU.3b For 3.3V N/PMOS connected to an I/O pad,
+Spacing between 3.3V NMOS and 3.3V/1.8V PMOS and Spacing between 3.3V PMOS and 3.3V/1.8V NMOS >= 8um.
+LU_3_3c_G
+0 0 4 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+LU.3a-LU.3c define minimum space (S1) between NMOS and PMOS with either one of NMOS or PMOS AA connected to I/O pad (7.3.8 Fig.1)
+LU.3c For 5V tolerant N/PMOS (covered by ESD5V mark layer) connected to an I/O pad,
+Spacing between 5V NMOS and 5V/1.8V PMOS and Spacing between 5V PMOS and 5V/1.8V NMOS >= 15um.
+LU_4_NTAP_G
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Maximum space (S2) from any point within the Source/Drain region to the nearest pickup AA region inside the same well for I/O and internal circuits. (7.3.8 Fig.2)
+For native device, DRC check the pickup AA inside the PSUB butted PW area, and PW is still treated as connection by substrate even one NW ring inserted. <= 35 um
+LU_4_PTAP_G
+0 0 3 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Maximum space (S2) from any point within the Source/Drain region to the nearest pickup AA region inside the same well for I/O and internal circuits. (7.3.8 Fig.2)
+For native device, DRC check the pickup AA inside the PSUB butted PW area, and PW is still treated as connection by substrate even one NW ring inserted. <= 35 um
+LU_7_G
+0 0 5 May  3 13:18:26 2026                     
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc_
+Double guard ring should be used to surround 3.3V N/PMOS connected to I/O pad.
+Double guard ring definition:
+For NMOS, double guard ring includes P+ pickup (tied to Vss) and N+ in NW (tied to Vdd).
+For PMOS, double guard ring includes N+ pickup (tied to Vdd) and P+ in PW (tied to Vss)
+DENSITY_PRINT_FILES
+0 0 6 May  3 13:18:26 2026
+density_report_M1_7.log
+density_report_M2_7.log
+density_report_M3_7.log
+density_report_M4_7.log
+density_report_M5_7.log
+density_report_MT_6.log
+DFM_RDBS
+0 0 6 May  3 13:18:26 2026
+M1SLOT_SL_8_density.rdb
+M2SLOT_SL_8_density.rdb
+M3SLOT_SL_8_density.rdb
+M4SLOT_SL_8_density.rdb
+M5SLOT_SL_8_density.rdb
+M6SLOT_SL_8_density.rdb

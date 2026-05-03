@@ -1,0 +1,24 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inv"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/user1/Desktop/ic"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "ic/inv/schematic" "inv" )
+ )
+( term
+ )
+( param
+ )
+( "inv" "ihnl/cds0/map" )
+ )

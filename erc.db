@@ -1,0 +1,33 @@
+inv 1000
+pathchk_bad
+0 0 2 May  3 13:32:21 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+nodes without a path to both power and ground
+ptd_to_power
+0 0 2 May  3 13:32:21 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+Pwell pick-up layer ptd texted with power net.
+ntd_to_ground
+0 0 2 May  3 13:32:21 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+Nwell pick-up layer ntd texted with ground net.
+mntopg
+0 0 2 May  3 13:32:21 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+NMOS connect to both Power and Ground.
+mptopg
+0 0 2 May  3 13:32:21 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+PMOS connect to both Power and Ground.
+ptap_outside_dnw_non_ground
+0 0 2 May  3 13:32:21 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+pwell pick-up layer connect to non-ground nets.
+nwell_not_to_power
+0 0 2 May  3 13:32:21 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+nwell is not connecting to power net
+pwell_not_to_ground
+0 0 2 May  3 13:32:21 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+pwell is not connecting to ground net

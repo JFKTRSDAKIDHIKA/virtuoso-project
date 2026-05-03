@@ -1,1 +1,1 @@
-("ota_tb:/\tota_tb ic schematic" (("open" (nil hierarchy "/{ic ota_tb schematic }:a"))) nil)
+("inv:/\tinv ic layout" (("open" (nil hierarchy "/{ic inv layout }:a"))) (((-7.578 -9.048) (17.53 2.618)) "a" "Layout" 2))("inv:/\tinv ic schematic" (("open" (nil hierarchy "/{ic inv schematic }:a"))) (((-2.13125 -1.0625) (2.50625 1.9)) "a" "Schematics XL" 3))("ota_tb:/\tota_tb ic schematic" (("open" (nil hierarchy "/{ic ota_tb schematic }:a"))) nil)

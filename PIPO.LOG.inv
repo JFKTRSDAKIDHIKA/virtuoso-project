@@ -1,0 +1,61 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 10/30/2014 22:41 (sjfnl119) $
+          : sub-version  IC6.1.6-64b.500.9 
+Started at: 03-May-2026  13:32:18
+User Name : user1
+Host Name : iceda
+Directory : /home/user1/Desktop/ic
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/user1/Desktop/ic/inv.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/smic18mmrf/smic18mmrf.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 ic
+strmFile                                /home/user1/Desktop/ic/inv.calibre.db
+topCell                                 inv
+view                                    layout
+runDir                                  /home/user1/Desktop/ic/
+logFile                                 PIPO.LOG.inv
+summaryFile                             PIPO.SUM.inv
+layerMap                                /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/smic18mmrf/smic18mmrf.layermap
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView smic18mmrf/n18/layout as STRUCTURE n18_CDNS_777786338710
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 2. Translating cellView smic18mmrf/p18/layout as STRUCTURE p18_CDNS_777786338711
+INFO (XSTRM-223): 3. Translating cellView ic/inv/layout as STRUCTURE inv
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       2
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             47
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               15
+	Text:                                   10
+	TextDisplay:                            0
+	Cells:                                  3
+
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 4612KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
