@@ -21,3 +21,4 @@ INCA_libs/
 .*.swp
 .cadence/
 *.history
+.cadence/
