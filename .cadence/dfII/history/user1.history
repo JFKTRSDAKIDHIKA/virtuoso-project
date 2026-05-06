@@ -1,1 +1,1 @@
-("ota_tb:/\tota_tb ic schematic" (("open" (nil hierarchy "/{ic ota_tb schematic }:a"))) nil)
+("ota_tb:/\tota_tb ic schematic" (("open" (nil hierarchy "/{ic ota_tb schematic }:a"))) (((-3.35 -1.93125) (2.1125 2.20625)) "a" "Schematics" 0))("ota:/\tota ic schematic" (("open" (nil hierarchy "/{ic ota schematic }:a"))) nil)
