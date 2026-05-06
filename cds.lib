@@ -1,0 +1,3 @@
+SOFTINCLUDE /home/user1/cds.lib
+DEFINE inv /home/user1/Desktop/inv
+DEFINE ic /home/user1/Desktop/ic

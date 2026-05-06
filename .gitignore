@@ -1,0 +1,21 @@
+# Cadence 锁文件和临时文件
+*.cdslck
+*.cdslck.*
+.cdslck*
+panic*.log.*
+*.log
+libManager.log
+
+# 仿真临时文件
+*.ahdlcmi/
+*.ahdlSimDB/
+INCA_libs/
+*.shm/
+*.trn
+*.dsn
+*.wdb
+
+# 编辑器临时文件
+*~
+*.swp
+.*.swp
