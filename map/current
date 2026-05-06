@@ -1,7 +1,7 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "ota"
+  blockName "inv"
   repList "auCdl schematic"
   stopList "auCdl"
   hierDelim "."
@@ -14,11 +14,11 @@
 ( inst
  )
 ( model
-( "ic/ota/schematic" "ota" )
+( "ic/inv/schematic" "inv" )
  )
 ( term
  )
 ( param
  )
-( "ota" "ihnl/cds0/map" )
+( "inv" "ihnl/cds0/map" )
  )

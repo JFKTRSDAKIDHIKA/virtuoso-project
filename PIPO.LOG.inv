@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.6-64b 10/30/2014 22:41 (sjfnl119) $
           : sub-version  IC6.1.6-64b.500.9 
-Started at: 07-May-2026  12:32:53
+Started at: 04-May-2026  13:35:49
 User Name : user1
 Host Name : iceda
 Directory : /home/user1/Desktop/ic
@@ -26,9 +26,9 @@ layerMap                                /home/user1/smic18mse_1833_1P6M_5Ia_1TMa
 case                                    Preserve
 convertDot                              node
 
-INFO (XSTRM-223): 1. Translating cellView smic18mmrf/n18/layout as STRUCTURE n18_CDNS_778128373810
+INFO (XSTRM-223): 1. Translating cellView smic18mmrf/n18/layout as STRUCTURE n18_CDNS_777872949540
 WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
-INFO (XSTRM-223): 2. Translating cellView smic18mmrf/p18/layout as STRUCTURE p18_CDNS_778128373811
+INFO (XSTRM-223): 2. Translating cellView smic18mmrf/p18/layout as STRUCTURE p18_CDNS_777872949541
 INFO (XSTRM-223): 3. Translating cellView ic/inv/layout as STRUCTURE inv
 INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
@@ -57,5 +57,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  3
 
-Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4612KB
+Elapsed Time: 0.3s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 4632KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

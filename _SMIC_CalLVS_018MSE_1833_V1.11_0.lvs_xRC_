@@ -1,5 +1,5 @@
 //
-//  Rule file generated on Thu May 07 12:32:52 CST 2026
+//  Rule file generated on Mon May 04 13:35:46 CST 2026
 //     by Calibre Interactive - PEX (v2016.2_18.12)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
@@ -10,7 +10,7 @@ LAYOUT PATH  "/home/user1/Desktop/ic/inv.calibre.db"
 LAYOUT PRIMARY "inv"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/user1/Desktop/ic/xxx.cdl"
+SOURCE PATH "/home/user1/Desktop/ic/netlist"
 SOURCE PRIMARY "xxx"
 SOURCE SYSTEM SPICE
 
@@ -18,7 +18,7 @@ MASK SVDB DIRECTORY "svdb" QUERY XRC CCI
 
 LVS REPORT "lvs.rep"
 
-PEX NETLIST "distributed.dist" HSPICE 1 LAYOUTNAMES GROUND "VSS" 
+PEX NETLIST "distributed.dist" CALIBREVIEW 1 LAYOUTNAMES GROUND "VSS" LOCATION 
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal1 TC1 0.00339 TC2 -6.25e-07
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal2 TC1 0.00337 TC2 -6.37e-07
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal3 TC1 0.00337 TC2 -6.37e-07

@@ -1,6 +1,6 @@
 CADENCE IHNL01070
 $model
-ic/ota/schematic ota
+ic/inv/schematic inv
 $endmodel
 $net
 $endnet
