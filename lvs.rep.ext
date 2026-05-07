@@ -11,10 +11,12 @@
 
 REPORT FILE NAME:         lvs.rep.ext
 LAYOUT NAME:              /home/user1/Desktop/ic/inv.calibre.db ('inv')
-CREATION TIME:            Sun May  3 13:32:20 2026
+CREATION TIME:            Thu May  7 12:32:55 2026
 CURRENT DIRECTORY:        /home/user1/Desktop/ic
 USER NAME:                user1
 CALIBRE VERSION:          v2016.2_18.12    Fri May 6 16:05:49 PDT 2016
 
 
+
+WARNING: Cannot enable LVS PUSH DEVICES because pin location information was requested.
 

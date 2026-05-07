@@ -1,14 +1,12 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1777786340 1777786341
+lvs_ExtRunTimes 1778128375 1778128375
 lvs_ExtOutFile RUNDIR /home/user1/Desktop/ic
-lvs_ExtOutFile RULES_FILE /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+lvs_ExtOutFile RULES_FILE /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_xRC_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
-lvs_ExtInfoErcSummary {8 0 0 0 0 3 0 0 0 0 0}
+lvs_ExtInfoErcSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /home/user1/Desktop/ic/inv.sp
+lvs_ExtOutFile LAYOUT_NETLIST svdb/inv.sp
 lvs_ExtOutFile EXTRACTION_REPORT lvs.rep.ext
-lvs_ExtOutFile ERC_PATHCHK_DATABASE svdb/inv.pathchk.erc
-lvs_ExtOutFile ERC_PATHCHK_REPORT svdb/inv.pathchk.rep
-lvs_ExtOutFile ERC_DATABASE erc.db
-lvs_ExtOutFile ERC_SUMMARY erc.rep
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/inv.pdsp }
+lvs_ExtOutFile SOFTCHK_DATABASE svdb/inv.softchk

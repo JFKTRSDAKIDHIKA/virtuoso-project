@@ -1,0 +1,7 @@
+ota 1000
+ERC PATHCHK POWER && ! GROUND NOFLOAT
+0 0 0 May  7 13:13:43 2026                                                      
+ERC PATHCHK GROUND && ! POWER NOFLOAT
+0 0 0 May  7 13:13:43 2026                                                      
+ERC PATHCHK ! LABELED NOFLOAT
+0 0 0 May  7 13:13:43 2026                                                      

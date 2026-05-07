@@ -1,0 +1,14 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1778130823 1778130823
+lvs_ExtOutFile RUNDIR /home/user1/Desktop/ic
+lvs_ExtOutFile RULES_FILE /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {8 0 0 0 0 3 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/user1/Desktop/ic/ota.sp
+lvs_ExtOutFile EXTRACTION_REPORT ota.lvs.report.ext
+lvs_ExtOutFile ERC_PATHCHK_DATABASE svdb/ota.pathchk.erc
+lvs_ExtOutFile ERC_PATHCHK_REPORT svdb/ota.pathchk.rep
+lvs_ExtOutFile ERC_DATABASE ota.erc.results
+lvs_ExtOutFile ERC_SUMMARY ota.erc.summary

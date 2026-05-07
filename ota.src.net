@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ic
+* Top Cell Name: ota
+* View Name:     schematic
+* Netlisted on:  May  7 13:13:42 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ic
+* Cell Name:    ota
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ota Ibias gnd in_n in_p out vdd
+*.PININFO Ibias:I in_n:I in_p:I out:O gnd:B vdd:B
+MM5 Ibias Ibias vdd vdd p33 W=8u L=6u m=1
+MM2 out in_n net13 vdd p33 W=2u L=6u m=1
+MM1 net11 in_p net13 vdd p33 W=2u L=6u m=1
+MM0 net13 Ibias vdd vdd p33 W=8u L=6u m=1
+MM4 out net11 gnd gnd n33 W=2u L=6u m=1
+MM3 net11 net11 gnd gnd n33 W=2u L=6u m=1
+.ENDS
+
