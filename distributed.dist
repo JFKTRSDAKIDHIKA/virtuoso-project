@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ; DESIGN "INV"
 ; DATE "Mon May  4 13:35:55 2026"
 ; VENDOR "Mentor Graphics Corp."
@@ -210,3 +211,31 @@ mr_pp 'r "rGND_18" '("D2_pos" "M0_b") 0.01
 
 mgc_rve_cell_end
 
+=======
+// File: distributed.dist
+// Created: Thu May  7 13:22:59 2026
+// Program "Calibre xRC"
+// Version "v2016.2_18.12"
+// 
+simulator lang=spectre
+include "distributed.dist.pex"
+subckt INV (  VDD IN OUT GND )
+// 
+// GND	GND
+// OUT	OUT
+// IN	IN
+// VDD	VDD
+M0 ( N_OUT_M0_d N_IN_M0_g N_GND_M0_s N_GND_M0_b ) N18 l=1.8e-07 w=2.2e-07 \
+ ad=1.984e-13 as=1.984e-13 pd=1.88e-06 ps=1.88e-06 nrd=4.09917 nrs=4.09917 m=1 \
+ sa=5.2e-07 sb=5.2e-07 nf=1 sd=0 sca=0 scb=0 scc=0
+M1 ( N_OUT_M1_d N_IN_M1_g N_VDD_M1_s N_VDD_M1_b ) P18 l=1.8e-07 w=2.2e-07 \
+ ad=1.984e-13 as=1.984e-13 pd=1.88e-06 ps=1.88e-06 nrd=4.09917 nrs=4.09917 m=1 \
+ sa=5.2e-07 sb=5.2e-07 nf=1 sd=0 sca=0 scb=0 scc=0
+D2 ( N_GND_M0_b N_VDD_M1_b ) PARASITIC_NWDIO  area=3.8064e-12 pj=7.82e-06 m=1
+// 
+include "distributed.dist.INV.pxi"
+// 
+ends INV
+// 
+// 
+>>>>>>> 7d0f5c5f0c964261e086e1cfcb668369790dbe94

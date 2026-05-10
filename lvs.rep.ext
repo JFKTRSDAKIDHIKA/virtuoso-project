@@ -11,7 +11,11 @@
 
 REPORT FILE NAME:         lvs.rep.ext
 LAYOUT NAME:              /home/user1/Desktop/ic/inv.calibre.db ('inv')
+<<<<<<< HEAD
 CREATION TIME:            Mon May  4 13:35:51 2026
+=======
+CREATION TIME:            Thu May  7 13:22:55 2026
+>>>>>>> 7d0f5c5f0c964261e086e1cfcb668369790dbe94
 CURRENT DIRECTORY:        /home/user1/Desktop/ic
 USER NAME:                user1
 CALIBRE VERSION:          v2016.2_18.12    Fri May 6 16:05:49 PDT 2016

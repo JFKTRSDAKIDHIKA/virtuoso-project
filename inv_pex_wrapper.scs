@@ -1,0 +1,7 @@
+simulator lang=spectre
+
+include "/home/user1/Desktop/ic/distributed.dist"
+
+subckt subcircuit ( GND IN OUT VDD )
+XPEX ( VDD IN OUT GND ) INV
+ends subcircuit
