@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("ic" "LV_Bandgap_Reference_tb" "schematic" "spectre")
+descriptionText = "None"
