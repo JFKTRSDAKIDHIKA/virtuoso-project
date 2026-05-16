@@ -1,0 +1,427 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         OTA_for_LV_19.lvs.report
+LAYOUT NAME:              /home/user1/Desktop/ic/OTA_for_LV_19.sp ('OTA_for_LV_19')
+SOURCE NAME:              /home/user1/Desktop/ic/OTA_for_LV_19.src.net ('OTA_for_LV_19')
+RULE FILE:                /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+CREATION TIME:            Sat May 16 17:04:40 2026
+CURRENT DIRECTORY:        /home/user1/Desktop/ic
+USER NAME:                user1
+CALIBRE VERSION:          v2016.2_18.12    Fri May 6 16:05:49 PDT 2016
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        OTA_for_LV_19                 OTA_for_LV_19
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD" "SAVDD?" "?VDD?" "?VCC?" "?vcc?" "?vdd?"
+   LVS GROUND NAME                        "VSS" "SAVSS?" "?GND?" "?VSS?" "?vss?" "?gnd?"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    NONE
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  YES
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   LVS SPICE MULTIPLIER NAME              "M" "MR"
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        65536
+   // LVS SIGNATURE MAXIMUM
+   LVS FILTER UNUSED OPTION               AB RC RE RG
+   LVS REPORT OPTION                      A B C D S
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Device Type Map
+
+   LVS DEVICE TYPE                        NMOS "n18_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "n18_dnw_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "n18_dnw_4t_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        PMOS "p18_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        PMOS "p18_dnw_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        PMOS "p18_dnw_4t_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "n33_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "n33_dnw_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "n33_dnw_4t_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        PMOS "p33_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        PMOS "p33_dnw_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        PMOS "p33_dnw_4t_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "nnt18_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "nnt33_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "nmvt18_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        NMOS "nmvt33_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        PMOS "pmvt18_ckt" SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rnwaa_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rnwsti_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rpdif_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rndif_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rppo_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rppo_3t_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rnpo_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rnpo_3t_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rpdifsab_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rndifsab_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rpposab_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rpposab_3t_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rnposab_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rnposab_3t_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rhrpo_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "rhrpo_3t_ckt" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  pvar18_ckt  PARALLEL
+   LVS REDUCE  pvar33_ckt  PARALLEL
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Filter
+
+   LVS FILTER  D(parasitic_diobpw)  OPEN
+   LVS FILTER  D(parasitic_dnwdio)  OPEN
+   LVS FILTER  D(parasitic_nwdio)  OPEN
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(npg)  l l 5
+   TRACE PROPERTY  mn(npg)  w w 5
+   TRACE PROPERTY  mn(npd)  l l 5
+   TRACE PROPERTY  mn(npd)  w w 5
+   TRACE PROPERTY  mp(pl)  l l 5
+   TRACE PROPERTY  mp(pl)  w w 5
+   TRACE PROPERTY  mn(n18)  l l 5
+   TRACE PROPERTY  mn(n18)  w w 5
+   TRACE PROPERTY  mn(n33)  l l 5
+   TRACE PROPERTY  mn(n33)  w w 5
+   TRACE PROPERTY  mp(p18)  l l 5
+   TRACE PROPERTY  mp(p18)  w w 5
+   TRACE PROPERTY  mp(p33)  l l 5
+   TRACE PROPERTY  mp(p33)  w w 5
+   TRACE PROPERTY  mn(nnt18)  l l 5
+   TRACE PROPERTY  mn(nnt18)  w w 5
+   TRACE PROPERTY  mn(nnt33)  l l 5
+   TRACE PROPERTY  mn(nnt33)  w w 5
+   TRACE PROPERTY  mn(nmvt18)  l l 5
+   TRACE PROPERTY  mn(nmvt18)  w w 5
+   TRACE PROPERTY  mn(nmvt33)  l l 5
+   TRACE PROPERTY  mn(nmvt33)  w w 5
+   TRACE PROPERTY  mp(pmvt18)  l l 5
+   TRACE PROPERTY  mp(pmvt18)  w w 5
+   TRACE PROPERTY  n18_ckt  l l 5
+   TRACE PROPERTY  n18_ckt  w w 5
+   TRACE PROPERTY  n18_dnw_ckt  l l 5
+   TRACE PROPERTY  n18_dnw_ckt  w w 5
+   TRACE PROPERTY  n18_dnw_4t_ckt  l l 5
+   TRACE PROPERTY  n18_dnw_4t_ckt  w w 5
+   TRACE PROPERTY  p18_ckt  l l 5
+   TRACE PROPERTY  p18_ckt  w w 5
+   TRACE PROPERTY  p18_dnw_ckt  l l 5
+   TRACE PROPERTY  p18_dnw_ckt  w w 5
+   TRACE PROPERTY  p18_dnw_4t_ckt  l l 5
+   TRACE PROPERTY  p18_dnw_4t_ckt  w w 5
+   TRACE PROPERTY  n33_ckt  l l 5
+   TRACE PROPERTY  n33_ckt  w w 5
+   TRACE PROPERTY  n33_dnw_ckt  l l 5
+   TRACE PROPERTY  n33_dnw_ckt  w w 5
+   TRACE PROPERTY  n33_dnw_4t_ckt  l l 5
+   TRACE PROPERTY  n33_dnw_4t_ckt  w w 5
+   TRACE PROPERTY  p33_ckt  l l 5
+   TRACE PROPERTY  p33_ckt  w w 5
+   TRACE PROPERTY  p33_dnw_ckt  l l 5
+   TRACE PROPERTY  p33_dnw_ckt  w w 5
+   TRACE PROPERTY  p33_dnw_4t_ckt  l l 5
+   TRACE PROPERTY  p33_dnw_4t_ckt  w w 5
+   TRACE PROPERTY  nnt18_ckt  l l 5
+   TRACE PROPERTY  nnt18_ckt  w w 5
+   TRACE PROPERTY  nnt33_ckt  l l 5
+   TRACE PROPERTY  nnt33_ckt  w w 5
+   TRACE PROPERTY  nmvt18_ckt  l l 5
+   TRACE PROPERTY  nmvt18_ckt  w w 5
+   TRACE PROPERTY  nmvt33_ckt  l l 5
+   TRACE PROPERTY  nmvt33_ckt  w w 5
+   TRACE PROPERTY  pmvt18_ckt  l l 5
+   TRACE PROPERTY  pmvt18_ckt  w w 5
+   TRACE PROPERTY  m(c1)  l l 5
+   TRACE PROPERTY  m(c1)  w w 5
+   TRACE PROPERTY  m(c2)  l l 5
+   TRACE PROPERTY  m(c2)  w w 5
+   TRACE PROPERTY  pvar18_ckt  wr wr 5
+   TRACE PROPERTY  pvar18_ckt  lr lr 5
+   TRACE PROPERTY  pvar18_ckt  nf nf 0
+   TRACE PROPERTY  pvar33_ckt  wr wr 5
+   TRACE PROPERTY  pvar33_ckt  lr lr 5
+   TRACE PROPERTY  pvar33_ckt  nf nf 0
+   TRACE PROPERTY  d(pdio18)  a a 5
+   TRACE PROPERTY  d(pdio33)  a a 5
+   TRACE PROPERTY  d(ndio18)  a a 5
+   TRACE PROPERTY  d(ndio33)  a a 5
+   TRACE PROPERTY  d(nndio18)  a a 5
+   TRACE PROPERTY  d(nndio33)  a a 5
+   TRACE PROPERTY  d(nwdio)  a a 5
+   TRACE PROPERTY  d(diobpw)  a a 5
+   TRACE PROPERTY  d(dnwdio)  a a 5
+   TRACE PROPERTY  d(ndiomvt18)  a a 5
+   TRACE PROPERTY  d(ndiomvt33)  a a 5
+   TRACE PROPERTY  d(pdiomvt18)  a a 5
+   TRACE PROPERTY  q(pnp18a4)  a a 5
+   TRACE PROPERTY  q(pnp18a25)  a a 5
+   TRACE PROPERTY  q(pnp18a100)  a a 5
+   TRACE PROPERTY  q(pnp33a4)  a a 5
+   TRACE PROPERTY  q(pnp33a25)  a a 5
+   TRACE PROPERTY  q(pnp33a100)  a a 5
+   TRACE PROPERTY  q(npn18a4)  a a 5
+   TRACE PROPERTY  q(npn18a25)  a a 5
+   TRACE PROPERTY  q(npn18a100)  a a 5
+   TRACE PROPERTY  q(npn33a4)  a a 5
+   TRACE PROPERTY  q(npn33a25)  a a 5
+   TRACE PROPERTY  q(npn33a100)  a a 5
+   TRACE PROPERTY  pnp18a4_mis_ckt  area area 5
+   TRACE PROPERTY  pnp18a25_mis_ckt  area area 5
+   TRACE PROPERTY  pnp18a100_mis_ckt  area area 5
+   TRACE PROPERTY  pnp33a4_mis_ckt  area area 5
+   TRACE PROPERTY  pnp33a25_mis_ckt  area area 5
+   TRACE PROPERTY  pnp33a100_mis_ckt  area area 5
+   TRACE PROPERTY  npn18a4_mis_ckt  area area 5
+   TRACE PROPERTY  npn18a25_mis_ckt  area area 5
+   TRACE PROPERTY  npn18a100_mis_ckt  area area 5
+   TRACE PROPERTY  npn33a4_mis_ckt  area area 5
+   TRACE PROPERTY  npn33a25_mis_ckt  area area 5
+   TRACE PROPERTY  npn33a100_mis_ckt  area area 5
+   TRACE PROPERTY  rnwaa_ckt  w w 5
+   TRACE PROPERTY  rnwaa_ckt  l l 5
+   TRACE PROPERTY  rnwsti_ckt  w w 5
+   TRACE PROPERTY  rnwsti_ckt  l l 5
+   TRACE PROPERTY  rpdif_ckt  w w 5
+   TRACE PROPERTY  rpdif_ckt  l l 5
+   TRACE PROPERTY  rndif_ckt  w w 5
+   TRACE PROPERTY  rndif_ckt  l l 5
+   TRACE PROPERTY  rppo_ckt  w w 5
+   TRACE PROPERTY  rppo_ckt  l l 5
+   TRACE PROPERTY  rppo_3t_ckt  w w 5
+   TRACE PROPERTY  rppo_3t_ckt  l l 5
+   TRACE PROPERTY  rnpo_ckt  w w 5
+   TRACE PROPERTY  rnpo_ckt  l l 5
+   TRACE PROPERTY  rnpo_3t_ckt  w w 5
+   TRACE PROPERTY  rnpo_3t_ckt  l l 5
+   TRACE PROPERTY  rpdifsab_ckt  w w 5
+   TRACE PROPERTY  rpdifsab_ckt  l l 5
+   TRACE PROPERTY  rndifsab_ckt  w w 5
+   TRACE PROPERTY  rndifsab_ckt  l l 5
+   TRACE PROPERTY  rpposab_ckt  w w 5
+   TRACE PROPERTY  rpposab_ckt  l l 5
+   TRACE PROPERTY  rpposab_3t_ckt  w w 5
+   TRACE PROPERTY  rpposab_3t_ckt  l l 5
+   TRACE PROPERTY  rnposab_ckt  w w 5
+   TRACE PROPERTY  rnposab_ckt  l l 5
+   TRACE PROPERTY  rnposab_3t_ckt  w w 5
+   TRACE PROPERTY  rnposab_3t_ckt  l l 5
+   TRACE PROPERTY  r(rnwaa)  r r 5
+   TRACE PROPERTY  r(rnwsti)  r r 5
+   TRACE PROPERTY  r(rndif)  r r 5
+   TRACE PROPERTY  r(rndifsab)  r r 5
+   TRACE PROPERTY  r(rpdif)  r r 5
+   TRACE PROPERTY  r(rpdifsab)  r r 5
+   TRACE PROPERTY  r(rnpo)  r r 5
+   TRACE PROPERTY  r(rnpo_3t)  r r 5
+   TRACE PROPERTY  r(rnposab)  r r 5
+   TRACE PROPERTY  r(rnposab_3t)  r r 5
+   TRACE PROPERTY  r(rppo)  r r 5
+   TRACE PROPERTY  r(rppo_3t)  r r 5
+   TRACE PROPERTY  r(rpposab)  r r 5
+   TRACE PROPERTY  r(rpposab_3t)  r r 5
+   TRACE PROPERTY  rhrpo_ckt  w w 5
+   TRACE PROPERTY  rhrpo_ckt  l l 5
+   TRACE PROPERTY  rhrpo_3t_ckt  w w 5
+   TRACE PROPERTY  rhrpo_3t_ckt  l l 5
+   TRACE PROPERTY  r(rhrpo)  r r 5
+   TRACE PROPERTY  r(rhrpo_3t)  r r 5
+   TRACE PROPERTY  r(rm1)  r r 5
+   TRACE PROPERTY  r(rm2)  r r 5
+   TRACE PROPERTY  r(rm3)  r r 5
+   TRACE PROPERTY  r(rm4)  r r 5
+   TRACE PROPERTY  r(rm5)  r r 5
+   TRACE PROPERTY  r(rm6)  r r 5
+   TRACE PROPERTY  c(cpm)  c c 5
+   TRACE PROPERTY  c(mim)  c c 5
+   TRACE PROPERTY  mim_ckt  wr wr 5
+   TRACE PROPERTY  mim_ckt  lr lr 5
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         OTA_for_LV_19
+SOURCE CELL NAME:         OTA_for_LV_19
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              6         6
+
+ Nets:              10        10
+
+ Instances:         12         3    *    MN (4 pins)
+                    32         6    *    MP (4 pins)
+                     1         1         R (2 pins)
+                     4         0    *    D (2 pins)
+                ------    ------
+ Total Inst:        49        10
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              6         6
+
+ Nets:              10        10
+
+ Instances:          3         3         MN (4 pins)
+                     6         6         MP (4 pins)
+                     1         1         R (2 pins)
+                ------    ------
+ Total Inst:        10        10
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               6          6            0            0
+
+   Nets:               10         10            0            0
+
+   Instances:           3          3            0            0    MN(N33)
+                        6          6            0            0    MP(P33)
+                        1          1            0            0    R(RHRPO)
+                  -------    -------    ---------    ---------
+   Total Inst:         10         10            0            0
+
+
+o Statistics:
+
+   4 layout instances were filtered and their pins removed from adjoining nets.
+
+   42 layout mos transistors were reduced to 7.
+     35 mos transistors were deleted by parallel reduction.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD GND VN VP IBIAS VO
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

@@ -1,0 +1,36 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ic
+* Top Cell Name: OTA_for_LV_19
+* View Name:     schematic
+* Netlisted on:  May 16 17:04:39 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ic
+* Cell Name:    OTA_for_LV_19
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OTA_for_LV_19 GND IBIAS VDD VN VO VP
+*.PININFO VN:I VP:I VO:O GND:B IBIAS:B VDD:B
+MM8q VO net29 VO VO p33 W=85u L=1.75u m=1
+MM4 net23 VP net025 net025 p33 W=12u L=3u m=4
+MM3 net17 VN net025 net025 p33 W=12u L=3u m=4
+MM2 VO IBIAS VDD VDD p33 W=6u L=600n m=20
+MM1 IBIAS IBIAS VDD VDD p33 W=6u L=600n m=1
+MM0 net025 IBIAS VDD VDD p33 W=6u L=600n m=2
+MM7 VO net23 GND GND n33 W=8u L=1u m=8
+MM6 net23 net17 GND GND n33 W=6u L=4u m=2
+MM5 net17 net17 GND GND n33 W=6u L=4u m=2
+RR0 net29 net23 10.5254K $[rhrpo] $W=1u $L=10u M=1
+.ENDS
+

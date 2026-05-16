@@ -1,15 +1,15 @@
 #!tvf
 tvf::VERBATIM {
 //
-//  Rule file generated on Thu May 07 13:09:31 CST 2026
+//  Rule file generated on Sat May 16 17:04:12 CST 2026
 //     by Calibre Interactive - DRC (v2016.2_18.12)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "ota.gds"
-LAYOUT PRIMARY "ota"
+LAYOUT PATH  "OTA_for_LV_19.gds"
+LAYOUT PRIMARY "OTA_for_LV_19"
 LAYOUT SYSTEM GDSII
 
 DRC RESULTS DATABASE "drc_CAL.OUT" ASCII 

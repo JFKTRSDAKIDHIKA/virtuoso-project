@@ -1,0 +1,7 @@
+OTA_for_LV_19 1000
+ERC PATHCHK POWER && ! GROUND NOFLOAT
+0 0 0 May 16 17:04:40 2026                                                      
+ERC PATHCHK GROUND && ! POWER NOFLOAT
+0 0 0 May 16 17:04:40 2026                                                      
+ERC PATHCHK ! LABELED NOFLOAT
+0 0 0 May 16 17:04:40 2026                                                      

@@ -1,0 +1,568 @@
+
+*** Check Against Source on ('ic' 'OTA_for_LV_19' 'layout') - Sat May 16 13:01:34 2026 ***
+
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M0'
+but is '1.62p' on layout instance '|M0.1'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M0'
+but is '1.62p' on layout instance '|M0.2'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M1'
+but is '1.62p' on layout instance '|M1'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.1'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.10'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.11'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.13'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.14'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.15'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.16'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.17'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.18'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.2'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.20'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.3'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.4'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.6'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.7'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.8'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.9'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M5'
+but is '1.62p' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M5'
+but is '1.62p' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M6'
+but is '1.62p' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'ad' is set to '2.88p' on schematic instance 'M6'
+but is '1.62p' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'ad' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.1'.
+INFO (LX-1005): Parameter 'ad' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'ad' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'ad' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'ad' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'ad' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'ad' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'ad' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.8'.
+INFO (LX-1005): Parameter 'ad' is set to '5.76p' on schematic instance 'M3'
+but is '3.24p' on layout instance '|M3.1'.
+INFO (LX-1005): Parameter 'ad' is set to '5.76p' on schematic instance 'M3'
+but is '3.24p' on layout instance '|M3.2'.
+INFO (LX-1005): Parameter 'ad' is set to '5.76p' on schematic instance 'M3'
+but is '3.24p' on layout instance '|M3.3'.
+INFO (LX-1005): Parameter 'ad' is set to '5.76p' on schematic instance 'M3'
+but is '3.24p' on layout instance '|M3.4'.
+INFO (LX-1005): Parameter 'ad' is set to '5.76p' on schematic instance 'M4'
+but is '3.24p' on layout instance '|M4.1'.
+INFO (LX-1005): Parameter 'ad' is set to '5.76p' on schematic instance 'M4'
+but is '3.24p' on layout instance '|M4.2'.
+INFO (LX-1005): Parameter 'ad' is set to '5.76p' on schematic instance 'M4'
+but is '3.24p' on layout instance '|M4.3'.
+INFO (LX-1005): Parameter 'ad' is set to '5.76p' on schematic instance 'M4'
+but is '3.24p' on layout instance '|M4.4'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M0'
+but is '1.62p' on layout instance '|M0.1'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.10'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.11'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.12'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.13'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.14'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.16'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.17'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.18'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.19'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.2'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.3'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.4'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.5'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.7'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M2'
+but is '1.62p' on layout instance '|M2.9'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M5'
+but is '1.62p' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M5'
+but is '1.62p' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M6'
+but is '1.62p' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'as' is set to '2.88p' on schematic instance 'M6'
+but is '1.62p' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'as' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'as' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'as' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'as' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'as' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'as' is set to '3.84p' on schematic instance 'M7'
+but is '2.16p' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'as' is set to '5.76p' on schematic instance 'M3'
+but is '3.24p' on layout instance '|M3.1'.
+INFO (LX-1005): Parameter 'as' is set to '5.76p' on schematic instance 'M3'
+but is '3.24p' on layout instance '|M3.2'.
+INFO (LX-1005): Parameter 'as' is set to '5.76p' on schematic instance 'M3'
+but is '3.24p' on layout instance '|M3.3'.
+INFO (LX-1005): Parameter 'as' is set to '5.76p' on schematic instance 'M3'
+but is '3.24p' on layout instance '|M3.4'.
+INFO (LX-1005): Parameter 'as' is set to '5.76p' on schematic instance 'M4'
+but is '3.24p' on layout instance '|M4.1'.
+INFO (LX-1005): Parameter 'as' is set to '5.76p' on schematic instance 'M4'
+but is '3.24p' on layout instance '|M4.2'.
+INFO (LX-1005): Parameter 'as' is set to '5.76p' on schematic instance 'M4'
+but is '3.24p' on layout instance '|M4.3'.
+INFO (LX-1005): Parameter 'as' is set to '5.76p' on schematic instance 'M4'
+but is '3.24p' on layout instance '|M4.4'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M0'
+but is '-3' on layout instance '|M0.1'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '-5' on layout instance '|M2.7'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.11'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.13'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.16'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.18'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.2'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.4'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.9'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.10'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.12'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.14'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.17'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.19'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.3'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.5'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M3'
+but is '3' on layout instance '|M3.1'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M3'
+but is '3' on layout instance '|M3.4'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M3'
+but is '5' on layout instance '|M3.2'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M3'
+but is '5' on layout instance '|M3.3'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M4'
+but is '3' on layout instance '|M4.2'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M4'
+but is '3' on layout instance '|M4.3'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M4'
+but is '5' on layout instance '|M4.1'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M4'
+but is '5' on layout instance '|M4.4'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M5'
+but is '3' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M5'
+but is '5' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M6'
+but is '3' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M6'
+but is '5' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M7'
+but is '3' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M7'
+but is '3' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M7'
+but is '3' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M7'
+but is '5' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M7'
+but is '5' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'leftAbut' is set to '0' on schematic instance 'M7'
+but is '5' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M0'
+but is 'FALSE' on layout instance '|M0.2'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M1'
+but is 'FALSE' on layout instance '|M1'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M3'
+but is 'FALSE' on layout instance '|M3.1'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M3'
+but is 'FALSE' on layout instance '|M3.2'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M3'
+but is 'FALSE' on layout instance '|M3.3'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M3'
+but is 'FALSE' on layout instance '|M3.4'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M4'
+but is 'FALSE' on layout instance '|M4.1'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M4'
+but is 'FALSE' on layout instance '|M4.2'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M4'
+but is 'FALSE' on layout instance '|M4.3'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M4'
+but is 'FALSE' on layout instance '|M4.4'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M5'
+but is 'FALSE' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M5'
+but is 'FALSE' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M6'
+but is 'FALSE' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M6'
+but is 'FALSE' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M7'
+but is 'FALSE' on layout instance '|M7.1'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M7'
+but is 'FALSE' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M7'
+but is 'FALSE' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M7'
+but is 'FALSE' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M7'
+but is 'FALSE' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M7'
+but is 'FALSE' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M7'
+but is 'FALSE' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'leftTap' is set to 'TRUE' on schematic instance 'M7'
+but is 'FALSE' on layout instance '|M7.8'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M0'
+but is '6.54u' on layout instance '|M0.1'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M0'
+but is '6.54u' on layout instance '|M0.2'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M1'
+but is '6.54u' on layout instance '|M1'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.1'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.10'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.11'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.13'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.14'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.15'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.16'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.17'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.18'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.2'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.20'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.3'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.4'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.6'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.7'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.8'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.9'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M5'
+but is '6.54u' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M5'
+but is '6.54u' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M6'
+but is '6.54u' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'pd' is set to '12.96u' on schematic instance 'M6'
+but is '6.54u' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'pd' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.1'.
+INFO (LX-1005): Parameter 'pd' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'pd' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'pd' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'pd' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'pd' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'pd' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'pd' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.8'.
+INFO (LX-1005): Parameter 'pd' is set to '24.96u' on schematic instance 'M3'
+but is '12.54u' on layout instance '|M3.1'.
+INFO (LX-1005): Parameter 'pd' is set to '24.96u' on schematic instance 'M3'
+but is '12.54u' on layout instance '|M3.2'.
+INFO (LX-1005): Parameter 'pd' is set to '24.96u' on schematic instance 'M3'
+but is '12.54u' on layout instance '|M3.3'.
+INFO (LX-1005): Parameter 'pd' is set to '24.96u' on schematic instance 'M3'
+but is '12.54u' on layout instance '|M3.4'.
+INFO (LX-1005): Parameter 'pd' is set to '24.96u' on schematic instance 'M4'
+but is '12.54u' on layout instance '|M4.1'.
+INFO (LX-1005): Parameter 'pd' is set to '24.96u' on schematic instance 'M4'
+but is '12.54u' on layout instance '|M4.2'.
+INFO (LX-1005): Parameter 'pd' is set to '24.96u' on schematic instance 'M4'
+but is '12.54u' on layout instance '|M4.3'.
+INFO (LX-1005): Parameter 'pd' is set to '24.96u' on schematic instance 'M4'
+but is '12.54u' on layout instance '|M4.4'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M0'
+but is '6.54u' on layout instance '|M0.1'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.10'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.11'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.12'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.13'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.14'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.16'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.17'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.18'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.19'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.2'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.3'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.4'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.5'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.7'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M2'
+but is '6.54u' on layout instance '|M2.9'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M5'
+but is '6.54u' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M5'
+but is '6.54u' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M6'
+but is '6.54u' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'ps' is set to '12.96u' on schematic instance 'M6'
+but is '6.54u' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'ps' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'ps' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'ps' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'ps' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'ps' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'ps' is set to '16.96u' on schematic instance 'M7'
+but is '8.54u' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'ps' is set to '24.96u' on schematic instance 'M3'
+but is '12.54u' on layout instance '|M3.1'.
+INFO (LX-1005): Parameter 'ps' is set to '24.96u' on schematic instance 'M3'
+but is '12.54u' on layout instance '|M3.2'.
+INFO (LX-1005): Parameter 'ps' is set to '24.96u' on schematic instance 'M3'
+but is '12.54u' on layout instance '|M3.3'.
+INFO (LX-1005): Parameter 'ps' is set to '24.96u' on schematic instance 'M3'
+but is '12.54u' on layout instance '|M3.4'.
+INFO (LX-1005): Parameter 'ps' is set to '24.96u' on schematic instance 'M4'
+but is '12.54u' on layout instance '|M4.1'.
+INFO (LX-1005): Parameter 'ps' is set to '24.96u' on schematic instance 'M4'
+but is '12.54u' on layout instance '|M4.2'.
+INFO (LX-1005): Parameter 'ps' is set to '24.96u' on schematic instance 'M4'
+but is '12.54u' on layout instance '|M4.3'.
+INFO (LX-1005): Parameter 'ps' is set to '24.96u' on schematic instance 'M4'
+but is '12.54u' on layout instance '|M4.4'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M0'
+but is '3' on layout instance '|M0.1'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M0'
+but is '5' on layout instance '|M0.2'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M1'
+but is '-5' on layout instance '|M1'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '-3' on layout instance '|M2.6'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.1'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.10'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.14'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.15'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.17'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.3'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.7'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '3' on layout instance '|M2.8'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.11'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.13'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.16'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.18'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.2'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.20'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.4'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M2'
+but is '5' on layout instance '|M2.9'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M3'
+but is '-3' on layout instance '|M3.1'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M3'
+but is '-3' on layout instance '|M3.2'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M3'
+but is '3' on layout instance '|M3.3'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M3'
+but is '5' on layout instance '|M3.4'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M4'
+but is '-3' on layout instance '|M4.4'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M4'
+but is '-5' on layout instance '|M4.3'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M4'
+but is '3' on layout instance '|M4.1'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M4'
+but is '5' on layout instance '|M4.2'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M5'
+but is '-3' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M5'
+but is '-5' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M6'
+but is '3' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M6'
+but is '5' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M7'
+but is '3' on layout instance '|M7.1'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M7'
+but is '3' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M7'
+but is '3' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M7'
+but is '3' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M7'
+but is '5' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M7'
+but is '5' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M7'
+but is '5' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'rightAbut' is set to '0' on schematic instance 'M7'
+but is '5' on layout instance '|M7.8'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M0'
+but is 'Detached' on layout instance '|M0.2'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M1'
+but is 'Detached' on layout instance '|M1'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M3'
+but is 'Integrated' on layout instance '|M3.1'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M3'
+but is 'Integrated' on layout instance '|M3.2'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M3'
+but is 'Integrated' on layout instance '|M3.3'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M3'
+but is 'Integrated' on layout instance '|M3.4'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M4'
+but is 'Integrated' on layout instance '|M4.1'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M4'
+but is 'Integrated' on layout instance '|M4.2'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M4'
+but is 'Integrated' on layout instance '|M4.3'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M4'
+but is 'Integrated' on layout instance '|M4.4'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M5'
+but is 'Detached' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M5'
+but is 'Detached' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M6'
+but is 'Detached' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M6'
+but is 'Detached' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M7'
+but is 'Detached' on layout instance '|M7.1'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M7'
+but is 'Detached' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M7'
+but is 'Detached' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M7'
+but is 'Detached' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M7'
+but is 'Detached' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M7'
+but is 'Detached' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M7'
+but is 'Detached' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'tap' is set to 'None' on schematic instance 'M7'
+but is 'Detached' on layout instance '|M7.8'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M0'
+but is 'TRUE' on layout instance '|M0.2'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M1'
+but is 'TRUE' on layout instance '|M1'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M5'
+but is 'TRUE' on layout instance '|M5.1'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M5'
+but is 'TRUE' on layout instance '|M5.2'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M6'
+but is 'TRUE' on layout instance '|M6.1'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M6'
+but is 'TRUE' on layout instance '|M6.2'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M7'
+but is 'TRUE' on layout instance '|M7.1'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M7'
+but is 'TRUE' on layout instance '|M7.2'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M7'
+but is 'TRUE' on layout instance '|M7.3'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M7'
+but is 'TRUE' on layout instance '|M7.4'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M7'
+but is 'TRUE' on layout instance '|M7.5'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M7'
+but is 'TRUE' on layout instance '|M7.6'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M7'
+but is 'TRUE' on layout instance '|M7.7'.
+INFO (LX-1005): Parameter 'topTap' is set to 'FALSE' on schematic instance 'M7'
+but is 'TRUE' on layout instance '|M7.8'.
+INFO (LX-1001): Layout instance 'I6' has no corresponding schematic instance.
+INFO (LX-1001): Layout instance 'I7' has no corresponding schematic instance.
+
+*** Check Against Source complete. ***
+

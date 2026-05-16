@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/OTA_for_LV_19.dv
+dv_start matched                                  
+dv_cell {OTA_for_LV_19} {OTA_for_LV_19} matched
+dv_obj_count -transformed_nets {10 10} -transformed_inst {10 10} -transformed_port {6 6}
+dv_end

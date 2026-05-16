@@ -1,0 +1,73 @@
+OTA_for_LV_19 1000
+pathchk_bad
+0 0 2 May 16 17:04:40 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+nodes without a path to both power and ground
+ptd_to_power
+0 0 2 May 16 17:04:40 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+Pwell pick-up layer ptd texted with power net.
+ntd_to_ground
+0 0 2 May 16 17:04:40 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+Nwell pick-up layer ntd texted with ground net.
+mntopg
+0 0 2 May 16 17:04:40 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+NMOS connect to both Power and Ground.
+mptopg
+0 0 2 May 16 17:04:40 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+PMOS connect to both Power and Ground.
+ptap_outside_dnw_non_ground
+0 0 2 May 16 17:04:40 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+pwell pick-up layer connect to non-ground nets.
+nwell_not_to_power
+6 6 2 May 16 17:04:40 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+nwell is not connecting to power net
+p 1 14
+-12590 26156
+13210 26156
+13210 57166
+8030 57166
+8030 27796
+-7410 27796
+-7410 40656
+8030 40656
+8030 42666
+-7410 42666
+-7410 55526
+8030 55526
+8030 57166
+-12590 57166
+p 2 4
+35020 25641
+41870 25641
+41870 115025
+35020 115025
+p 3 4
+-7410 27796
+-2690 27796
+-2690 40656
+-7410 40656
+p 4 4
+-3550 27796
+850 27796
+850 40656
+-3550 40656
+p 5 4
+-10 27796
+4390 27796
+4390 40656
+-10 40656
+p 6 4
+3530 27796
+8030 27796
+8030 40656
+3530 40656
+pwell_not_to_ground
+0 0 2 May 16 17:04:40 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+pwell is not connecting to ground net

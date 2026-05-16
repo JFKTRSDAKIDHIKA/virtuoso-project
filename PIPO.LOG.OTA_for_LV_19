@@ -1,0 +1,95 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 10/30/2014 22:41 (sjfnl119) $
+          : sub-version  IC6.1.6-64b.500.9 
+Started at: 16-May-2026  17:04:38
+User Name : user1
+Host Name : iceda
+Directory : /home/user1/Desktop/ic
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/user1/Desktop/ic/OTA_for_LV_19.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/smic18mmrf/smic18mmrf.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 ic
+strmFile                                /home/user1/Desktop/ic/OTA_for_LV_19.calibre.db
+topCell                                 OTA_for_LV_19
+view                                    layout
+runDir                                  /home/user1/Desktop/ic/
+logFile                                 PIPO.LOG.OTA_for_LV_19
+summaryFile                             PIPO.SUM.OTA_for_LV_19
+layerMap                                /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/smic18mmrf/smic18mmrf.layermap
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778922278740
+INFO (XSTRM-223): 2. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778922278741
+INFO (XSTRM-223): 3. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778922278742
+INFO (XSTRM-223): 4. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278743
+INFO (XSTRM-223): 5. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278744
+INFO (XSTRM-223): 6. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278745
+INFO (XSTRM-223): 7. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278746
+INFO (XSTRM-223): 8. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278747
+INFO (XSTRM-223): 9. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278748
+INFO (XSTRM-223): 10. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278749
+INFO (XSTRM-223): 11. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7789222787410
+INFO (XSTRM-223): 12. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7789222787411
+INFO (XSTRM-223): 13. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278740
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 14. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778922278741
+INFO (XSTRM-223): 15. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278742
+INFO (XSTRM-223): 16. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278743
+INFO (XSTRM-223): 17. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_778922278744
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'text:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 18. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278745
+INFO (XSTRM-223): 19. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278746
+INFO (XSTRM-223): 20. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778922278747
+INFO (XSTRM-223): 21. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778922278748
+INFO (XSTRM-223): 22. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278749
+INFO (XSTRM-223): 23. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789222787410
+INFO (XSTRM-223): 24. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787411
+INFO (XSTRM-223): 25. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787412
+INFO (XSTRM-223): 26. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789222787413
+INFO (XSTRM-223): 27. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789222787414
+INFO (XSTRM-223): 28. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787415
+INFO (XSTRM-223): 29. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787416
+INFO (XSTRM-223): 30. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787417
+INFO (XSTRM-223): 31. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789222787418
+INFO (XSTRM-223): 32. Translating cellView ic/OTA_for_LV_19/layout as STRUCTURE OTA_for_LV_19
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (-4235, 42666). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (2845, 40656). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (2845, 42666). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (-4235, 40656). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+
+Summary of Objects Translated:
+	Scalar Instances:                       45
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  22
+	Rectangles:                             2176
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           115
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               72
+	Text:                                   60
+	TextDisplay:                            0
+	Cells:                                  32
+
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 7180KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.
