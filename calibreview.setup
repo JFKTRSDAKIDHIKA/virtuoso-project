@@ -1,8 +1,8 @@
-calibre_view_netlist_file : /home/user1/Desktop/ic/distributed.dist
+calibre_view_netlist_file : /home/user1/Desktop/ic/OTA_for_LV_19.pex.netlist
 output_library : ic
 schematic_library : ic
-cell_name : INV
-cellmap_file : /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/xRC/rulefiles/TYPICAL/calview.cellmap
+cell_name : OTA_FOR_LV_19
+cellmap_file : /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/xRC/rulefiles/CMAX/calview.cellmap
 calibreview_log_file : ./calview.log
 calibreview_name : calibre
 calibreview_type : schematic
@@ -16,5 +16,5 @@ magnify_parasitics_by : 1.000000
 device_placement : layout_location
 parasitic_placement : arrayed
 show_parasitic_polygons : off
-open_calibreview : read_mode
+open_calibreview : don't_open
 generate_spectre_netlist : off

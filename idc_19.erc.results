@@ -1,0 +1,77 @@
+idc_19 1000
+pathchk_bad
+0 0 2 May 17 11:58:20 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+nodes without a path to both power and ground
+ptd_to_power
+0 0 2 May 17 11:58:20 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+Pwell pick-up layer ptd texted with power net.
+ntd_to_ground
+0 0 2 May 17 11:58:20 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+Nwell pick-up layer ntd texted with ground net.
+mntopg
+0 0 2 May 17 11:58:20 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+NMOS connect to both Power and Ground.
+mptopg
+0 0 2 May 17 11:58:20 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+PMOS connect to both Power and Ground.
+ptap_outside_dnw_non_ground
+2 2 2 May 17 11:58:20 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+pwell pick-up layer connect to non-ground nets.
+p 1 10
+348 40113
+7328 40113
+7328 48971
+6908 48971
+6908 40533
+768 40533
+768 48551
+6908 48551
+6908 48971
+348 48971
+p 2 10
+38363 25877
+64423 25877
+64423 34711
+64003 34711
+64003 26297
+38783 26297
+38783 34291
+64003 34291
+64003 34711
+38363 34711
+nwell_not_to_power
+0 0 2 May 17 11:58:20 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+nwell is not connecting to power net
+pwell_not_to_ground
+2 2 2 May 17 11:58:20 2026                                                      
+Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+pwell is not connecting to ground net
+p 1 10
+348 40113
+7328 40113
+7328 48971
+6908 48971
+6908 40533
+768 40533
+768 48551
+6908 48551
+6908 48971
+348 48971
+p 2 10
+38363 25877
+64423 25877
+64423 34711
+64003 34711
+64003 26297
+38783 26297
+38783 34291
+64003 34291
+64003 34711
+38363 34711

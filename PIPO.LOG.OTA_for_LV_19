@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.6-64b 10/30/2014 22:41 (sjfnl119) $
           : sub-version  IC6.1.6-64b.500.9 
-Started at: 16-May-2026  17:04:38
+Started at: 17-May-2026  10:33:05
 User Name : user1
 Host Name : iceda
 Directory : /home/user1/Desktop/ic
@@ -26,39 +26,39 @@ layerMap                                /home/user1/smic18mse_1833_1P6M_5Ia_1TMa
 case                                    Preserve
 convertDot                              node
 
-INFO (XSTRM-223): 1. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778922278740
-INFO (XSTRM-223): 2. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778922278741
-INFO (XSTRM-223): 3. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778922278742
-INFO (XSTRM-223): 4. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278743
-INFO (XSTRM-223): 5. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278744
-INFO (XSTRM-223): 6. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278745
-INFO (XSTRM-223): 7. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278746
-INFO (XSTRM-223): 8. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278747
-INFO (XSTRM-223): 9. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278748
-INFO (XSTRM-223): 10. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778922278749
-INFO (XSTRM-223): 11. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7789222787410
-INFO (XSTRM-223): 12. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7789222787411
-INFO (XSTRM-223): 13. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278740
+INFO (XSTRM-223): 1. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778985185020
+INFO (XSTRM-223): 2. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778985185021
+INFO (XSTRM-223): 3. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_778985185022
+INFO (XSTRM-223): 4. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778985185023
+INFO (XSTRM-223): 5. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778985185024
+INFO (XSTRM-223): 6. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778985185025
+INFO (XSTRM-223): 7. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778985185026
+INFO (XSTRM-223): 8. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778985185027
+INFO (XSTRM-223): 9. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778985185028
+INFO (XSTRM-223): 10. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_778985185029
+INFO (XSTRM-223): 11. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7789851850210
+INFO (XSTRM-223): 12. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7789851850211
+INFO (XSTRM-223): 13. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778985185020
 WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
-INFO (XSTRM-223): 14. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778922278741
-INFO (XSTRM-223): 15. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278742
-INFO (XSTRM-223): 16. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278743
-INFO (XSTRM-223): 17. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_778922278744
+INFO (XSTRM-223): 14. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778985185021
+INFO (XSTRM-223): 15. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778985185022
+INFO (XSTRM-223): 16. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778985185023
+INFO (XSTRM-223): 17. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_778985185024
 WARNING (XSTRM-35): The objects in the layer-purpose pair 'text:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
-INFO (XSTRM-223): 18. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278745
-INFO (XSTRM-223): 19. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278746
-INFO (XSTRM-223): 20. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778922278747
-INFO (XSTRM-223): 21. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778922278748
-INFO (XSTRM-223): 22. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778922278749
-INFO (XSTRM-223): 23. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789222787410
-INFO (XSTRM-223): 24. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787411
-INFO (XSTRM-223): 25. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787412
-INFO (XSTRM-223): 26. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789222787413
-INFO (XSTRM-223): 27. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789222787414
-INFO (XSTRM-223): 28. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787415
-INFO (XSTRM-223): 29. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787416
-INFO (XSTRM-223): 30. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789222787417
-INFO (XSTRM-223): 31. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789222787418
+INFO (XSTRM-223): 18. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778985185025
+INFO (XSTRM-223): 19. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778985185026
+INFO (XSTRM-223): 20. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778985185027
+INFO (XSTRM-223): 21. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_778985185028
+INFO (XSTRM-223): 22. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_778985185029
+INFO (XSTRM-223): 23. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789851850210
+INFO (XSTRM-223): 24. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789851850211
+INFO (XSTRM-223): 25. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789851850212
+INFO (XSTRM-223): 26. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789851850213
+INFO (XSTRM-223): 27. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789851850214
+INFO (XSTRM-223): 28. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789851850215
+INFO (XSTRM-223): 29. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789851850216
+INFO (XSTRM-223): 30. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7789851850217
+INFO (XSTRM-223): 31. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7789851850218
 INFO (XSTRM-223): 32. Translating cellView ic/OTA_for_LV_19/layout as STRUCTURE OTA_for_LV_19
 INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (-4235, 42666). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
@@ -91,5 +91,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  32
 
-Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 7180KB
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 7112KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.

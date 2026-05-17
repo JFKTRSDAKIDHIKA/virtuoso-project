@@ -1,0 +1,40 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ic
+* Top Cell Name: idc_19
+* View Name:     schematic
+* Netlisted on:  May 17 11:58:19 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ic
+* Cell Name:    idc_19
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT idc_19 GND IBIAS VDD
+*.PININFO GND:B IBIAS:B VDD:B
+MM7 VDD net7 VDD VDD p33 W=5u L=10u m=2
+MM6 net7 net7 VDD VDD p33 W=5u L=10u m=2
+MM5 net52 net7 VDD VDD p33 W=5u L=10u m=2
+MM4 net35 GND net13 VDD p33 W=220n L=10u m=1
+MM3 net13 GND net17 VDD p33 W=220n L=10u m=1
+MM2 net17 GND net21 VDD p33 W=220n L=10u m=1
+MM1 net21 GND net31 VDD p33 W=220n L=10u m=1
+MM0 net31 GND VDD VDD p33 W=220n L=10u m=1
+MM12 net7 net35 GND GND n33 W=5u L=1u m=1
+MM11 net35 net52 GND GND n33 W=5u L=1u m=1
+MM10 IBIAS net52 GND GND n33 W=5u L=5u m=1
+MM9 net7 net52 net45 GND n33 W=5u L=5u m=4
+MM8 net52 net52 GND GND n33 W=5u L=5u m=1
+RR0 net45 GND 69.7041K $[rhrpo] $W=1u $L=66u M=1
+.ENDS
+

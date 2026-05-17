@@ -1,6 +1,6 @@
 CADENCE IHNL01070
 $model
-ic/OTA_for_LV_19/schematic OTA_for_LV_19
+ic/idc_19/schematic idc_19
 $endmodel
 $net
 $endnet

@@ -1,18 +1,18 @@
 *lvsRulesFile: /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/LVS/SMIC_CalLVS_018MSE_1833_V1.11_0.lvs
 *lvsRulesFileLastLoad: 1777785892
 *lvsRunDir: /home/user1/Desktop/ic
-*lvsLayoutPaths: OTA_for_LV_19.calibre.db
+*lvsLayoutPaths: idc_19.calibre.db
 *lvsExtraLayoutPaths: 
 *lvsLayoutSystem: GDSII
-*lvsLayoutPrimary: OTA_for_LV_19
+*lvsLayoutPrimary: idc_19
 *lvsLayoutLibrary: ic
 *lvsLayoutView: layout
 *lvsLayoutGetFromViewer: 1
-*lvsSourcePath: OTA_for_LV_19.src.net
+*lvsSourcePath: idc_19.src.net
 *lvsVlogSourcePath: 
 *lvsExtraSourcePaths: 
 *lvsSourceSystem: SPICE
-*lvsSourcePrimary: OTA_for_LV_19
+*lvsSourcePrimary: idc_19
 *lvsSourceLibrary: ic
 *lvsSourceView: schematic
 *lvsSourceGetFromViewer: 1
@@ -21,7 +21,7 @@
 *lvsSourceView2: 
 *lvsSourceGetFromViewer2: 0
 *lvsRunWhat: LVN
-*lvsSpiceFile: OTA_for_LV_19.sp
+*lvsSpiceFile: idc_19.sp
 *lvsAutoMatch: 0
 *lvsPlacementMatch: 0
 *lvsUseHCells: 0
@@ -45,8 +45,8 @@
 *lvsReduceParallelMOS: 1
 *lvsShortEquivalentNodes: 0
 *lvsRunERC: 1
-*lvsERCDatabase: OTA_for_LV_19.erc.results
-*lvsERCSummaryFile: OTA_for_LV_19.erc.summary
+*lvsERCDatabase: idc_19.erc.results
+*lvsERCSummaryFile: idc_19.erc.summary
 *lvsERCAppendSummary: 0
 *lvsERCCellName: 0
 *lvsERCMaxResultsAll: 0
@@ -65,7 +65,7 @@
 *lvsTemplate_HF: 
 *lvsTemplate_IS: -1
 *lvsLayoutPrecision: 1000
-*lvsReportFile: OTA_for_LV_19.lvs.report
+*lvsReportFile: idc_19.lvs.report
 *lvsViewReport: 1
 *lvsViewExtractionReport: 0
 *lvsViewLVSSummaryFile: 0
@@ -304,7 +304,7 @@
 *cmnFDILayoutView2: 
 *cmnFDILEFLayoutPaths: 
 *cmnFDILEFLayoutPaths2: 
-*cmnFDIDEFLayoutPath: OTA_for_LV_19.def
+*cmnFDIDEFLayoutPath: idc_19.def
 *cmnFDIDEFLayoutPath2: 
 *cmnFDIDEFDirectories: 
 *cmnFDIDEFDirectories2: 

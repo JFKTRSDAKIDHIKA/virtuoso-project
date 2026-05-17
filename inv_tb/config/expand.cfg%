@@ -1,20 +1,15 @@
-//Revision 5
-//NOTE
-// Default template for spectre
-// Note:
-//      Please remember to replace Top Cell Library, Cell, and View
-//      fields with the actual names used by your design.
-//END_NOTE
-
+//Revision 3
 config inv_tb;
 design ic.inv_tb:schematic;
-liblist myLib, ic;
+liblist US_8ths, ahdlLib, analogLib, basic, functional, ic, rfExamples, rfLib, smic18mmrf;
 
-viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice;
-stoplist spectre;
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+
+constraintviewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
 
 
-cell ic.inv binding :spectreText;
+cell ic.inv binding :calibre;
 
 
 endconfig

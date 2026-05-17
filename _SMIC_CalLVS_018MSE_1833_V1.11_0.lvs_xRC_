@@ -1,32 +1,24 @@
 //
-<<<<<<< HEAD
-//  Rule file generated on Mon May 04 13:35:46 CST 2026
-=======
-//  Rule file generated on Thu May 07 13:22:52 CST 2026
->>>>>>> 7d0f5c5f0c964261e086e1cfcb668369790dbe94
+//  Rule file generated on Sun May 17 10:33:03 CST 2026
 //     by Calibre Interactive - PEX (v2016.2_18.12)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "/home/user1/Desktop/ic/inv.calibre.db"
-LAYOUT PRIMARY "inv"
+LAYOUT PATH  "OTA_for_LV_19.calibre.db"
+LAYOUT PRIMARY "OTA_for_LV_19"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/user1/Desktop/ic/netlist"
-SOURCE PRIMARY "xxx"
+SOURCE PATH "/home/user1/Desktop/ic/OTA_for_LV_19.src.net"
+SOURCE PRIMARY "OTA_for_LV_19"
 SOURCE SYSTEM SPICE
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC CCI
 
-LVS REPORT "lvs.rep"
+LVS REPORT "OTA_for_LV_19.lvs.report"
 
-<<<<<<< HEAD
-PEX NETLIST "distributed.dist" CALIBREVIEW 1 LAYOUTNAMES GROUND "VSS" LOCATION 
-=======
-PEX NETLIST "distributed.dist" SPECTRE 1 LAYOUTNAMES GROUND "VSS" 
->>>>>>> 7d0f5c5f0c964261e086e1cfcb668369790dbe94
+PEX NETLIST "OTA_for_LV_19.pex.netlist" CALIBREVIEW 1 LAYOUTNAMES GROUND "VSS" LOCATION 
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal1 TC1 0.00339 TC2 -6.25e-07
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal2 TC1 0.00337 TC2 -6.37e-07
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal3 TC1 0.00337 TC2 -6.37e-07

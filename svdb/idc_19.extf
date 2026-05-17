@@ -1,0 +1,15 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1778990300 1778990300
+lvs_ExtOutFile RUNDIR /home/user1/Desktop/ic
+lvs_ExtOutFile RULES_FILE /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 3 0 0 0 0 0}
+lvs_ExtInfoErcSummary {8 4 4 0 0 3 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/user1/Desktop/ic/idc_19.sp
+lvs_ExtOutFile EXTRACTION_REPORT idc_19.lvs.report.ext
+lvs_ExtOutFile SOFTCHK_DATABASE svdb/idc_19.softchk
+lvs_ExtOutFile ERC_PATHCHK_DATABASE svdb/idc_19.pathchk.erc
+lvs_ExtOutFile ERC_PATHCHK_REPORT svdb/idc_19.pathchk.rep
+lvs_ExtOutFile ERC_DATABASE idc_19.erc.results
+lvs_ExtOutFile ERC_SUMMARY idc_19.erc.summary

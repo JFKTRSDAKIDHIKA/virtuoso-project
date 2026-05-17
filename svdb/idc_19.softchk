@@ -1,0 +1,105 @@
+idc_19 1000
+SOFTCHK nwell CONTACT.
+0 0 0 May 17 11:58:20 2026                                                      
+SOFTCHK dnwell CONTACT.
+0 0 0 May 17 11:58:20 2026                                                      
+SOFTCHK pwell CONTACT.
+2 2 6 May 17 11:58:20 2026                                                      
+Net GND is selected for stamping.
+Rejected nets: 8 9
+Net GND is selected for stamping.
+Rejected nets: 8 9
+Net GND is selected for stamping.
+Rejected nets: 8 9
+p 1 10
+DN 8
+348 40113
+7328 40113
+7328 48971
+6908 48971
+6908 40533
+768 40533
+768 48551
+6908 48551
+6908 48971
+348 48971
+p 2 10
+DN 9
+38363 25877
+64423 25877
+64423 34711
+64003 34711
+64003 26297
+38783 26297
+38783 34291
+64003 34291
+64003 34711
+38363 34711
+SOFTCHK pnpcoll CONTACT.
+0 0 0 May 17 11:58:20 2026                                                      
+SOFTCHK rwell CONTACT.
+0 0 0 May 17 11:58:20 2026                                                      
+SOFTCHK psub_all CONTACT.
+2 2 6 May 17 11:58:20 2026                                                      
+Net GND is selected for stamping.
+Rejected nets: 8 9
+Net GND is selected for stamping.
+Rejected nets: 8 9
+Net GND is selected for stamping.
+Rejected nets: 8 9
+p 1 10
+DN 8
+348 40113
+7328 40113
+7328 48971
+6908 48971
+6908 40533
+768 40533
+768 48551
+6908 48551
+6908 48971
+348 48971
+p 2 10
+DN 9
+38363 25877
+64423 25877
+64423 34711
+64003 34711
+64003 26297
+38783 26297
+38783 34291
+64003 34291
+64003 34711
+38363 34711
+SOFTCHK bulk_all CONTACT.
+2 2 6 May 17 11:58:20 2026                                                      
+Net GND is selected for stamping.
+Rejected nets: 8 9
+Net GND is selected for stamping.
+Rejected nets: 8 9
+Net GND is selected for stamping.
+Rejected nets: 8 9
+p 1 10
+DN 8
+348 40113
+7328 40113
+7328 48971
+6908 48971
+6908 40533
+768 40533
+768 48551
+6908 48551
+6908 48971
+348 48971
+p 2 10
+DN 9
+38363 25877
+64423 25877
+64423 34711
+64003 34711
+64003 26297
+38783 26297
+38783 34291
+64003 34291
+64003 34711
+38363 34711

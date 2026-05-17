@@ -1,0 +1,15 @@
+//Revision 1
+config OTA_for_LV_19_tb;
+design ic.OTA_for_LV_19_tb:schematic;
+liblist US_8ths, ahdlLib, analogLib, basic, functional, ic, rfExamples, rfLib, smic18mmrf;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+
+constraintviewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+
+
+cell ic.OTA_for_LV_19 binding :calibre;
+
+
+endconfig

@@ -1,0 +1,149 @@
+* Calibre pushdown separate-properties (back-annotation) data
+***************************************
+*
+* These lvs-actionable properties, indexed by DEVICE element(model) will be kept in the netlist:
+*
+* KEEP_PROP_BEGIN
+* KEEP_PROP C(CPM) C
+* KEEP_PROP D(diobpw) A
+* KEEP_PROP D(dnwdio) A
+* KEEP_PROP D(ndio18) A
+* KEEP_PROP D(ndio33) A
+* KEEP_PROP D(ndiomvt18) A
+* KEEP_PROP D(ndiomvt33) A
+* KEEP_PROP D(nndio18) A
+* KEEP_PROP D(nndio33) A
+* KEEP_PROP D(nwdio) A
+* KEEP_PROP D(pdio18) A
+* KEEP_PROP D(pdio33) A
+* KEEP_PROP D(pdiomvt18) A
+* KEEP_PROP M(C1) L W
+* KEEP_PROP M(C2) L W
+* KEEP_PROP MN(n18) L W
+* KEEP_PROP MN(n33) L W
+* KEEP_PROP MN(nmvt18) L W
+* KEEP_PROP MN(nmvt33) L W
+* KEEP_PROP MN(nnt18) L W
+* KEEP_PROP MN(nnt33) L W
+* KEEP_PROP MN(NPD) L W
+* KEEP_PROP MN(NPG) L W
+* KEEP_PROP MP(p18) L W
+* KEEP_PROP MP(p33) L W
+* KEEP_PROP MP(PL) L W
+* KEEP_PROP MP(pmvt18) L W
+* KEEP_PROP R(rhrpo) W L
+* KEEP_PROP R(rhrpo_3t) W L
+* KEEP_PROP R(rm1) W L
+* KEEP_PROP R(rm2) W L
+* KEEP_PROP R(rm3) W L
+* KEEP_PROP R(rm4) W L
+* KEEP_PROP R(rm5) W L
+* KEEP_PROP R(rm6) W L
+* KEEP_PROP R(rndif) W L
+* KEEP_PROP R(rndifsab) W L
+* KEEP_PROP R(rnpo) W L
+* KEEP_PROP R(rnpo_3t) W L
+* KEEP_PROP R(rnposab) W L
+* KEEP_PROP R(rnposab_3t) W L
+* KEEP_PROP R(rnwaa) W L
+* KEEP_PROP R(rnwsti) W L
+* KEEP_PROP R(rpdif) W L
+* KEEP_PROP R(rpdifsab) W L
+* KEEP_PROP R(rppo) W L
+* KEEP_PROP R(rppo_3t) W L
+* KEEP_PROP R(rpposab) W L
+* KEEP_PROP R(rpposab_3t) W L
+* KEEP_PROP mim_ckt WR LR
+* KEEP_PROP n18_ckt L W
+* KEEP_PROP n18_dnw_4t_ckt L W
+* KEEP_PROP n18_dnw_ckt L W
+* KEEP_PROP n33_ckt L W
+* KEEP_PROP n33_dnw_4t_ckt L W
+* KEEP_PROP n33_dnw_ckt L W
+* KEEP_PROP nmvt18_ckt L W
+* KEEP_PROP nmvt33_ckt L W
+* KEEP_PROP nnt18_ckt L W
+* KEEP_PROP nnt33_ckt L W
+* KEEP_PROP p18_ckt L W
+* KEEP_PROP p18_dnw_4t_ckt L W
+* KEEP_PROP p18_dnw_ckt L W
+* KEEP_PROP p33_ckt L W
+* KEEP_PROP p33_dnw_4t_ckt L W
+* KEEP_PROP p33_dnw_ckt L W
+* KEEP_PROP pmvt18_ckt L W
+* KEEP_PROP pvar18_ckt WR LR NF
+* KEEP_PROP pvar33_ckt WR LR NF
+* KEEP_PROP rhrpo_3t_ckt W L
+* KEEP_PROP rhrpo_ckt W L
+* KEEP_PROP rndif_ckt W L
+* KEEP_PROP rndifsab_ckt W L
+* KEEP_PROP rnpo_3t_ckt W L
+* KEEP_PROP rnpo_ckt W L
+* KEEP_PROP rnposab_3t_ckt W L
+* KEEP_PROP rnposab_ckt W L
+* KEEP_PROP rnwaa_ckt W L
+* KEEP_PROP rnwsti_ckt W L
+* KEEP_PROP rpdif_ckt W L
+* KEEP_PROP rpdifsab_ckt W L
+* KEEP_PROP rppo_3t_ckt W L
+* KEEP_PROP rppo_ckt W L
+* KEEP_PROP rpposab_3t_ckt W L
+* KEEP_PROP rpposab_ckt W L
+* KEEP_PROP_END
+*
+.SUBCKT n33_CDNS_7789851850214
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT n33_CDNS_7789851850213
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_778985185020
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_778985185029
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_2
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_7789851850217
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M1_GT_CDNS_778985185020
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_7789851850211
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT n33_CDNS_7789851850218
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_778985185025
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_778985185026
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_7789851850212
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT OTA_for_LV_19
+* nothing transcripted
+.ENDS
+***************************************
