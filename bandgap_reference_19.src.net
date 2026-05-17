@@ -1,0 +1,78 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ic
+* Top Cell Name: bandgap_reference_19
+* View Name:     schematic
+* Netlisted on:  May 17 15:19:10 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ic
+* Cell Name:    OTA_for_LV_19
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OTA_for_LV_19 GND IBIAS VDD VN VO VP
+*.PININFO VN:I VP:I VO:O GND:B IBIAS:B VDD:B
+MM8q VO net29 VO VO p33 W=85u L=1.75u m=1
+MM4 net23 VP net025 net025 p33 W=12u L=3u m=4
+MM3 net17 VN net025 net025 p33 W=12u L=3u m=4
+MM2 VO IBIAS VDD VDD p33 W=6u L=600n m=20
+MM1 IBIAS IBIAS VDD VDD p33 W=6u L=600n m=1
+MM0 net025 IBIAS VDD VDD p33 W=6u L=600n m=2
+MM7 VO net23 GND GND n33 W=8u L=1u m=8
+MM6 net23 net17 GND GND n33 W=6u L=4u m=2
+MM5 net17 net17 GND GND n33 W=6u L=4u m=2
+RR0 net29 net23 10.5254K $[rhrpo] $W=1u $L=10u M=1
+.ENDS
+
+************************************************************************
+* Library Name: ic
+* Cell Name:    idc_19
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT idc_19 GND IBIAS VDD
+*.PININFO GND:B IBIAS:B VDD:B
+MM7 VDD net7 VDD VDD p33 W=5u L=10u m=2
+MM6 net7 net7 VDD VDD p33 W=5u L=10u m=2
+MM5 net52 net7 VDD VDD p33 W=5u L=10u m=2
+MM4 net35 GND net13 VDD p33 W=220n L=10u m=1
+MM3 net13 GND net17 VDD p33 W=220n L=10u m=1
+MM2 net17 GND net21 VDD p33 W=220n L=10u m=1
+MM1 net21 GND net31 VDD p33 W=220n L=10u m=1
+MM0 net31 GND VDD VDD p33 W=220n L=10u m=1
+MM12 net7 net35 GND GND n33 W=5u L=1u m=1
+MM11 net35 net52 GND GND n33 W=5u L=1u m=1
+MM10 IBIAS net52 GND GND n33 W=5u L=5u m=1
+MM9 net7 net52 net45 GND n33 W=5u L=5u m=4
+MM8 net52 net52 GND GND n33 W=5u L=5u m=1
+RR0 net45 GND 69.7041K $[rhrpo] $W=1u $L=66u M=1
+.ENDS
+
+************************************************************************
+* Library Name: ic
+* Cell Name:    bandgap_reference_19
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT bandgap_reference_19 GND VDD Vout
+*.PININFO Vout:O GND:B VDD:B
+XI0 GND IBIAS VDD net8 Vout net5 / OTA_for_LV_19
+XI1 GND IBIAS VDD / idc_19
+QQ2 GND GND net7 pnp33a4 M=12 AREA=4e-12
+QQ1 GND GND net5 pnp33a4 M=1 AREA=4e-12
+RR4 net6 Vout 12K $[rhrpo] $W=1u $L=11.4u M=1
+RR1 net6 net5 6.82584K $[rhrpo] $W=2u $L=13u M=1
+RR3 net8 net7 81.3285K $[rhrpo] $W=1u $L=77u M=1
+RR2 net6 net8 74.9879K $[rhrpo] $W=1u $L=71u M=1
+.ENDS
+

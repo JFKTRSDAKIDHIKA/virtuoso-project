@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/bandgap_reference_19.dv
+dv_start matched                                  
+dv_cell {bandgap_reference_19} {bandgap_reference_19} matched
+dv_obj_count -transformed_nets {16 16} -transformed_inst {26 26} -transformed_port {3 3}
+dv_end

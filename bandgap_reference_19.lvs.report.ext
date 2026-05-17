@@ -1,0 +1,42 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         bandgap_reference_19.lvs.report.ext
+LAYOUT NAME:              bandgap_reference_19.calibre.db ('bandgap_reference_19')
+CREATION TIME:            Sun May 17 15:19:30 2026
+CURRENT DIRECTORY:        /home/user1/Desktop/ic
+USER NAME:                user1
+CALIBRE VERSION:          v2016.2_18.12    Fri May 6 16:05:49 PDT 2016
+
+
+
+WARNING: Cannot enable LVS PUSH DEVICES because pin location information was requested.
+
+Extraction Errors and Warnings for cell "idc_19"
+------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Net GND is selected for stamping.
+          Rejected nets: 8 9
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Net GND is selected for stamping.
+          Rejected nets: 8 9
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Net GND is selected for stamping.
+          Rejected nets: 8 9
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Net GND is selected for stamping.
+          Rejected nets: 8 9
+
+

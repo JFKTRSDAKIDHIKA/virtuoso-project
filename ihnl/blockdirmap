@@ -1,3 +1,5 @@
-CADENCE IHNL01071
+CADENCE IHNL01073
 
-ic idc_19 schematic cds0
+ic OTA_for_LV_19 schematic cds0
+ic idc_19 schematic cds1
+ic bandgap_reference_19 schematic cds2

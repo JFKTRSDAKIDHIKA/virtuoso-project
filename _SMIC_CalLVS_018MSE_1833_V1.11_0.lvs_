@@ -1,22 +1,22 @@
 //
-//  Rule file generated on Sun May 17 11:58:19 CST 2026
+//  Rule file generated on Sun May 17 15:19:10 CST 2026
 //     by Calibre Interactive - LVS (v2016.2_18.12)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "idc_19.calibre.db"
-LAYOUT PRIMARY "idc_19"
+LAYOUT PATH  "bandgap_reference_19.calibre.db"
+LAYOUT PRIMARY "bandgap_reference_19"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/user1/Desktop/ic/idc_19.src.net"
-SOURCE PRIMARY "idc_19"
+SOURCE PATH "/home/user1/Desktop/ic/bandgap_reference_19.src.net"
+SOURCE PRIMARY "bandgap_reference_19"
 SOURCE SYSTEM SPICE
 
 MASK SVDB DIRECTORY "svdb" QUERY SI
 
-LVS REPORT "idc_19.lvs.report"
+LVS REPORT "bandgap_reference_19.lvs.report"
 
 LVS REPORT OPTION A B C D S
 LVS FILTER UNUSED OPTION AB RC RE RG SOURCE
@@ -55,8 +55,8 @@ VIRTUAL CONNECT COLON YES
 VIRTUAL CONNECT REPORT NO
 
 LVS EXECUTE ERC YES
-ERC RESULTS DATABASE "idc_19.erc.results"
-ERC SUMMARY REPORT "idc_19.erc.summary" REPLACE HIER
+ERC RESULTS DATABASE "bandgap_reference_19.erc.results"
+ERC SUMMARY REPORT "bandgap_reference_19.erc.summary" REPLACE HIER
 ERC CELL NAME NO
 ERC MAXIMUM RESULTS 100
 ERC MAXIMUM VERTEX 4096

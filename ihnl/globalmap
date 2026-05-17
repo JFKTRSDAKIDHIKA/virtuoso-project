@@ -1,6 +1,8 @@
 CADENCE IHNL01070
 $model
+ic/OTA_for_LV_19/schematic OTA_for_LV_19
 ic/idc_19/schematic idc_19
+ic/bandgap_reference_19/schematic bandgap_reference_19
 $endmodel
 $net
 $endnet

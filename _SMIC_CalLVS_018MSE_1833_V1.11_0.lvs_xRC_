@@ -1,24 +1,24 @@
 //
-//  Rule file generated on Sun May 17 10:33:03 CST 2026
+//  Rule file generated on Sun May 17 15:19:26 CST 2026
 //     by Calibre Interactive - PEX (v2016.2_18.12)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "OTA_for_LV_19.calibre.db"
-LAYOUT PRIMARY "OTA_for_LV_19"
+LAYOUT PATH  "bandgap_reference_19.calibre.db"
+LAYOUT PRIMARY "bandgap_reference_19"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/user1/Desktop/ic/OTA_for_LV_19.src.net"
-SOURCE PRIMARY "OTA_for_LV_19"
+SOURCE PATH "/home/user1/Desktop/ic/bandgap_reference_19.src.net"
+SOURCE PRIMARY "bandgap_reference_19"
 SOURCE SYSTEM SPICE
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC CCI
 
-LVS REPORT "OTA_for_LV_19.lvs.report"
+LVS REPORT "bandgap_reference_19.lvs.report"
 
-PEX NETLIST "OTA_for_LV_19.pex.netlist" CALIBREVIEW 1 LAYOUTNAMES GROUND "VSS" LOCATION 
+PEX NETLIST "bandgap_reference_19.pex.netlist" CALIBREVIEW 1 LAYOUTNAMES GROUND "VSS" LOCATION 
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal1 TC1 0.00339 TC2 -6.25e-07
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal2 TC1 0.00337 TC2 -6.37e-07
 PEX RESISTANCE PARAMETERS XCALIBRATE__metal3 TC1 0.00337 TC2 -6.37e-07

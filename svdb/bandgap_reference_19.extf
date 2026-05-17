@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1779002370 1779002370
+lvs_ExtOutFile RUNDIR /home/user1/Desktop/ic
+lvs_ExtOutFile RULES_FILE /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_xRC_
+lvs_ExtInfoExtSummary {0 0 0 0 0 4 0 0 0 0 0}
+lvs_ExtInfoErcSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/bandgap_reference_19.sp
+lvs_ExtOutFile EXTRACTION_REPORT bandgap_reference_19.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/bandgap_reference_19.pdsp }
+lvs_ExtOutFile SOFTCHK_DATABASE svdb/bandgap_reference_19.softchk
