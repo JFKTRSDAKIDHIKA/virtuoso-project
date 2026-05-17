@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.6-64b 10/30/2014 22:41 (sjfnl119) $
           : sub-version  IC6.1.6-64b.500.9 
-Started at: 17-May-2026  15:19:28
+Started at: 17-May-2026  15:30:10
 User Name : user1
 Host Name : iceda
 Directory : /home/user1/Desktop/ic
@@ -15,136 +15,136 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-smic18mmrf/rhrpo/layout         0        0       0        14     0      0         0      0             0      0     0     0       0       
-smic18mmrf/M2_M1/layout         0        0       0        5      0      0         0      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        11     0      0         3      0             0      0     0     0       0       
-smic18mmrf/n33/layout           0        0       0        21     0      0         3      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        24     0      0         3      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        63     0      0         3      0             0      0     0     0       0       
-smic18mmrf/M1_GT/layout         0        0       0        4      0      0         0      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        24     0      0         3      0             0      0     0     0       0       
-smic18mmrf/M3_M2/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
+smic18mmrf/M2_M1/layout         0        0       0        4      0      0         0      0             0      0     0     0       0       
+smic18mmrf/M2_M1/layout         0        0       0        6      0      0         0      0             0      0     0     0       0       
+smic18mmrf/n33/layout           0        0       0        36     0      0         3      0             0      0     0     0       0       
 smic18mmrf/rhrpo/layout         0        0       0        14     0      0         0      0             0      0     0     0       0       
 smic18mmrf/n33/layout           0        0       0        32     0      0         3      0             0      0     0     0       0       
+smic18mmrf/n33/layout           0        0       0        32     0      0         3      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        24     0      0         3      0             0      0     0     0       0       
+smic18mmrf/n33/layout           0        0       0        21     0      0         3      0             0      0     0     0       0       
+smic18mmrf/M2_M1/layout         0        0       0        5      0      0         0      0             0      0     0     0       0       
+smic18mmrf/M3_M2/layout         0        0       0        4      0      0         0      0             0      0     0     0       0       
+smic18mmrf/M3_M2/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
+ic/bandgap_reference_19/layout  19       0       0        3      0      81        3      0             0      0     0     0       0       
+smic18mmrf/M1_GT/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
 smic18mmrf/M2_M1/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
 smic18mmrf/n33/layout           0        0       0        28     0      0         3      0             0      0     0     0       0       
 smic18mmrf/M2_M1/layout         0        0       0        6      0      0         0      0             0      0     0     0       0       
-smic18mmrf/n33/layout           0        0       0        32     0      0         3      0             0      0     0     0       0       
-smic18mmrf/M2_M1/layout         0        0       0        5      0      0         0      0             0      0     0     0       0       
-smic18mmrf/M3_M2/layout         0        0       0        4      0      0         0      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
-smic18mmrf/M1_GT/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        24     0      0         3      0             0      0     0     0       0       
 smic18mmrf/rhrpo/layout         0        0       0        14     0      0         0      0             0      0     0     0       0       
 smic18mmrf/n33/layout           0        0       0        21     0      0         3      0             0      0     0     0       0       
-smic18mmrf/M2_M1/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
-smic18mmrf/rhrpo/layout         0        0       0        14     0      0         0      0             0      0     0     0       0       
-ic/OTA_for_LV_19/layout         45       0       0        1181   22     72        6      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        22     0      0         3      0             0      0     0     0       0       
-smic18mmrf/M2_M1/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
-smic18mmrf/n33/layout           0        0       0        32     0      0         3      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        24     0      0         3      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        33     0      0         3      0             0      0     0     0       0       
 smic18mmrf/n33/layout           0        0       0        28     0      0         3      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        14     0      0         3      0             0      0     0     0       0       
 smic18mmrf/M2_M1/layout         0        0       0        7      0      0         0      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        22     0      0         3      0             0      0     0     0       0       
-smic18mmrf/n33/layout           0        0       0        21     0      0         3      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
-smic18mmrf/n33/layout           0        0       0        21     0      0         3      0             0      0     0     0       0       
-smic18mmrf/M2_M1/layout         0        0       0        4      0      0         0      0             0      0     0     0       0       
-smic18mmrf/M2_M1/layout         0        0       0        6      0      0         0      0             0      0     0     0       0       
-smic18mmrf/n33/layout           0        0       0        23     0      0         3      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        33     0      0         3      0             0      0     0     0       0       
+smic18mmrf/rhrpo/layout         0        0       0        14     0      0         0      0             0      0     0     0       0       
+smic18mmrf/M2_M1/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
+smic18mmrf/M2_M1/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
 smic18mmrf/rhrpo/layout         0        0       0        18     0      0         0      0             0      0     0     0       0       
+smic18mmrf/n33/layout           0        0       0        21     0      0         3      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        33     0      0         3      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
 smic18mmrf/n33/layout           0        0       0        46     0      0         3      0             0      0     0     0       0       
-ic/bandgap_reference_19/layout  19       0       0        3      0      81        3      0             0      0     0     0       0       
 smic18mmrf/M2_M1/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
 smic18mmrf/n33/layout           0        0       0        28     0      0         3      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        14     0      0         3      0             0      0     0     0       0       
 smic18mmrf/M2_M1/layout         0        0       0        30     0      0         0      0             0      0     0     0       0       
 smic18mmrf/n33/layout           0        0       0        23     0      0         3      0             0      0     0     0       0       
-ic/idc_19/layout                20       0       0        1089   24     78        3      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        22     0      0         3      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        37     0      0         3      0             0      0     0     0       0       
-smic18mmrf/p33/layout           0        0       0        373    0      0         3      0             0      0     0     0       0       
 smic18mmrf/M1_GT/layout         0        0       0        6      0      0         0      0             0      0     0     0       0       
 smic18mmrf/p33/layout           0        0       0        24     0      0         3      0             0      0     0     0       0       
-smic18mmrf/pnp33/layout         0        0       8        159    0      0         0      0             0      0     0     0       0       
-smic18mmrf/rhrpo/layout         0        0       0        14     0      0         0      0             0      0     0     0       0       
-smic18mmrf/M3_M2/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
 smic18mmrf/M2_M1/layout         0        0       0        4      0      0         0      0             0      0     0     0       0       
+smic18mmrf/n33/layout           0        0       0        32     0      0         3      0             0      0     0     0       0       
 smic18mmrf/M2_M1/layout         0        0       0        6      0      0         0      0             0      0     0     0       0       
-smic18mmrf/n33/layout           0        0       0        36     0      0         3      0             0      0     0     0       0       
+smic18mmrf/n33/layout           0        0       0        23     0      0         3      0             0      0     0     0       0       
+smic18mmrf/pnp33/layout         0        0       8        159    0      0         0      0             0      0     0     0       0       
+ic/idc_19/layout                20       0       0        1089   24     78        3      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        373    0      0         3      0             0      0     0     0       0       
+smic18mmrf/rhrpo/layout         0        0       0        14     0      0         0      0             0      0     0     0       0       
+ic/OTA_for_LV_19/layout         45       0       0        1181   22     72        6      0             0      0     0     0       0       
+smic18mmrf/M2_M1/layout         0        0       0        5      0      0         0      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        11     0      0         3      0             0      0     0     0       0       
+smic18mmrf/n33/layout           0        0       0        21     0      0         3      0             0      0     0     0       0       
+smic18mmrf/rhrpo/layout         0        0       0        14     0      0         0      0             0      0     0     0       0       
+smic18mmrf/p33/layout           0        0       0        63     0      0         3      0             0      0     0     0       0       
+smic18mmrf/M3_M2/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
+smic18mmrf/M1_GT/layout         0        0       0        4      0      0         0      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
 ---------------------------------------------------------------------------------------------------------------------------------------
-smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M1_GT/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M3_M2/layout         0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/M3_M2/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M1_GT/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
-ic/OTA_for_LV_19/layout         0        0          0          0          0          0     0        0         115       0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M3_M2/layout         0        0          0          0          0          0     0        0         0         0        
 ic/bandgap_reference_19/layout  0        0          0          0          0          0     0        0         26        0        
+smic18mmrf/M1_GT/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M1_GT/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/pnp33/layout         0        0          0          0          0          0     0        0         0         0        
 ic/idc_19/layout                0        0          0          0          0          0     0        0         57        0        
 smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M1_GT/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/pnp33/layout         0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M3_M2/layout         0        0          0          0          0          0     0        0         0         0        
+ic/OTA_for_LV_19/layout         0        0          0          0          0          0     0        0         115       0        
 smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
-smic18mmrf/M2_M1/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
 smic18mmrf/n33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/rhrpo/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/p33/layout           0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M3_M2/layout         0        0          0          0          0          0     0        0         0         0        
+smic18mmrf/M1_GT/layout         0        0          0          0          0          0     0        0         0         0        
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Statistics of Layers 

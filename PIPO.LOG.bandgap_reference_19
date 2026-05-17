@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.6-64b 10/30/2014 22:41 (sjfnl119) $
           : sub-version  IC6.1.6-64b.500.9 
-Started at: 17-May-2026  15:19:28
+Started at: 17-May-2026  15:30:10
 User Name : user1
 Host Name : iceda
 Directory : /home/user1/Desktop/ic
@@ -26,74 +26,74 @@ layerMap                                /home/user1/smic18mse_1833_1P6M_5Ia_1TMa
 case                                    Preserve
 convertDot                              node
 
-INFO (XSTRM-223): 1. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779002368850
-INFO (XSTRM-223): 2. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779002368851
-INFO (XSTRM-223): 3. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779002368852
-INFO (XSTRM-223): 4. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779002368853
-INFO (XSTRM-223): 5. Translating cellView smic18mmrf/M3_M2/layout as STRUCTURE M3_M2_CDNS_779002368854
-INFO (XSTRM-223): 6. Translating cellView smic18mmrf/M3_M2/layout as STRUCTURE M3_M2_CDNS_779002368855
-INFO (XSTRM-223): 7. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779002368856
-INFO (XSTRM-223): 8. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779002368857
-INFO (XSTRM-223): 9. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779002368858
-INFO (XSTRM-223): 10. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779002368859
-INFO (XSTRM-223): 11. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_7790023688510
-INFO (XSTRM-223): 12. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_7790023688511
-INFO (XSTRM-223): 13. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_7790023688512
-INFO (XSTRM-223): 14. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790023688513
-INFO (XSTRM-223): 15. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790023688514
-INFO (XSTRM-223): 16. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790023688515
-INFO (XSTRM-223): 17. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790023688516
-INFO (XSTRM-223): 18. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779002368850
+INFO (XSTRM-223): 1. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779003010150
+INFO (XSTRM-223): 2. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779003010151
+INFO (XSTRM-223): 3. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779003010152
+INFO (XSTRM-223): 4. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779003010153
+INFO (XSTRM-223): 5. Translating cellView smic18mmrf/M3_M2/layout as STRUCTURE M3_M2_CDNS_779003010154
+INFO (XSTRM-223): 6. Translating cellView smic18mmrf/M3_M2/layout as STRUCTURE M3_M2_CDNS_779003010155
+INFO (XSTRM-223): 7. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779003010156
+INFO (XSTRM-223): 8. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779003010157
+INFO (XSTRM-223): 9. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779003010158
+INFO (XSTRM-223): 10. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_779003010159
+INFO (XSTRM-223): 11. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_7790030101510
+INFO (XSTRM-223): 12. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_7790030101511
+INFO (XSTRM-223): 13. Translating cellView smic18mmrf/M1_GT/layout as STRUCTURE M1_GT_CDNS_7790030101512
+INFO (XSTRM-223): 14. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790030101513
+INFO (XSTRM-223): 15. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790030101514
+INFO (XSTRM-223): 16. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790030101515
+INFO (XSTRM-223): 17. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790030101516
+INFO (XSTRM-223): 18. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779003010150
 WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
-INFO (XSTRM-223): 19. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_779002368851
-INFO (XSTRM-223): 20. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779002368852
-INFO (XSTRM-223): 21. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779002368853
-INFO (XSTRM-223): 22. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_779002368854
+INFO (XSTRM-223): 19. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_779003010151
+INFO (XSTRM-223): 20. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779003010152
+INFO (XSTRM-223): 21. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779003010153
+INFO (XSTRM-223): 22. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_779003010154
 WARNING (XSTRM-35): The objects in the layer-purpose pair 'text:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
-INFO (XSTRM-223): 23. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779002368855
-INFO (XSTRM-223): 24. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779002368856
-INFO (XSTRM-223): 25. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_779002368857
-INFO (XSTRM-223): 26. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_779002368858
-INFO (XSTRM-223): 27. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779002368859
-INFO (XSTRM-223): 28. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688510
-INFO (XSTRM-223): 29. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688511
-INFO (XSTRM-223): 30. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688512
-INFO (XSTRM-223): 31. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688513
-INFO (XSTRM-223): 32. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688514
-INFO (XSTRM-223): 33. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688515
-INFO (XSTRM-223): 34. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688516
-INFO (XSTRM-223): 35. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688517
-INFO (XSTRM-223): 36. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688518
+INFO (XSTRM-223): 23. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779003010155
+INFO (XSTRM-223): 24. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779003010156
+INFO (XSTRM-223): 25. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_779003010157
+INFO (XSTRM-223): 26. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_779003010158
+INFO (XSTRM-223): 27. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_779003010159
+INFO (XSTRM-223): 28. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101510
+INFO (XSTRM-223): 29. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101511
+INFO (XSTRM-223): 30. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101512
+INFO (XSTRM-223): 31. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101513
+INFO (XSTRM-223): 32. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101514
+INFO (XSTRM-223): 33. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101515
+INFO (XSTRM-223): 34. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101516
+INFO (XSTRM-223): 35. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101517
+INFO (XSTRM-223): 36. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101518
 INFO (XSTRM-223): 37. Translating cellView ic/OTA_for_LV_19/layout as STRUCTURE OTA_for_LV_19
 INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (-4235, 42666). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
 INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (2845, 40656). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
 INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (2845, 42666). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
 INFO (XSTRM-317): The 'ic/OTA_for_LV_19/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (-4235, 40656). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
-INFO (XSTRM-223): 38. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790023688517
-INFO (XSTRM-223): 39. Translating cellView smic18mmrf/M3_M2/layout as STRUCTURE M3_M2_CDNS_7790023688518
-INFO (XSTRM-223): 40. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688519
-INFO (XSTRM-223): 41. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688520
-INFO (XSTRM-223): 42. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688521
-INFO (XSTRM-223): 43. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688522
-INFO (XSTRM-223): 44. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790023688523
-INFO (XSTRM-223): 45. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688524
-INFO (XSTRM-223): 46. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688525
-INFO (XSTRM-223): 47. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688526
-INFO (XSTRM-223): 48. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688527
-INFO (XSTRM-223): 49. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688528
-INFO (XSTRM-223): 50. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688529
-INFO (XSTRM-223): 51. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688530
-INFO (XSTRM-223): 52. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790023688531
-INFO (XSTRM-223): 53. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688532
-INFO (XSTRM-223): 54. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688533
-INFO (XSTRM-223): 55. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790023688534
+INFO (XSTRM-223): 38. Translating cellView smic18mmrf/M2_M1/layout as STRUCTURE M2_M1_CDNS_7790030101517
+INFO (XSTRM-223): 39. Translating cellView smic18mmrf/M3_M2/layout as STRUCTURE M3_M2_CDNS_7790030101518
+INFO (XSTRM-223): 40. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101519
+INFO (XSTRM-223): 41. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101520
+INFO (XSTRM-223): 42. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101521
+INFO (XSTRM-223): 43. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101522
+INFO (XSTRM-223): 44. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790030101523
+INFO (XSTRM-223): 45. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101524
+INFO (XSTRM-223): 46. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101525
+INFO (XSTRM-223): 47. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101526
+INFO (XSTRM-223): 48. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101527
+INFO (XSTRM-223): 49. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101528
+INFO (XSTRM-223): 50. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101529
+INFO (XSTRM-223): 51. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101530
+INFO (XSTRM-223): 52. Translating cellView smic18mmrf/p33/layout as STRUCTURE p33_CDNS_7790030101531
+INFO (XSTRM-223): 53. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101532
+INFO (XSTRM-223): 54. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101533
+INFO (XSTRM-223): 55. Translating cellView smic18mmrf/n33/layout as STRUCTURE n33_CDNS_7790030101534
 INFO (XSTRM-223): 56. Translating cellView ic/idc_19/layout as STRUCTURE idc_19
-INFO (XSTRM-223): 57. Translating cellView smic18mmrf/pnp33/layout as STRUCTURE pnp33_CDNS_7790023688535
-INFO (XSTRM-223): 58. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790023688536
-INFO (XSTRM-223): 59. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790023688537
-INFO (XSTRM-223): 60. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790023688538
-INFO (XSTRM-223): 61. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790023688539
+INFO (XSTRM-223): 57. Translating cellView smic18mmrf/pnp33/layout as STRUCTURE pnp33_CDNS_7790030101535
+INFO (XSTRM-223): 58. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790030101536
+INFO (XSTRM-223): 59. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790030101537
+INFO (XSTRM-223): 60. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790030101538
+INFO (XSTRM-223): 61. Translating cellView smic18mmrf/rhrpo/layout as STRUCTURE rhrpo_CDNS_7790030101539
 INFO (XSTRM-223): 62. Translating cellView ic/bandgap_reference_19/layout as STRUCTURE bandgap_reference_19
 WARNING (XSTRM-206): Path length 2.70 at location (187,91) on layer 61 is less than 1/2 of path width 8.50. The path would be written in Stream file as is. To resolve this, fix the reported path in the input design and run the translator again.
 WARNING (XSTRM-206): Path length 3.30 at location (187,75) on layer 61 is less than 1/2 of path width 8.50. The path would be written in Stream file as is. To resolve this, fix the reported path in the input design and run the translator again.

@@ -1,0 +1,21 @@
+//  Calibre View Setup Information
+//  ------------------------------
+//	  Output Library: ic
+//	  Schematic Library: ic
+//	  Cellmap File: /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/xRC/rulefiles/TYPICAL/calview.cellmap
+//	  Log File: ./calview.log
+//	  Calibre View Name: calibre
+//	  Calibre View Type: schematic
+//	  Create Terminals: if matching terminal exists on symbol
+//	  Preserve Device Case: off
+//	  Execute Callbacks: off
+//	  Suppress Notes: off
+//	  Reset Properties: ("m=1")
+//	  Magnify Devices by: 1.000000
+//	  Magnify Parasitics by: 1.000000
+//	  Device Placement: Layout Location
+//	  Parasitic Placement: Arrayed
+//	  Show Parasitic Polygons: off
+//	  Open Calibre CellView: Don't Open
+//	  Generate SPECTRE Netlist: off
+//	  Always Show Dialog: on
