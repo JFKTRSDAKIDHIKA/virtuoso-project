@@ -91,19 +91,7 @@
 * KEEP_PROP rpposab_ckt W L
 * KEEP_PROP_END
 *
-.SUBCKT n33_CDNS_7790030101514
-* nothing transcripted
-.ENDS
-***************************************
-.SUBCKT n33_CDNS_7790030101513
-* nothing transcripted
-.ENDS
-***************************************
-.SUBCKT p33_CDNS_779003010150
-* nothing transcripted
-.ENDS
-***************************************
-.SUBCKT p33_CDNS_779003010159
+.SUBCKT pnp33_CDNS_7791146172823
 * nothing transcripted
 .ENDS
 ***************************************
@@ -111,59 +99,59 @@
 * nothing transcripted
 .ENDS
 ***************************************
+.SUBCKT n33_CDNS_7791146172818
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT n33_CDNS_7791146172817
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_779114617284
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_7791146172813
+* nothing transcripted
+.ENDS
+***************************************
 .SUBCKT ICV_2
 * nothing transcripted
 .ENDS
 ***************************************
-.SUBCKT p33_CDNS_7790030101517
+.SUBCKT ICV_3
 * nothing transcripted
 .ENDS
 ***************************************
-.SUBCKT M1_GT_CDNS_7790030101510
+.SUBCKT p33_CDNS_7791146172821
 * nothing transcripted
 .ENDS
 ***************************************
-.SUBCKT p33_CDNS_7790030101511
+.SUBCKT M1_GT_CDNS_7791146172822
 * nothing transcripted
 .ENDS
 ***************************************
-.SUBCKT n33_CDNS_7790030101518
+.SUBCKT p33_CDNS_7791146172815
 * nothing transcripted
 .ENDS
 ***************************************
-.SUBCKT p33_CDNS_779003010155
+.SUBCKT n33_CDNS_7791146172822
 * nothing transcripted
 .ENDS
 ***************************************
-.SUBCKT p33_CDNS_779003010156
+.SUBCKT p33_CDNS_779114617289
 * nothing transcripted
 .ENDS
 ***************************************
-.SUBCKT p33_CDNS_7790030101512
+.SUBCKT p33_CDNS_7791146172810
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT p33_CDNS_7791146172816
 * nothing transcripted
 .ENDS
 ***************************************
 .SUBCKT OTA_for_LV_19
-* nothing transcripted
-.ENDS
-***************************************
-.SUBCKT p33_CDNS_7790030101520
-* nothing transcripted
-.ENDS
-***************************************
-.SUBCKT p33_CDNS_7790030101526
-* nothing transcripted
-.ENDS
-***************************************
-.SUBCKT n33_CDNS_7790030101521
-* nothing transcripted
-.ENDS
-***************************************
-.SUBCKT idc_19
-* nothing transcripted
-.ENDS
-***************************************
-.SUBCKT pnp33_CDNS_7790030101535
 * nothing transcripted
 .ENDS
 ***************************************
