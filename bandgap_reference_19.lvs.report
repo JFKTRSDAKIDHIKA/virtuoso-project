@@ -15,7 +15,7 @@ REPORT FILE NAME:         bandgap_reference_19.lvs.report
 LAYOUT NAME:              /home/user1/Desktop/ic/bandgap_reference_19.sp ('bandgap_reference_19')
 SOURCE NAME:              /home/user1/Desktop/ic/bandgap_reference_19.src.net ('bandgap_reference_19')
 RULE FILE:                /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
-CREATION TIME:            Sun May 17 15:19:11 2026
+CREATION TIME:            Tue May 19 15:09:39 2026
 CURRENT DIRECTORY:        /home/user1/Desktop/ic
 USER NAME:                user1
 CALIBRE VERSION:          v2016.2_18.12    Fri May 6 16:05:49 PDT 2016

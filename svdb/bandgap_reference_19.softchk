@@ -1,143 +1,143 @@
 bandgap_reference_19 1000
 SOFTCHK nwell CONTACT.
-0 0 0 May 17 15:19:11 2026                                                      
+0 0 0 May 19 15:09:39 2026                                                      
 SOFTCHK dnwell CONTACT.
-0 0 0 May 17 15:19:11 2026                                                      
+0 0 0 May 19 15:09:39 2026                                                      
 SOFTCHK pwell CONTACT.
-2 2 8 May 17 15:19:11 2026                                                      
+2 2 8 May 19 15:09:39 2026                                                      
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 p 1 10
-DN 8
-13248 56313
-20228 56313
-20228 65171
-19808 65171
-19808 56733
-13668 56733
-13668 64751
-19808 64751
-19808 65171
-13248 65171
-p 2 10
 DN 9
-51263 42077
-77323 42077
-77323 50911
-76903 50911
-76903 42497
-51683 42497
-51683 50491
-76903 50491
-76903 50911
-51263 50911
+-16320 129740
+-9340 129740
+-9340 138598
+-9760 138598
+-9760 130160
+-15900 130160
+-15900 138178
+-9760 138178
+-9760 138598
+-16320 138598
+p 2 10
+DN 10
+21695 115504
+47755 115504
+47755 124338
+47335 124338
+47335 115924
+22115 115924
+22115 123918
+47335 123918
+47335 124338
+21695 124338
 SOFTCHK pnpcoll CONTACT.
-2 2 8 May 17 15:19:11 2026                                                      
+2 2 8 May 19 15:09:39 2026                                                      
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 p 1 10
-DN 8
-13248 56313
-20228 56313
-20228 65171
-19808 65171
-19808 56733
-13668 56733
-13668 64751
-19808 64751
-19808 65171
-13248 65171
-p 2 10
 DN 9
-51263 42077
-77323 42077
-77323 50911
-76903 50911
-76903 42497
-51683 42497
-51683 50491
-76903 50491
-76903 50911
-51263 50911
+-16320 129740
+-9340 129740
+-9340 138598
+-9760 138598
+-9760 130160
+-15900 130160
+-15900 138178
+-9760 138178
+-9760 138598
+-16320 138598
+p 2 10
+DN 10
+21695 115504
+47755 115504
+47755 124338
+47335 124338
+47335 115924
+22115 115924
+22115 123918
+47335 123918
+47335 124338
+21695 124338
 SOFTCHK rwell CONTACT.
-0 0 0 May 17 15:19:11 2026                                                      
+0 0 0 May 19 15:09:39 2026                                                      
 SOFTCHK psub_all CONTACT.
-2 2 8 May 17 15:19:11 2026                                                      
+2 2 8 May 19 15:09:39 2026                                                      
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 p 1 10
-DN 8
-13248 56313
-20228 56313
-20228 65171
-19808 65171
-19808 56733
-13668 56733
-13668 64751
-19808 64751
-19808 65171
-13248 65171
-p 2 10
 DN 9
-51263 42077
-77323 42077
-77323 50911
-76903 50911
-76903 42497
-51683 42497
-51683 50491
-76903 50491
-76903 50911
-51263 50911
+-16320 129740
+-9340 129740
+-9340 138598
+-9760 138598
+-9760 130160
+-15900 130160
+-15900 138178
+-9760 138178
+-9760 138598
+-16320 138598
+p 2 10
+DN 10
+21695 115504
+47755 115504
+47755 124338
+47335 124338
+47335 115924
+22115 115924
+22115 123918
+47335 123918
+47335 124338
+21695 124338
 SOFTCHK bulk_all CONTACT.
-2 2 8 May 17 15:19:11 2026                                                      
+2 2 8 May 19 15:09:39 2026                                                      
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 Net GND is selected for stamping.
-Rejected nets: 8 9
+Rejected nets: 9 10
 p 1 10
-DN 8
-13248 56313
-20228 56313
-20228 65171
-19808 65171
-19808 56733
-13668 56733
-13668 64751
-19808 64751
-19808 65171
-13248 65171
-p 2 10
 DN 9
-51263 42077
-77323 42077
-77323 50911
-76903 50911
-76903 42497
-51683 42497
-51683 50491
-76903 50491
-76903 50911
-51263 50911
+-16320 129740
+-9340 129740
+-9340 138598
+-9760 138598
+-9760 130160
+-15900 130160
+-15900 138178
+-9760 138178
+-9760 138598
+-16320 138598
+p 2 10
+DN 10
+21695 115504
+47755 115504
+47755 124338
+47335 124338
+47335 115924
+22115 115924
+22115 123918
+47335 123918
+47335 124338
+21695 124338

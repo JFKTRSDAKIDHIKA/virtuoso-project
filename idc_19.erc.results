@@ -1,77 +1,77 @@
 idc_19 1000
 pathchk_bad
-0 0 2 May 17 11:58:20 2026                                                      
+0 0 2 May 19 14:47:44 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 nodes without a path to both power and ground
 ptd_to_power
-0 0 2 May 17 11:58:20 2026                                                      
+0 0 2 May 19 14:47:44 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 Pwell pick-up layer ptd texted with power net.
 ntd_to_ground
-0 0 2 May 17 11:58:20 2026                                                      
+0 0 2 May 19 14:47:44 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 Nwell pick-up layer ntd texted with ground net.
 mntopg
-0 0 2 May 17 11:58:20 2026                                                      
+0 0 2 May 19 14:47:44 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 NMOS connect to both Power and Ground.
 mptopg
-0 0 2 May 17 11:58:20 2026                                                      
+0 0 2 May 19 14:47:44 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 PMOS connect to both Power and Ground.
 ptap_outside_dnw_non_ground
-2 2 2 May 17 11:58:20 2026                                                      
+2 2 2 May 19 14:47:44 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 pwell pick-up layer connect to non-ground nets.
 p 1 10
-348 40113
-7328 40113
-7328 48971
-6908 48971
-6908 40533
-768 40533
-768 48551
-6908 48551
-6908 48971
-348 48971
+6151 18104
+13131 18104
+13131 26962
+12711 26962
+12711 18524
+6571 18524
+6571 26542
+12711 26542
+12711 26962
+6151 26962
 p 2 10
-38363 25877
-64423 25877
-64423 34711
-64003 34711
-64003 26297
-38783 26297
-38783 34291
-64003 34291
-64003 34711
-38363 34711
+44166 3868
+70226 3868
+70226 12702
+69806 12702
+69806 4288
+44586 4288
+44586 12282
+69806 12282
+69806 12702
+44166 12702
 nwell_not_to_power
-0 0 2 May 17 11:58:20 2026                                                      
+0 0 2 May 19 14:47:44 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 nwell is not connecting to power net
 pwell_not_to_ground
-2 2 2 May 17 11:58:20 2026                                                      
+2 2 2 May 19 14:47:44 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 pwell is not connecting to ground net
 p 1 10
-348 40113
-7328 40113
-7328 48971
-6908 48971
-6908 40533
-768 40533
-768 48551
-6908 48551
-6908 48971
-348 48971
+6151 18104
+13131 18104
+13131 26962
+12711 26962
+12711 18524
+6571 18524
+6571 26542
+12711 26542
+12711 26962
+6151 26962
 p 2 10
-38363 25877
-64423 25877
-64423 34711
-64003 34711
-64003 26297
-38783 26297
-38783 34291
-64003 34291
-64003 34711
-38363 34711
+44166 3868
+70226 3868
+70226 12702
+69806 12702
+69806 4288
+44586 4288
+44586 12282
+69806 12282
+69806 12702
+44166 12702

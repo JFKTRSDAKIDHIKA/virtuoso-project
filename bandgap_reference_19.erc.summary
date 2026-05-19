@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Sun May 17 15:19:10 2026
+Execution Date/Time:          Tue May 19 15:09:39 2026
 Calibre Version:              v2016.2_18.12    Fri May 6 16:05:49 PDT 2016
 Rule File Pathname:           /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 Rule File Title:              
@@ -77,7 +77,7 @@ LAYER RESAA ..... TOTAL Original Geometry Count = 0    (0)
 LAYER RESP1 ..... TOTAL Original Geometry Count = 0    (0)
 LAYER SAB ....... TOTAL Original Geometry Count = 6    (6)
 LAYER ESD1 ...... TOTAL Original Geometry Count = 0    (0)
-LAYER HRP ....... TOTAL Original Geometry Count = 8    (8)
+LAYER HRP ....... TOTAL Original Geometry Count = 6    (6)
 LAYER SP ........ TOTAL Original Geometry Count = 39   (87)
 LAYER GT ........ TOTAL Original Geometry Count = 289  (475)
 LAYER MVP ....... TOTAL Original Geometry Count = 0    (0)
@@ -95,13 +95,13 @@ LAYER MOMDMY .... TOTAL Original Geometry Count = 0    (0)
 LAYER DG ........ TOTAL Original Geometry Count = 34   (76)
 LAYER CT ........ TOTAL Original Geometry Count = 3297 (5738)
 LAYER M1R ....... TOTAL Original Geometry Count = 0    (0)
-LAYER M1 ........ TOTAL Original Geometry Count = 377  (505)
+LAYER M1 ........ TOTAL Original Geometry Count = 429  (557)
 LAYER M2R ....... TOTAL Original Geometry Count = 0    (0)
-LAYER M2 ........ TOTAL Original Geometry Count = 222  (222)
+LAYER M2 ........ TOTAL Original Geometry Count = 334  (334)
 LAYER M3R ....... TOTAL Original Geometry Count = 0    (0)
-LAYER M3 ........ TOTAL Original Geometry Count = 13   (13)
+LAYER M3 ........ TOTAL Original Geometry Count = 97   (97)
 LAYER M4R ....... TOTAL Original Geometry Count = 0    (0)
-LAYER M4 ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M4 ........ TOTAL Original Geometry Count = 25   (25)
 LAYER M5R ....... TOTAL Original Geometry Count = 0    (0)
 LAYER M5 ........ TOTAL Original Geometry Count = 0    (0)
 LAYER M6R ....... TOTAL Original Geometry Count = 0    (0)
@@ -110,9 +110,9 @@ LAYER CAPBP ..... TOTAL Original Geometry Count = 0    (0)
 LAYER V5 ........ TOTAL Original Geometry Count = 0    (0)
 LAYER MIMCKT .... TOTAL Original Geometry Count = 0    (0)
 LAYER V4 ........ TOTAL Original Geometry Count = 0    (0)
-LAYER V3 ........ TOTAL Original Geometry Count = 0    (0)
-LAYER V2 ........ TOTAL Original Geometry Count = 6    (6)
-LAYER V1 ........ TOTAL Original Geometry Count = 227  (227)
+LAYER V3 ........ TOTAL Original Geometry Count = 65   (65)
+LAYER V2 ........ TOTAL Original Geometry Count = 752  (752)
+LAYER V1 ........ TOTAL Original Geometry Count = 1754 (1754)
 LAYER DNWTR ..... TOTAL Original Geometry Count = 0    (0)
 LAYER MOSCKT .... TOTAL Original Geometry Count = 0    (0)
 LAYER iNC ....... TOTAL Original Geometry Count = 0    (0)
@@ -133,21 +133,21 @@ RULECHECK pwell_not_to_ground ........... TOTAL Result Count = 2  (2)
 ----------------------------------------------------------------------------------
 --- ERC RULECHECK RESULTS STATISTICS (BY CELL)
 ---
-CELL p33_CDNS_7790023495811 ................. TOTAL Result Count = 1 (2)
-    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 1 (2)
-CELL p33_CDNS_779002349585 .................. TOTAL Result Count = 1 (2)
-    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 1 (2)
-CELL p33_CDNS_779002349586 .................. TOTAL Result Count = 1 (2)
-    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 1 (2)
-CELL p33_CDNS_7790023495812 ................. TOTAL Result Count = 1 (2)
-    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 1 (2)
-CELL OTA_for_LV_19 .......................... TOTAL Result Count = 2 (2)
-    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 2 (2)
 CELL idc_19 ................................. TOTAL Result Count = 4 (4)
     ERC CHECK ptap_outside_dnw_non_ground ... TOTAL Result Count = 2 (2)
     ERC CHECK pwell_not_to_ground ........... TOTAL Result Count = 2 (2)
-CELL pnp33_CDNS_7790023495835 ............... TOTAL Result Count = 1 (13)
+CELL pnp33_CDNS_7791745770023 ............... TOTAL Result Count = 1 (13)
     ERC CHECK ntd_to_ground ................. TOTAL Result Count = 1 (13)
+CELL p33_CDNS_7791745770015 ................. TOTAL Result Count = 1 (2)
+    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 1 (2)
+CELL p33_CDNS_779174577009 .................. TOTAL Result Count = 1 (2)
+    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 1 (2)
+CELL p33_CDNS_7791745770010 ................. TOTAL Result Count = 1 (2)
+    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 1 (2)
+CELL p33_CDNS_7791745770016 ................. TOTAL Result Count = 1 (2)
+    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 1 (2)
+CELL OTA_for_LV_19 .......................... TOTAL Result Count = 2 (2)
+    ERC CHECK nwell_not_to_power ............ TOTAL Result Count = 2 (2)
 ----------------------------------------------------------------------------------
 --- ERC PATHCHK RESULTS STATISTICS
 ---
@@ -159,7 +159,7 @@ CELL pnp33_CDNS_7790023495835 ............... TOTAL Result Count = 1 (13)
 ---
 TOTAL CPU Time:                              0
 TOTAL REAL Time:                             0
-TOTAL Original Layer Geometries:             4698 (7735)
+TOTAL Original Layer Geometries:             7307 (10344)
 TOTAL ERC RuleChecks Executed:               8
 TOTAL ERC RuleCheck Results Generated:       11 (27)
 TOTAL ERC PATHCHK Operations Executed:       3

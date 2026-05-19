@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Sun May 17 11:58:20 2026
+Execution Date/Time:          Tue May 19 14:47:43 2026
 Calibre Version:              v2016.2_18.12    Fri May 6 16:05:49 PDT 2016
 Rule File Pathname:           /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 Rule File Title:              
@@ -95,9 +95,9 @@ LAYER MOMDMY .... TOTAL Original Geometry Count = 0    (0)
 LAYER DG ........ TOTAL Original Geometry Count = 15   (19)
 LAYER CT ........ TOTAL Original Geometry Count = 1246 (1358)
 LAYER M1R ....... TOTAL Original Geometry Count = 0    (0)
-LAYER M1 ........ TOTAL Original Geometry Count = 94   (116)
+LAYER M1 ........ TOTAL Original Geometry Count = 97   (119)
 LAYER M2R ....... TOTAL Original Geometry Count = 0    (0)
-LAYER M2 ........ TOTAL Original Geometry Count = 83   (83)
+LAYER M2 ........ TOTAL Original Geometry Count = 79   (79)
 LAYER M3R ....... TOTAL Original Geometry Count = 0    (0)
 LAYER M3 ........ TOTAL Original Geometry Count = 7    (7)
 LAYER M4R ....... TOTAL Original Geometry Count = 0    (0)
@@ -147,7 +147,7 @@ CELL idc_19 ................................. TOTAL Result Count = 4 (4)
 ---
 TOTAL CPU Time:                              0
 TOTAL REAL Time:                             0
-TOTAL Original Layer Geometries:             1713 (1908)
+TOTAL Original Layer Geometries:             1712 (1907)
 TOTAL ERC RuleChecks Executed:               8
 TOTAL ERC RuleCheck Results Generated:       4 (4)
 TOTAL ERC PATHCHK Operations Executed:       3

@@ -1,12 +1,15 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1779114619 1779114620
+lvs_ExtRunTimes 1779174579 1779174579
 lvs_ExtOutFile RUNDIR /home/user1/Desktop/ic
-lvs_ExtOutFile RULES_FILE /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_xRC_
-lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
-lvs_ExtInfoErcSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtOutFile RULES_FILE /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 4 0 0 0 0 0}
+lvs_ExtInfoErcSummary {8 11 27 0 0 3 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST svdb/bandgap_reference_19.sp
+lvs_ExtOutFile LAYOUT_NETLIST /home/user1/Desktop/ic/bandgap_reference_19.sp
 lvs_ExtOutFile EXTRACTION_REPORT bandgap_reference_19.lvs.report.ext
-lvs_ExtOutFile LAYOUT_PDSP {  svdb/bandgap_reference_19.pdsp }
 lvs_ExtOutFile SOFTCHK_DATABASE svdb/bandgap_reference_19.softchk
+lvs_ExtOutFile ERC_PATHCHK_DATABASE svdb/bandgap_reference_19.pathchk.erc
+lvs_ExtOutFile ERC_PATHCHK_REPORT svdb/bandgap_reference_19.pathchk.rep
+lvs_ExtOutFile ERC_DATABASE bandgap_reference_19.erc.results
+lvs_ExtOutFile ERC_SUMMARY bandgap_reference_19.erc.summary
