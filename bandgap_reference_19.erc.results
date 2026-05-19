@@ -1,37 +1,48 @@
 bandgap_reference_19 1000
 pathchk_bad
-0 0 2 May 19 15:09:39 2026                                                      
+0 0 2 May 19 18:04:18 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 nodes without a path to both power and ground
 ptd_to_power
-0 0 2 May 19 15:09:39 2026                                                      
+0 0 2 May 19 18:04:18 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 Pwell pick-up layer ptd texted with power net.
 ntd_to_ground
-1 1 2 May 19 15:09:39 2026                                                      
+2 2 2 May 19 18:04:18 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 Nwell pick-up layer ntd texted with ground net.
 p 1 10
-71100 12604
-78100 12604
-78100 19604
-76600 19604
-76600 14104
-72600 14104
-72600 18104
-76600 18104
-76600 19604
-71100 19604
+67818 -4735
+149437 -4735
+149437 57924
+149017 57924
+149017 -4315
+68238 -4315
+68238 57504
+149017 57504
+149017 57924
+67818 57924
+p 2 10
+74348 12604
+81348 12604
+81348 19604
+79848 19604
+79848 14104
+75848 14104
+75848 18104
+79848 18104
+79848 19604
+74348 19604
 mntopg
-0 0 2 May 19 15:09:39 2026                                                      
+0 0 2 May 19 18:04:18 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 NMOS connect to both Power and Ground.
 mptopg
-0 0 2 May 19 15:09:39 2026                                                      
+0 0 2 May 19 18:04:18 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 PMOS connect to both Power and Ground.
 ptap_outside_dnw_non_ground
-2 2 2 May 19 15:09:39 2026                                                      
+2 2 2 May 19 18:04:18 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 pwell pick-up layer connect to non-ground nets.
 p 1 10
@@ -57,7 +68,7 @@ p 2 10
 47335 124338
 21695 124338
 nwell_not_to_power
-6 6 2 May 19 15:09:39 2026                                                      
+6 6 2 May 19 18:04:18 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 nwell is not connecting to power net
 p 1 14
@@ -101,7 +112,7 @@ p 6 4
 98330 100256
 93830 100256
 pwell_not_to_ground
-2 2 2 May 19 15:09:39 2026                                                      
+2 2 2 May 19 18:04:18 2026                                                      
 Rule File Pathname: /home/user1/Desktop/ic/_SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_
 pwell is not connecting to ground net
 p 1 10

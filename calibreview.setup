@@ -2,7 +2,7 @@ calibre_view_netlist_file : /home/user1/Desktop/ic/bandgap_reference_19.pex.netl
 output_library : ic
 schematic_library : ic
 cell_name : BANDGAP_REFERENCE_19
-cellmap_file : /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/xRC/rulefiles/TYPICAL/calview.cellmap
+cellmap_file : /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/xRC/rulefiles/CMIN/calview.cellmap
 calibreview_log_file : ./calview.log
 calibreview_name : calibre
 calibreview_type : schematic

@@ -1,20 +1,20 @@
 *pexRulesFile: /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/xRC/SMIC_CalLVS_018MSE_1833_V1.11_0.lvs_xRC
 *pexRulesFileLastLoad: 1778924811
 *pexRunDir: /home/user1/Desktop/ic
-*pexLayoutPaths: OTA_for_LV_19.calibre.db
+*pexLayoutPaths: bandgap_reference_19.calibre.db
 *pexExtraLayoutPaths: 
 *pexLayoutSystem: GDSII
-*pexLayoutPrimary: OTA_for_LV_19
+*pexLayoutPrimary: bandgap_reference_19
 *pexLayoutLibrary: ic
 *pexLayoutView: layout
 *pexLayoutGetFromViewer: 1
 *pexLayoutGetLEFFromViewer: 0
 *pexLayoutPrecision: 1000
-*pexSourcePath: OTA_for_LV_19.src.net
+*pexSourcePath: bandgap_reference_19.src.net
 *pexVlogSourcePath: 
 *pexExtraSourcePaths: 
 *pexSourceSystem: SPICE
-*pexSourcePrimary: OTA_for_LV_19
+*pexSourcePrimary: bandgap_reference_19
 *pexSourceLibrary: ic
 *pexSourceView: schematic
 *pexSourceGetFromViewer: 0
@@ -74,17 +74,17 @@
 *pexPdbInfo: 0
 *pexPowerNames: VDD SAVDD? ?VDD? ?VCC? ?vcc? ?vdd?
 *pexGroundNames: VSS SAVSS? ?GND? ?VSS? ?vss? ?gnd?
-*pexReportFile: OTA_for_LV_19.lvs.report
+*pexReportFile: bandgap_reference_19.lvs.report
 *pexViewLVSReport: 0
 *pexPexViewPexNetlist: 1
 *pexPexViewPexReport: 0
-*pexPexNetlistFile: OTA_for_LV_19.pex.netlist
+*pexPexNetlistFile: bandgap_reference_19.pex.netlist
 *pexPexNetlistFormat: CALIBREVIEW
 *pexPexNetlistNameSource: LAYOUTNAMES
 *pexPexNetlistSchematicOnlyFileName: 
 *pexPexSizeMultiplier: 1
 *pexPexReport: 0
-*pexPexReportFile: OTA_for_LV_19.pex.report
+*pexPexReportFile: bandgap_reference_19.pex.report
 *pexPexReportP2P: 0
 *pexPexReportP2PUseDbu: 0
 *pexPexP2PInputFile: 
@@ -453,7 +453,7 @@
 *cmnFDILayoutView2: 
 *cmnFDILEFLayoutPaths: 
 *cmnFDILEFLayoutPaths2: 
-*cmnFDIDEFLayoutPath: OTA_for_LV_19.def
+*cmnFDIDEFLayoutPath: bandgap_reference_19.def
 *cmnFDIDEFLayoutPath2: 
 *cmnFDIDEFDirectories: 
 *cmnFDIDEFDirectories2: 

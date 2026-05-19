@@ -1,15 +1,15 @@
 *drcRulesFile: /home/user1/smic18mse_1833_1P6M_5Ia_1TMa1_MIM10_oa_cds_2017_12_11_v1.11_2/Calibre/DRC/SMIC_CalDRC_018LGMS_1833_V1.19_REV1_0.drc
 *drcRulesFileLastLoad: 1778921849
 *drcRunDir: /home/user1/Desktop/ic
-*drcLayoutPaths: OTA_for_LV_19.calibre.db
+*drcLayoutPaths: bandgap_reference_19.calibre.db
 *drcExtraLayoutPaths: 
 *drcGoldenLayoutPaths: 
 *drcLayoutSystem: GDSII
-*drcLayoutPrimary: OTA_for_LV_19
+*drcLayoutPrimary: bandgap_reference_19
 *drcLayoutLibrary: ic
 *drcLayoutView: layout
 *drcLayoutGetFromViewer: 1
-*drcResultsFile: OTA_for_LV_19.drc.results
+*drcResultsFile: bandgap_reference_19.drc.results
 *drcIncludeFiles: 
 *drcIncludeCmdsType: none
 *drcSVRFCmds: 
@@ -59,7 +59,7 @@
 *drcDRCReportConfigTemplate: Check-Cell-SC
 *drcDRCReportFormat: HTML
 *drcViewDRCReport: 1
-*drcSummaryFile: OTA_for_LV_19.drc.summary
+*drcSummaryFile: bandgap_reference_19.drc.summary
 *drcAppendSummary: 0
 *drcViewSummary: 1
 *drcDRCCheckArea: 0
@@ -303,7 +303,7 @@
 *cmnFDILayoutView2: 
 *cmnFDILEFLayoutPaths: 
 *cmnFDILEFLayoutPaths2: 
-*cmnFDIDEFLayoutPath: OTA_for_LV_19.def
+*cmnFDIDEFLayoutPath: bandgap_reference_19.def
 *cmnFDIDEFLayoutPath2: 
 *cmnFDIDEFDirectories: 
 *cmnFDIDEFDirectories2: 
